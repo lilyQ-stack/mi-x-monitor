@@ -23,6 +23,28 @@ try {
   } catch (controlErr) {
     output.control_account = {username:'NASA', error_name:controlErr?.name || 'Error', error_message:String(controlErr?.message||controlErr).slice(0,150)};
   }
+
+  // Distinguish original timeline from the replies-inclusive timeline and alternate latest-tweet API.
+  try {
+    const replyClient = new Scraper();
+    let n = 0;
+    const sample = [];
+    for await (const t of replyClient.getTweetsAndReplies('wr0789', 20)) {
+      n++;
+      if (sample.length < 5) sample.push({id:String(t.id||''),created_at:t.timeParsed||t.timestamp||null,excerpt:String(t.text||'').slice(0,120)});
+      if (n >= 20) break;
+    }
+    output.replies_timeline = {items_received:n, samples:sample, status:n?'data_returned':'empty'};
+  } catch(e) {
+    output.replies_timeline = {status:'error',error_name:e?.name||'Error',message:String(e?.message||e).slice(0,180)};
+  }
+  try {
+    const latestClient = new Scraper();
+    const t = await latestClient.getLatestTweet('wr0789');
+    output.latest_tweet = t ? {status:'found',id:String(t.id||''),excerpt:String(t.text||'').slice(0,120)} : {status:'null'};
+  } catch(e) {
+    output.latest_tweet = {status:'error',error_name:e?.name||'Error',message:String(e?.message||e).slice(0,180)};
+  }
   output.status = output.posts.length?'partial_guest_data':'empty_or_blocked';
   output.message = output.posts.length?'Guest timeline returned data, replies/completeness not verified.':'Zero posts received. This does NOT establish that the account did not post.';
 } catch(err) {
