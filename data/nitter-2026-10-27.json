@@ -62,7 +62,11 @@
       "excerpt": "市场下杀到尾部，很多人开始不理性，骂国家、骂市场、骂别人，却唯独不愿意反省自己。\n\n6—7月，我就反复提醒大家，不要去硬科技高位接盘，要耐心拿住底部低估值资产。三季度的反弹，也给了大家相应的机会。\n\n8月20日给出的关键节点策略，认真执行的人，根本不会被套在科技股里。",
       "source": "nitter historical HTML",
       "attribution": "matched tweet header @wr0789",
-      "reply_marker": false
+      "reply_marker": false,
+      "published": "Tue, 27 Oct 2026 12:38:46 GMT",
+      "title_excerpt": "市场下杀到尾部，很多人开始不理性，骂国家、骂市场、骂别人，却唯独不愿意反省自己。 6—7月，我就反复提醒大家，不要去硬科技高位接盘，要耐心拿住底部低估值资产。三季度的反弹，也给了大家相应的机会。 8月20日给出的关键节点策略，认真执行的人，根本不会被套在科技股里。",
+      "description_excerpt": "市场下杀到尾部，很多人开始不理性，骂国家、骂市场、骂别人，却唯独不愿意反省自己。 6—7月，我就反复提醒大家，不要去硬科技高位接盘，要耐心拿住底部低估值资产。三季度的反弹，也给了大家相应的机会。 8月20日给出的关键节点策略，认真执行的人，根本不会被套在科技股里。 Mistery (@wr0789) 复盘做出策略最佳价值的时间点 关键支撑或压力位附近：验证原有判断。 突破后的回踩阶段：观察趋势是否得到确认。 交易逻辑发生变化时：及时修正判断，控制风险。 日常复盘可以少一些，关",
+      "verified_link_author": true
     },
     {
       "id": "2115058963637219478",
@@ -1615,12 +1619,27 @@
       "reply_marker": false
     }
   ],
-  "notes": "Bounded 15-page backfill. Unclassified is NOT an original post. Dates decoded from X snowflake IDs.",
-  "pages_checked": 15,
-  "errors": [],
-  "kind_counts": {
-    "unclassified": 150,
-    "quote_or_unclassified": 6,
-    "reply": 5
-  }
+  "sources": {
+    "nitter.jaydenha.uk/tweets": {
+      "status": "ok",
+      "items": 19,
+      "attributed_by_link": 19
+    },
+    "nitter.jaydenha.uk/with_replies": {
+      "status": "ok",
+      "items": 23,
+      "attributed_by_link": 23
+    },
+    "nitter.meowing.monster/tweets": {
+      "status": "ok",
+      "items": 19,
+      "attributed_by_link": 19
+    },
+    "nitter.meowing.monster/with_replies": {
+      "status": "error",
+      "type": "ParseError",
+      "message": "syntax error: line 1, column 0"
+    }
+  },
+  "retained_previous": 161
 }

@@ -1,29 +1,186 @@
 {
-  "checked_at": "2026-10-28T03:13:01.759773+00:00",
+  "checked_at": "2026-10-28T06:17:51.936588+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
   "sources": {
-    "nitter.jaydenha.uk": {
+    "nitter.jaydenha.uk/tweets": {
       "status": "ok",
       "items": 19,
       "attributed_by_link": 19
     },
-    "nitter.meowing.monster": {
+    "nitter.jaydenha.uk/with_replies": {
+      "status": "ok",
+      "items": 23,
+      "attributed_by_link": 23
+    },
+    "nitter.meowing.monster/tweets": {
       "status": "ok",
       "items": 19,
       "attributed_by_link": 19
+    },
+    "nitter.meowing.monster/with_replies": {
+      "status": "error",
+      "type": "ParseError",
+      "message": "syntax error: line 1, column 0"
     }
   },
   "items": [
+    {
+      "id": "2115325897356321051",
+      "url": "https://x.com/wr0789/status/2115325897356321051",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 06:12:49 GMT",
+      "title_excerpt": "对于那些靠付费荐股、收割流量牟利的产业链来说，我的存在，或许本身就是一种障碍。 如今的 X，被各种利益纠葛和纷争搅得乌烟瘴气。但我始终相信，无论是新股民还是老股民，只要心中还有一份良知与判断力，终究能够分清谁在真诚分享，谁在借机牟利；谁在传递价值，谁又在制造混乱。 一路走来，我们",
+      "description_excerpt": "对于那些靠付费荐股、收割流量牟利的产业链来说，我的存在，或许本身就是一种障碍。 如今的 X，被各种利益纠葛和纷争搅得乌烟瘴气。但我始终相信，无论是新股民还是老股民，只要心中还有一份良知与判断力，终究能够分清谁在真诚分享，谁在借机牟利；谁在传递价值，谁又在制造混乱。 一路走来，我们承受了各种“背刺”与误解，却依然选择用心分享、传递正能量。 因为真正有价值的东西，从来不需要靠收割别人来证明自己。 时间会沉淀真相，市场会检验认知，而人心，自有判断。",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115314037286465703",
+      "url": "https://x.com/wr0789/status/2115314037286465703",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 05:25:41 GMT",
+      "title_excerpt": "R to @MinghuiShetn: 🤣🤣🤣🤣",
+      "description_excerpt": "🤣🤣🤣🤣",
+      "reply_to_handle": "MinghuiShetn",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115313474352083221",
+      "url": "https://x.com/wr0789/status/2115313474352083221",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 05:23:27 GMT",
+      "title_excerpt": "大庇天下寒士俱欢颜",
+      "description_excerpt": "大庇天下寒士俱欢颜 Mistery (@wr0789) 当你们惯性认为上午跳空拉升一定会继续下杀的戏码后，终有一天会踏空。 周线级别底部区域的理解是低吸持筹耐心等待周线级别的波段高点再分批卖出！ — http://nitter.meowing.monster/wr0789/status/2115227074525065457#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115310181039092033",
+      "url": "https://x.com/wr0789/status/2115310181039092033",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 05:10:22 GMT",
+      "title_excerpt": "R to @b2znf: 好细心啊❤️",
+      "description_excerpt": "好细心啊❤️",
+      "reply_to_handle": "b2znf",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115307181419667710",
+      "url": "https://x.com/wr0789/status/2115307181419667710",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 04:58:27 GMT",
+      "title_excerpt": "【多读读长文有好处】 【为什么我坚定看好港股：中美经济周期错位下的布局逻辑】 我一直认为，判断未来的投资机会，不能只看眼前的经济数据，更要看不同经济体所处的周期，以及全球资本未来可能流向哪里。 第一，中美经济周期的错位，可能孕育新的投资机会。 从周期的角度看，我的判断是，美国经济",
+      "description_excerpt": "【多读读长文有好处】 【为什么我坚定看好港股：中美经济周期错位下的布局逻辑】 我一直认为，判断未来的投资机会，不能只看眼前的经济数据，更要看不同经济体所处的周期，以及全球资本未来可能流向哪里。 第一，中美经济周期的错位，可能孕育新的投资机会。 从周期的角度看，我的判断是，美国经济正处于繁荣周期后段，面临从高增长、高通胀向增长放缓甚至衰退过渡的压力；而中国经济则处于从衰退和通缩压力中逐步修复、寻找新增长动能的阶段。 两者所处的阶段不同，未来的政策方向和资产表现也可能出现分化。 ",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115304857674629499",
+      "url": "https://x.com/wr0789/status/2115304857674629499",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 04:49:13 GMT",
+      "title_excerpt": "R to @wr0789: 归根结底，预期可以推动一轮行情，但真正决定长期价值的，还是产业发展与企业盈利。 修炼也是如此。看懂趋势，只是第一步；理解规律、接受周期、控制欲望，并在不确定性中保持自己的判断，才是真正的功课。 我们不必执着于抓住每一轮行情，也不必因为短期波动就否定长期",
+      "description_excerpt": "归根结底，预期可以推动一轮行情，但真正决定长期价值的，还是产业发展与企业盈利。 修炼也是如此。看懂趋势，只是第一步；理解规律、接受周期、控制欲望，并在不确定性中保持自己的判断，才是真正的功课。 我们不必执着于抓住每一轮行情，也不必因为短期波动就否定长期趋势。重要的是看清自己身处什么阶段，知道什么值得等待，也知道什么风险不能忽视。",
+      "reply_to_handle": "wr0789",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115304665722311035",
+      "url": "https://x.com/wr0789/status/2115304665722311035",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 04:48:27 GMT",
+      "title_excerpt": "【希望大家耐心读完】 【从产业革命到财政转型：看懂未来十年的中国经济】 我一直觉得，修炼不仅是修心性，也是修认知。今天早上散步时，我和一位朋友聊了很久，从经济长周期、产业革命，聊到中国未来十年的经济转型，以及普通人在这个过程中应该如何理解投资机会。 一、每一轮产业革命，都是一次财",
+      "description_excerpt": "【希望大家耐心读完】 【从产业革命到财政转型：看懂未来十年的中国经济】 我一直觉得，修炼不仅是修心性，也是修认知。今天早上散步时，我和一位朋友聊了很久，从经济长周期、产业革命，聊到中国未来十年的经济转型，以及普通人在这个过程中应该如何理解投资机会。 一、每一轮产业革命，都是一次财富格局的重新分配。 从农业时代到工业时代，从工业时代到互联网时代，再到今天的人工智能时代，每一次产业革命都会重塑生产方式、财富分配和社会结构。 但技术进步并不意味着所有人都能立即受益。产业转型需要时间",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115297921189233054",
+      "url": "https://x.com/wr0789/status/2115297921189233054",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 04:21:39 GMT",
+      "title_excerpt": "a股底部特征之一，抓人定罪下马。 即安抚了股民情绪，也震慑了“妖魔资金”。妈妈下场的时候会说“我怒了” 各路资金都不会同心同德。",
+      "description_excerpt": "a股底部特征之一，抓人定罪下马。 即安抚了股民情绪，也震慑了“妖魔资金”。妈妈下场的时候会说“我怒了” 各路资金都不会同心同德。",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115295914562904483",
+      "url": "https://x.com/wr0789/status/2115295914562904483",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 04:13:40 GMT",
+      "title_excerpt": "R to @nothingdx1: 无视吧。删不过来",
+      "description_excerpt": "无视吧。删不过来",
+      "reply_to_handle": "nothingdx1",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115287836958269506",
+      "url": "https://x.com/wr0789/status/2115287836958269506",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 03:41:35 GMT",
+      "title_excerpt": "R to @jilk99734061: 我想弄一个生活号，就是来回切换比较麻烦一些。",
+      "description_excerpt": "我想弄一个生活号，就是来回切换比较麻烦一些。",
+      "reply_to_handle": "jilk99734061",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
     {
       "id": "2115276480209211739",
       "url": "https://x.com/wr0789/status/2115276480209211739",
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 02:56:27 GMT",
       "title_excerpt": "x.com/i/spaces/1RKjpbgDYDdJw",
+      "description_excerpt": "nitter.mizuki.st/i/spaces/1RKjpbgDYDdJw Link Twitter Space Click to view Space http://nitter.meowing.monster/i/spaces/1RKjpbgDYDdJw",
+      "reply_to_handle": null,
+      "space_url": "https://x.com/i/spaces/1RKjpbgDYDdJw",
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115274130266431787",
+      "url": "https://x.com/wr0789/status/2115274130266431787",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 02:47:07 GMT",
+      "title_excerpt": "R to @dc78BuiWKl4849: 不影响我赚钱",
+      "description_excerpt": "不影响我赚钱",
+      "reply_to_handle": "dc78BuiWKl4849",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115271948674765070",
@@ -31,8 +188,25 @@
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 02:38:27 GMT",
       "title_excerpt": "没有群！没有群！跟我亲戚聊天记录！",
+      "description_excerpt": "没有群！没有群！跟我亲戚聊天记录！",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115271772262289615",
+      "url": "https://x.com/wr0789/status/2115271772262289615",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 02:37:45 GMT",
+      "title_excerpt": "R to @4bwMrtR2zT87055: 没群，跟我亲戚说的",
+      "description_excerpt": "没群，跟我亲戚说的",
+      "reply_to_handle": "4bwMrtR2zT87055",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115270572666143210",
@@ -40,8 +214,12 @@
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 02:32:59 GMT",
       "title_excerpt": "主力昨天给过你们低吸机会了吧",
+      "description_excerpt": "主力昨天给过你们低吸机会了吧 Mistery (@wr0789) 【财富密码】 今天去低吸上周五主力建仓后回踩两天的个股。 博弈明天向上拉升的概率！ — http://nitter.meowing.monster/wr0789/status/2114910002435829925#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115269215896924598",
@@ -49,8 +227,12 @@
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 02:27:35 GMT",
       "title_excerpt": "方向感很重要",
+      "description_excerpt": "方向感很重要 Mistery (@wr0789) 4季度波段反弹重点关注机器人相关产业链，以及以软件服务为核心的 AI 应用方向。 — http://nitter.meowing.monster/wr0789/status/2114662566148587904#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115267619263762466",
@@ -58,8 +240,25 @@
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 02:21:14 GMT",
       "title_excerpt": "行情好的时候我就多休息。午安 你们恐慌的时候我再来安慰。",
+      "description_excerpt": "行情好的时候我就多休息。午安 你们恐慌的时候我再来安慰。",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115263692124352933",
+      "url": "https://x.com/wr0789/status/2115263692124352933",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 02:05:38 GMT",
+      "title_excerpt": "R to @Tania_HQX: ❤️",
+      "description_excerpt": "❤️",
+      "reply_to_handle": "Tania_HQX",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115261264427630694",
@@ -67,8 +266,38 @@
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 01:55:59 GMT",
       "title_excerpt": "看看资金是不是持续流入在低位建仓的方向",
+      "description_excerpt": "看看资金是不是持续流入在低位建仓的方向 Mistery (@wr0789) 上周五，集团资金集中发力，主力资金净流入覆盖200余只个股，呈现出多板块、多方向协同布局的特征。 从资金流向来看，重点聚焦于机械设备、自动化设备、通用设备、影视传媒、医疗器械、云服务、软件服务、一般零售、消费电子、汽车零部件、电机制造、电网设备、电池及半导体等领域。 建议重点复盘上周五主力资金净流入排名靠前的个股及行业板块，深入梳理资金布局方向、板块联动效应与核心标的表现，进一步挖掘潜在的资金主攻方向",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115254461727912416",
+      "url": "https://x.com/wr0789/status/2115254461727912416",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 01:28:57 GMT",
+      "title_excerpt": "R to @baiwan_8878: 随缘。我在做我想做事，我可以一直说一直说。",
+      "description_excerpt": "随缘。我在做我想做事，我可以一直说一直说。",
+      "reply_to_handle": "baiwan_8878",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2115254241837420816",
+      "url": "https://x.com/wr0789/status/2115254241837420816",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 01:28:05 GMT",
+      "title_excerpt": "R to @ImYanBoss: 哦。我记不得了。我不太记人。不好意思。",
+      "description_excerpt": "哦。我记不得了。我不太记人。不好意思。",
+      "reply_to_handle": "ImYanBoss",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115252024677962051",
@@ -76,8 +305,12 @@
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 01:19:16 GMT",
       "title_excerpt": "Pinned: 还有新的课代表给大家的网盘版。都可以下载。不要做任何商业牟利。没意义。",
+      "description_excerpt": "还有新的课代表给大家的网盘版。都可以下载。不要做任何商业牟利。没意义。 Yan Bo (@ImYanBoss) 这是我整理的，应该更全 夸克网盘 pan.quark.cn/s/edfa066ff632?… 百度网盘 pan.baidu.com/s/1M6xruDl4IpU… — http://nitter.meowing.monster/ImYanBoss/status/2115251228880097677#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115248968783589577",
@@ -85,8 +318,12 @@
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 01:07:08 GMT",
       "title_excerpt": "我目前的所有内容都是公开免费的。没有收费的群服务。精力有限，没能力做付费内容。",
+      "description_excerpt": "我目前的所有内容都是公开免费的。没有收费的群服务。精力有限，没能力做付费内容。",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115248394897969324",
@@ -94,8 +331,12 @@
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 01:04:51 GMT",
       "title_excerpt": "这个是最新版的，新股民新粉丝可以下载看看。免费的。是我24-26年推文的精选内容合集。",
+      "description_excerpt": "这个是最新版的，新股民新粉丝可以下载看看。免费的。是我24-26年推文的精选内容合集。 nana (@nana2004888) 我保存的这个是518章的。 我用夸克网盘给你分享了「mi姐-Mist...论(1)」，点击链接或复制整段内容，打开「夸克网盘APP」即可获取。 /~f1ae3bqODV~:/ 链接： pan.quark.cn/s/30a16ff5dac1?… 提取码：ev4m — http://nitter.jaydenha.uk/nana2004888/statu",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115240760744501444",
@@ -103,8 +344,12 @@
       "date": "2026-10-28",
       "published": "Wed, 28 Oct 2026 00:34:31 GMT",
       "title_excerpt": "你会越来越好的，因为你已经开始认识到问题的本质。 不是市场，不是国家，不是别人，而是自己的认知。 提前恭喜你💕",
+      "description_excerpt": "你会越来越好的，因为你已经开始认识到问题的本质。 不是市场，不是国家，不是别人，而是自己的认知。 提前恭喜你💕 G H (@yasoooiii) Mi姐 你的趋势交易论看完了 感触很深 玩了两年股市 没有任何系统 基本都是跟风或者追热点 也大赚过 但是综合下来 还是亏了快20个点 ，亏钱的时候特别快，往往几天就把两三个月的利润给干没了 ，是需要静下心学习一下了 🥹🥹 — http://nitter.jaydenha.uk/yasoooiii/status/2115235594",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115227074525065457",
@@ -112,8 +357,12 @@
       "date": "2026-10-28",
       "published": "Tue, 27 Oct 2026 23:40:08 GMT",
       "title_excerpt": "当你们惯性认为上午跳空拉升一定会继续下杀的戏码后，终有一天会踏空。 周线级别底部区域的理解是低吸持筹耐心等待周线级别的波段高点再分批卖出！",
+      "description_excerpt": "当你们惯性认为上午跳空拉升一定会继续下杀的戏码后，终有一天会踏空。 周线级别底部区域的理解是低吸持筹耐心等待周线级别的波段高点再分批卖出！ Mistery (@wr0789) 【巴甫洛夫的狗：市场情绪驯化与筹码收割】 筑顶阶段： 小幅回落后迅速拉升，制造强势反攻的假象，持续强化散户对后市上涨的预期，诱导其追高、加仓，直至形成一致性看多情绪。待筹码充分承接后，行情掉头向下，重仓者被套于高位。 筑底阶段： 冲高后快速回落，营造反弹乏力、下跌中继的恐慌氛围，不断强化散户对后市走弱的",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115226094609854494",
@@ -121,8 +370,12 @@
       "date": "2026-10-28",
       "published": "Tue, 27 Oct 2026 23:36:14 GMT",
       "title_excerpt": "【散户情绪驱动的估值周期与均值回归】",
+      "description_excerpt": "【散户情绪驱动的估值周期与均值回归】",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115224593145446787",
@@ -130,8 +383,12 @@
       "date": "2026-10-28",
       "published": "Tue, 27 Oct 2026 23:30:16 GMT",
       "title_excerpt": "现在的语音复盘都可以直接点击听回放，昨天盘后讲了今天以及后期走势的推演。",
+      "description_excerpt": "现在的语音复盘都可以直接点击听回放，昨天盘后讲了今天以及后期走势的推演。 Mistery (@wr0789) nitter.mizuki.st/i/spaces/1RJjpbgpmaRKw Link Twitter Space Click to view Space http://nitter.meowing.monster/i/spaces/1RJjpbgpmaRKw — http://nitter.meowing.monster/wr0789/status/2114989",
+      "reply_to_handle": null,
+      "space_url": "https://x.com/i/spaces/1RJjpbgpmaRKw",
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2115212797898563723",
@@ -139,53 +396,25 @@
       "date": "2026-10-28",
       "published": "Tue, 27 Oct 2026 22:43:24 GMT",
       "title_excerpt": "单纯靠情绪上的安抚，其实解决不了大家的根本问题。要让大家真正去了解金融市场的前世今生，弄清楚市场为什么会这样运行，背后的逻辑是什么。 我一直觉得，愿意静下心来学习、慢慢积累的人，最后收获的绝对不只是交易上的成长。随着认知不断提升，看问题的角度、面对事情的心态，以及对未来的判断，会",
+      "description_excerpt": "单纯靠情绪上的安抚，其实解决不了大家的根本问题。要让大家真正去了解金融市场的前世今生，弄清楚市场为什么会这样运行，背后的逻辑是什么。 我一直觉得，愿意静下心来学习、慢慢积累的人，最后收获的绝对不只是交易上的成长。随着认知不断提升，看问题的角度、面对事情的心态，以及对未来的判断，会对自己的人生有莫大帮助。 真正愿意沉淀下来的人，最后一定会有所收获。💕",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
       "source": "nitter.meowing.monster"
     },
     {
-      "id": "2115208251243729078",
-      "url": "https://x.com/wr0789/status/2115208251243729078",
-      "date": "2026-10-28",
-      "published": "Tue, 27 Oct 2026 22:25:20 GMT",
-      "title_excerpt": "早安，起来了，冲一杯咖啡☕️",
+      "id": "2115060639127449968",
+      "url": "https://x.com/wr0789/status/2115060639127449968",
+      "date": "2026-10-27",
+      "published": "Tue, 27 Oct 2026 12:38:46 GMT",
+      "title_excerpt": "市场下杀到尾部，很多人开始不理性，骂国家、骂市场、骂别人，却唯独不愿意反省自己。 6—7月，我就反复提醒大家，不要去硬科技高位接盘，要耐心拿住底部低估值资产。三季度的反弹，也给了大家相应的机会。 8月20日给出的关键节点策略，认真执行的人，根本不会被套在科技股里。",
+      "description_excerpt": "市场下杀到尾部，很多人开始不理性，骂国家、骂市场、骂别人，却唯独不愿意反省自己。 6—7月，我就反复提醒大家，不要去硬科技高位接盘，要耐心拿住底部低估值资产。三季度的反弹，也给了大家相应的机会。 8月20日给出的关键节点策略，认真执行的人，根本不会被套在科技股里。 Mistery (@wr0789) 复盘做出策略最佳价值的时间点 关键支撑或压力位附近：验证原有判断。 突破后的回踩阶段：观察趋势是否得到确认。 交易逻辑发生变化时：及时修正判断，控制风险。 日常复盘可以少一些，关",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2115203230158492050",
-      "url": "https://x.com/wr0789/status/2115203230158492050",
-      "date": "2026-10-28",
-      "published": "Tue, 27 Oct 2026 22:05:23 GMT",
-      "title_excerpt": "中国的金融市场，就像一个尚未完全成熟的年轻人。 我们知道，他身上还有许多不足，也明白，随着时间的推移、制度的完善和市场的发展，这些问题有望在不断改革中逐步得到解决。但成长从来不是一蹴而就的，市场走向成熟，也必然需要时间与代价。 面对这样的市场，我们究竟应该选择什么样的态度？ 是每",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2115200424106201217",
-      "url": "https://x.com/wr0789/status/2115200424106201217",
-      "date": "2026-10-28",
-      "published": "Tue, 27 Oct 2026 21:54:14 GMT",
-      "title_excerpt": "现在纠结这些都没有意义了。 昨天语音里也聊过，你明知道冬天会来，还会在意哪一天下雪吗？ 重要的是：冬天来了，春天还会远吗？",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2115198581875634482",
-      "url": "https://x.com/wr0789/status/2115198581875634482",
-      "date": "2026-10-28",
-      "published": "Tue, 27 Oct 2026 21:46:55 GMT",
-      "title_excerpt": "【中国股市为什么走到今天？未来又将走向何方？】 中国股市过去为什么积累了这么多问题？未来又该往哪里走？要看懂这些问题，不能只盯着指数涨跌，而要把股市放在中国经济发展的背景下理解。 一、过去的经济模式，决定了资本市场的局限 过去相当长一段时间，中国经济增长在很大程度上依赖房地产开发",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2115195197621747851",
-      "url": "https://x.com/wr0789/status/2115195197621747851",
-      "date": "2026-10-28",
-      "published": "Tue, 27 Oct 2026 21:33:28 GMT",
-      "title_excerpt": "那些如今喊着、骂着、哭着的人，今天有多难受，或许就意味着此前曾有多疯狂。 这难道不值得反思吗？ 为什么非要等到亏损发生、情绪崩溃之后，才开始质疑市场？为什么不在入场之前，先花时间了解市场的运行逻辑、行业的真实价值，以及自己需要承担的风险？ 投资从来不只是追逐机会，更是对认知、纪律",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     }
   ],
   "message": "Recent RSS window only; posts/replies may be missing. No posts must not be interpreted as no activity."
