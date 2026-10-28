@@ -109,6 +109,13 @@
   ],
   "new_found": 161,
   "merged_count": 161,
+  "kind_counts": {
+    "unclassified": 150,
+    "quote_or_unclassified": 6,
+    "reply": 5
+  },
+  "earliest_id": "2114840810625941549",
+  "latest_id": "2115064764296782243",
   "errors": [],
   "complete": false
 }
