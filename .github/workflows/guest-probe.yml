@@ -1,0 +1,30 @@
+name: Test no-login X reader
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  guest_probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install guest-mode library
+        run: npm install --no-save --ignore-scripts xactions
+      - name: Read public account without credentials
+        run: node guest_probe.mjs
+      - name: Save diagnostic
+        if: always()
+        run: |
+          if [ -f state/guest-probe.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state/guest-probe.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Save no-login guest reader diagnostic"
+              git push
+            fi
+          fi
