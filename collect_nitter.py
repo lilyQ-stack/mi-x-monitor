@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Collect recent public RSS items; count verified author, never claim completeness."""
-import urllib.request, xml.etree.ElementTree as ET, json, re
+import urllib.request, xml.etree.ElementTree as ET, json, re, html
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from zoneinfo import ZoneInfo
@@ -27,8 +27,14 @@ def parse(data,host):
   # Nitter RSS typically includes the author's profile in link, but verify before attributing.
   author_match=re.search(r'https?://[^/]+/([^/]+)/status/',link)
   author=author_match.group(1) if author_match else None
+  clean=html.unescape(re.sub(r'<[^>]+>',' ',desc))
+  clean=re.sub(r'\s+',' ',clean).strip()
+  mentioned=re.search(r'^R to @([A-Za-z0-9_]+)',title.strip(),re.I)
+  space=re.search(r'https?://(?:x\.com|twitter\.com)/i/spaces/([A-Za-z0-9]+)',title+' '+desc)
   entries.append({'id':pid,'url':f'https://x.com/{USER}/status/{pid}', 'date':day,'published':pub,
-   'title_excerpt':re.sub('<[^>]+>','',title)[:140],
+   'title_excerpt':html.unescape(re.sub('<[^>]+>','',title))[:140],
+   'description_excerpt':clean[:240], 'reply_to_handle':mentioned.group(1) if mentioned else None,
+   'space_url':f'https://x.com/i/spaces/{space.group(1)}' if space else None,
    'kind':'reply' if re.match(r'^R to @',title.strip(),flags=re.I) else 'unclassified',
    'verified_link_author':author.lower()==USER.lower() if author else False,
    'source':host})
@@ -65,12 +71,12 @@ for day in [now.date().isoformat(),(now.date()-__import__('datetime').timedelta(
  merged={str(x.get('id')):x for x in previous if x.get('id')}
  for item in subset:
   prev=merged.get(str(item['id']))
- if not prev or (item.get('kind')=='reply' and prev.get('kind')!='reply'):
-  merged[str(item['id'])]=item
+  if not prev or (item.get('kind')=='reply' and prev.get('kind')!='reply'):
+   merged[str(item['id'])]=item
  # An empty RSS window must never erase previously seen posts.
  dest.write_text(json.dumps({'date':day,'account':USER,'status':result['status'],
    'complete':False,'items':sorted(merged.values(),key=lambda x:x['id'],reverse=True),
-   'sources':result['sources'],'retained_previous':len(previous)},ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+   'sources':result['sources'],'retained_previous':len(previous)},ensure_ascii=False,indent=2)+chr(10),encoding='utf-8')
 state=Path('state');state.mkdir(exist_ok=True)
 (state/'nitter-latest.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print('NITTER_COLLECT',result['status'],'verified',len(items),'by_day',[(d,sum(x['date']==d for x in items.values())) for d in [now.date().isoformat(),(now.date()-__import__('datetime').timedelta(days=1)).isoformat()]])
