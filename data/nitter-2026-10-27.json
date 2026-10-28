@@ -3,17 +3,1458 @@
   "account": "wr0789",
   "status": "partial",
   "complete": false,
-  "items": [],
-  "sources": {
-    "nitter.jaydenha.uk": {
-      "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+  "items": [
+    {
+      "id": "2115064764296782243",
+      "url": "https://x.com/wr0789/status/2115064764296782243",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "🤣你理解的正确",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
     },
-    "nitter.meowing.monster": {
-      "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+    {
+      "id": "2115063534505861423",
+      "url": "https://x.com/wr0789/status/2115063534505861423",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "对",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115062084706971879",
+      "url": "https://x.com/wr0789/status/2115062084706971879",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "对",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115061591221895273",
+      "url": "https://x.com/wr0789/status/2115061591221895273",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "无知的人只会怪罪别人，从不反省自己。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115060723521130576",
+      "url": "https://x.com/wr0789/status/2115060723521130576",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "傻逼。滚",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115060639127449968",
+      "url": "https://x.com/wr0789/status/2115060639127449968",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "市场下杀到尾部，很多人开始不理性，骂国家、骂市场、骂别人，却唯独不愿意反省自己。\n\n6—7月，我就反复提醒大家，不要去硬科技高位接盘，要耐心拿住底部低估值资产。三季度的反弹，也给了大家相应的机会。\n\n8月20日给出的关键节点策略，认真执行的人，根本不会被套在科技股里。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115058963637219478",
+      "url": "https://x.com/wr0789/status/2115058963637219478",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "无知。懒得跟你解释",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115053966438637788",
+      "url": "https://x.com/wr0789/status/2115053966438637788",
+      "date": "2026-10-27",
+      "kind": "reply",
+      "excerpt": "不会的，我说过，现在你们需要的是打气。至于等这波反弹结束后，我走不走，到时候再说。\n\n之前几次见顶，我选择离场，就是因为只有我先走了，一些老粉丝才会相信行情可能见顶了，才会停下手里不理性的操作。\n\n但现在还没到说这些的时候。既然大家现在需要信心，那我就先陪大家走一段。\n\n行情有涨",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115052916616856064",
+      "url": "https://x.com/wr0789/status/2115052916616856064",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "简单说：国家比你们更惧怕风险。普通股民是无知乱买赌博亏的是个人财产而已，国家队需要承担的国家经济体制转型的重任，是国家未来命运。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115051872503673262",
+      "url": "https://x.com/wr0789/status/2115051872503673262",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "国家队近期抄底已经卸掉了融资盘连续爆仓的风险了。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115051604936450538",
+      "url": "https://x.com/wr0789/status/2115051604936450538",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "【写给正在焦虑的你】\n\n对于那些直到今天，依然看着自己的账户束手无策、被盈亏牵动情绪的朋友，我想说：眼下真正需要做的，不是急着挽回损失，也不是四处寻找所谓的答案，而是认真想清楚，自己究竟该如何面对这个市场。\n\n其实，路无非两条。\n\n第一条路，暂时放下账户数字的起伏，把注意力重新放",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115049199066919274",
+      "url": "https://x.com/wr0789/status/2115049199066919274",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "晚安💤\n\n别太悲观了。\n\n今年年初，国家队之所以在4200点附近出手稳市，某种程度上就是为了防止市场在过度亢奋中演变成失控的快牛、疯牛，最终引发系统性风险。资本市场的稳定，从来不只是股市涨跌的问题，更关系到国家战略布局的推进与长远发展。\n\n这一次，硬科技板块的深度调整，确实让不少",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115046328380334427",
+      "url": "https://x.com/wr0789/status/2115046328380334427",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "拐点会不会要来了。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115018329396326866",
+      "url": "https://x.com/wr0789/status/2115018329396326866",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "🤣🤣🤣",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115010213833281890",
+      "url": "https://x.com/wr0789/status/2115010213833281890",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "🤪🤪🤪🤪🤪就是这个涨停了",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2115006278414241796",
+      "url": "https://x.com/wr0789/status/2115006278414241796",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "不会失效。一直会有",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114989348550803939",
+      "url": "https://x.com/wr0789/status/2114989348550803939",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "x.com/i/spaces/1RJjpbgpmaRKw",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114988660944986234",
+      "url": "https://x.com/wr0789/status/2114988660944986234",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "🤣🤣🤣🤣🤣",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114988534566367649",
+      "url": "https://x.com/wr0789/status/2114988534566367649",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "去年11-12月的时候也是这样。今年1-2月就起来一波。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114988094537732479",
+      "url": "https://x.com/wr0789/status/2114988094537732479",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "谢谢姐姐❤️",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114987059777769808",
+      "url": "https://x.com/wr0789/status/2114987059777769808",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "我就是这样一个矛盾综合体，发泄完就没事了！谢谢你们的安抚！",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114986739387507022",
+      "url": "https://x.com/wr0789/status/2114986739387507022",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "我就是有点小脾气。哈哈哈哈哈哈哈。其实没事啦！",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114986562526281805",
+      "url": "https://x.com/wr0789/status/2114986562526281805",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "感谢你们的鼓励！很暖心！❤️",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114986257042505990",
+      "url": "https://x.com/wr0789/status/2114986257042505990",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "我记住你们几个了哈！不养我看我怎么收拾你们🤣🤣🤣🤣🤣🤣🤣🤣",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114983887210422557",
+      "url": "https://x.com/wr0789/status/2114983887210422557",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "你们被套在科技上的，送你们两个字“活该”！\n\n6-7月我他妈的让你们逃顶声嘶力竭！\n\n就算这两天3674，1310左侧买入能亏几个点？\n\n你们他妈听那些短线客让你们高位接盘亏到裤衩子都没有了，还跑来跟我发泄了？",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114983098274517192",
+      "url": "https://x.com/wr0789/status/2114983098274517192",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "删你妈啊！傻逼",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114982980175511691",
+      "url": "https://x.com/wr0789/status/2114982980175511691",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "❤️",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114982877448622536",
+      "url": "https://x.com/wr0789/status/2114982877448622536",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "我反复说反复说，要看逻辑，要看长文。\n\n现在不就是在走下面的逻辑吗？",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114982168451846189",
+      "url": "https://x.com/wr0789/status/2114982168451846189",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "你养我？",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114967150452678793",
+      "url": "https://x.com/wr0789/status/2114967150452678793",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "期待一下神奇2:30",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114966924346204557",
+      "url": "https://x.com/wr0789/status/2114966924346204557",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "上证1分钟图，绿色是支撑线看看这里是真破还是假破。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114956864522015220",
+      "url": "https://x.com/wr0789/status/2114956864522015220",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "等银行下跌，银行不跌，科技很难起来。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114953204299649343",
+      "url": "https://x.com/wr0789/status/2114953204299649343",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "md，不骂你你拉🤔",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114952876728680851",
+      "url": "https://x.com/wr0789/status/2114952876728680851",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "主力大哥，差不多啦！",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114947434505969963",
+      "url": "https://x.com/wr0789/status/2114947434505969963",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "看看每天净流入的方向，基本上都是语音复盘看多的方向。再熬一熬吧，等他们筹码吃够再说。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114945320660672932",
+      "url": "https://x.com/wr0789/status/2114945320660672932",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "目前还不需要跑",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114945166457057601",
+      "url": "https://x.com/wr0789/status/2114945166457057601",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "语音都可以回放的，自己去听吧。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114938435517702265",
+      "url": "https://x.com/wr0789/status/2114938435517702265",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "x.com/i/spaces/1qxoNYooNWjJv",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114934760460144801",
+      "url": "https://x.com/wr0789/status/2114934760460144801",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "中午好呀",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114933209129779238",
+      "url": "https://x.com/wr0789/status/2114933209129779238",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "可以哦，这里有标准答案",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114930077385490720",
+      "url": "https://x.com/wr0789/status/2114930077385490720",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "哈哈哈哈哈哈",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114930034133897709",
+      "url": "https://x.com/wr0789/status/2114930034133897709",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "哈哈哈哈哈哈",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114929635675001222",
+      "url": "https://x.com/wr0789/status/2114929635675001222",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "哈哈哈哈哈哈哈",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114929020316070077",
+      "url": "https://x.com/wr0789/status/2114929020316070077",
+      "date": "2026-10-27",
+      "kind": "reply",
+      "excerpt": "哈哈哈哈哈哈，大霄老师附体\n\n以后我让你们拿新华字典。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114920359409697120",
+      "url": "https://x.com/wr0789/status/2114920359409697120",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "这个方向短期可以",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114916415795056816",
+      "url": "https://x.com/wr0789/status/2114916415795056816",
+      "date": "2026-10-27",
+      "kind": "reply",
+      "excerpt": "你们真的太好了💕💕💕💕💕",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114916299495330080",
+      "url": "https://x.com/wr0789/status/2114916299495330080",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "谢谢你们",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114913987691446416",
+      "url": "https://x.com/wr0789/status/2114913987691446416",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "哈哈哈哈。好的好的。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114913667292737983",
+      "url": "https://x.com/wr0789/status/2114913667292737983",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "在这些方向里找。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114912097016705316",
+      "url": "https://x.com/wr0789/status/2114912097016705316",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "其实我是很想跟好朋友们分享的。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114911972093485365",
+      "url": "https://x.com/wr0789/status/2114911972093485365",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "🤣🤣🤣🤣",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114911272613630168",
+      "url": "https://x.com/wr0789/status/2114911272613630168",
+      "date": "2026-10-27",
+      "kind": "reply",
+      "excerpt": "课代表给你们补课来了。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114910660190749177",
+      "url": "https://x.com/wr0789/status/2114910660190749177",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "遍地黄金，我真的是控制不住想告诉你们啊！\n\n怎么办？怎么解？200多个个股。\n\n老粉丝们还记得“三振票”吧。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114910184598601875",
+      "url": "https://x.com/wr0789/status/2114910184598601875",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "怎么治？给我个方子吧！",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114910085256482979",
+      "url": "https://x.com/wr0789/status/2114910085256482979",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "🤣🤣🤣🤣🤣",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114910002435829925",
+      "url": "https://x.com/wr0789/status/2114910002435829925",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "【财富密码】\n\n今天去低吸上周五主力建仓后回踩两天的个股。\n\n博弈明天向上拉升的概率！",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114907428403937319",
+      "url": "https://x.com/wr0789/status/2114907428403937319",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "还是不提个股了，傻逼太多，怕误了我！🤪",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114906981488337279",
+      "url": "https://x.com/wr0789/status/2114906981488337279",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "🤣🤣🤣🤣🤣🤣",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114906537164669374",
+      "url": "https://x.com/wr0789/status/2114906537164669374",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "🤣🤣🤣🤣🤣",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114901984612700260",
+      "url": "https://x.com/wr0789/status/2114901984612700260",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "剧本继续按照预期演绎。冲高回落，又要吓退一早就追涨的人了，短线搞硬科技的人肯定会很痛苦。那我们可以低吸一下了。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114896737014022336",
+      "url": "https://x.com/wr0789/status/2114896737014022336",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "硬科技反弹高点我看明年1季度，因为筑底周期要晚于大盘。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114896196670206047",
+      "url": "https://x.com/wr0789/status/2114896196670206047",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "有3必有5，有5必有7🤪",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114894690680291777",
+      "url": "https://x.com/wr0789/status/2114894690680291777",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "隔夜挂单啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114893509908209949",
+      "url": "https://x.com/wr0789/status/2114893509908209949",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "哈哈哈哈哈哈",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114891878143508643",
+      "url": "https://x.com/wr0789/status/2114891878143508643",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "昨天语音复盘提到今天要轮到硬科技反弹，预期之内，但是别追，当心冲高回落。\n\n如果是我依然不做任何交易。即使卖也要等到波段反弹高点，也许是在明年1季度。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114890257665761500",
+      "url": "https://x.com/wr0789/status/2114890257665761500",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "行情都走完了。中期都是反弹下跌，震荡。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114890026089877685",
+      "url": "https://x.com/wr0789/status/2114890026089877685",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "目前就是底部区域。拿住后面可以翻倍。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114889853100056911",
+      "url": "https://x.com/wr0789/status/2114889853100056911",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "下跌趋势，支撑位反弹，反弹高度有限，可以期待一个横盘筑底。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114889573897846885",
+      "url": "https://x.com/wr0789/status/2114889573897846885",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "反弹清仓",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114889426862313787",
+      "url": "https://x.com/wr0789/status/2114889426862313787",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "长周期可以的。短中线还会震荡。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114889160540766492",
+      "url": "https://x.com/wr0789/status/2114889160540766492",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "6.59再考虑低吸吧",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114888968194146613",
+      "url": "https://x.com/wr0789/status/2114888968194146613",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "看基本面吧，这个股票不好说。跌破65.5就还会继续跌到34",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114888636160508155",
+      "url": "https://x.com/wr0789/status/2114888636160508155",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "下跌趋势，先看反弹，强反弹的话21附近",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114888421391130656",
+      "url": "https://x.com/wr0789/status/2114888421391130656",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "下跌趋势，先看筑底",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114888302184759615",
+      "url": "https://x.com/wr0789/status/2114888302184759615",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "底部。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114888093610496170",
+      "url": "https://x.com/wr0789/status/2114888093610496170",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "底部反转",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114888033451593747",
+      "url": "https://x.com/wr0789/status/2114888033451593747",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "义诊🤪",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114886421677015255",
+      "url": "https://x.com/wr0789/status/2114886421677015255",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114886398381838370",
+      "url": "https://x.com/wr0789/status/2114886398381838370",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "甘李看长周期。别做短线。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114886297299063112",
+      "url": "https://x.com/wr0789/status/2114886297299063112",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "反弹解套清仓",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114885967035425231",
+      "url": "https://x.com/wr0789/status/2114885967035425231",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "恒科基本上是Ai应用端",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114885167504675245",
+      "url": "https://x.com/wr0789/status/2114885167504675245",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "最好看指数，短期能看到的区间1500-1600之间。因为etf很多品种。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114884946359947720",
+      "url": "https://x.com/wr0789/status/2114884946359947720",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "硬科技肯定有反弹，冲高回落",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114884822573494652",
+      "url": "https://x.com/wr0789/status/2114884822573494652",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "今世缘短期目标价36.63",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114884630847557992",
+      "url": "https://x.com/wr0789/status/2114884630847557992",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "定投策略发过了，你自己去看吧",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114884197567582492",
+      "url": "https://x.com/wr0789/status/2114884197567582492",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "等反弹。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114884070908027197",
+      "url": "https://x.com/wr0789/status/2114884070908027197",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "明阳短期看到12附近",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114883823653867621",
+      "url": "https://x.com/wr0789/status/2114883823653867621",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "你知道的太多了🤪",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114883771120107809",
+      "url": "https://x.com/wr0789/status/2114883771120107809",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "麦格下跌趋势，跟随硬科技反弹高点出。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114883572297507182",
+      "url": "https://x.com/wr0789/status/2114883572297507182",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "茅台1121.67是强支撑，如果想做茅台需要等超跌，反弹后不能做，除非是反转突破行情，否则极其容易被套。下一个低吸价格1121-1157附近",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114882796498083914",
+      "url": "https://x.com/wr0789/status/2114882796498083914",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "横盘筑底。压力19.22附近",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114882626003857590",
+      "url": "https://x.com/wr0789/status/2114882626003857590",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "属于",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114882598657036518",
+      "url": "https://x.com/wr0789/status/2114882598657036518",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "下跌趋势，短期看反弹。没跌完。没有持仓的不要去这种方向，短期反弹空间有限。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114882167209861380",
+      "url": "https://x.com/wr0789/status/2114882167209861380",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "短期会回踩，回落10日线低吸。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114881850036621355",
+      "url": "https://x.com/wr0789/status/2114881850036621355",
+      "date": "2026-10-27",
+      "kind": "reply",
+      "excerpt": "套在硬科技和套在非硬科技，本质上是两种不同的策略。\n\n硬科技这一轮反弹高点，大概率会延后至明年一季度，筑底时间也可能晚于非硬科技。核心在于，硬科技需要更长时间消化前期涨幅与估值，不能用短期反弹替代趋势反转的判断。\n\n非硬科技则要看所处的周期阶段。除非此前已经走过大级别月线主升，否",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114880965583704427",
+      "url": "https://x.com/wr0789/status/2114880965583704427",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "硬科技反弹高点也许在明年1季度",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114880891738866013",
+      "url": "https://x.com/wr0789/status/2114880891738866013",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "拿到证券板块整体压力区",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114880674188702056",
+      "url": "https://x.com/wr0789/status/2114880674188702056",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "对。均线理论可以用在各种交易市场。不单单是股市。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114880535244026066",
+      "url": "https://x.com/wr0789/status/2114880535244026066",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "这个看不出来",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114880371435417729",
+      "url": "https://x.com/wr0789/status/2114880371435417729",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "硬科技反弹高点可能会在明年1季度",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114879713659453536",
+      "url": "https://x.com/wr0789/status/2114879713659453536",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "先看到51附近",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114879437120672156",
+      "url": "https://x.com/wr0789/status/2114879437120672156",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "反弹看20附近吧。也许18-19区间。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114879182182527192",
+      "url": "https://x.com/wr0789/status/2114879182182527192",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "到底了，会有反弹，压力9.7附近",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114878949956469038",
+      "url": "https://x.com/wr0789/status/2114878949956469038",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "很难。看你成本。因为主力杀的就是你们",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114878849012191362",
+      "url": "https://x.com/wr0789/status/2114878849012191362",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "昨天语音复盘去听一遍，说过了",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114878785539670337",
+      "url": "https://x.com/wr0789/status/2114878785539670337",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "说个股",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114878749368078568",
+      "url": "https://x.com/wr0789/status/2114878749368078568",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "短线反弹最多看到788附近。后面还得跌。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114878349726368042",
+      "url": "https://x.com/wr0789/status/2114878349726368042",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "不客气。爱你们",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114878321171529841",
+      "url": "https://x.com/wr0789/status/2114878321171529841",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "短期不会。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114878257334194394",
+      "url": "https://x.com/wr0789/status/2114878257334194394",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "昨天不是很漂亮的底分型吗？这里看震荡筑底。中线目标价25左右。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114873684334907867",
+      "url": "https://x.com/wr0789/status/2114873684334907867",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114873639510450206",
+      "url": "https://x.com/wr0789/status/2114873639510450206",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "留言栏",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114871948421558729",
+      "url": "https://x.com/wr0789/status/2114871948421558729",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "可以可以。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114871516429234485",
+      "url": "https://x.com/wr0789/status/2114871516429234485",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊！💕",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114870689295720742",
+      "url": "https://x.com/wr0789/status/2114870689295720742",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114870658836644088",
+      "url": "https://x.com/wr0789/status/2114870658836644088",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114870641014997271",
+      "url": "https://x.com/wr0789/status/2114870641014997271",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114870623327719741",
+      "url": "https://x.com/wr0789/status/2114870623327719741",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114870600699396378",
+      "url": "https://x.com/wr0789/status/2114870600699396378",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114868084473561540",
+      "url": "https://x.com/wr0789/status/2114868084473561540",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114868059643253037",
+      "url": "https://x.com/wr0789/status/2114868059643253037",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114868043205800352",
+      "url": "https://x.com/wr0789/status/2114868043205800352",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114867935940612196",
+      "url": "https://x.com/wr0789/status/2114867935940612196",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "nana早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114867166780784892",
+      "url": "https://x.com/wr0789/status/2114867166780784892",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114866770603561185",
+      "url": "https://x.com/wr0789/status/2114866770603561185",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈。他们总觉得mi姐这次会错。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114866607235506675",
+      "url": "https://x.com/wr0789/status/2114866607235506675",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114865486026744143",
+      "url": "https://x.com/wr0789/status/2114865486026744143",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114864347797409832",
+      "url": "https://x.com/wr0789/status/2114864347797409832",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "哈哈哈哈哈哈哈哈哈哈哈",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114864007710654737",
+      "url": "https://x.com/wr0789/status/2114864007710654737",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "怎么怪怪的🤨",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114863731809398995",
+      "url": "https://x.com/wr0789/status/2114863731809398995",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114863711659954531",
+      "url": "https://x.com/wr0789/status/2114863711659954531",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114862634592026934",
+      "url": "https://x.com/wr0789/status/2114862634592026934",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114862378445914557",
+      "url": "https://x.com/wr0789/status/2114862378445914557",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "硬科技方向也许会延迟到明年1季度。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114860669980049636",
+      "url": "https://x.com/wr0789/status/2114860669980049636",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114860564011004037",
+      "url": "https://x.com/wr0789/status/2114860564011004037",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安。好认真的宝宝",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114860368879321279",
+      "url": "https://x.com/wr0789/status/2114860368879321279",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早上好",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114859600696775036",
+      "url": "https://x.com/wr0789/status/2114859600696775036",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114857033900097980",
+      "url": "https://x.com/wr0789/status/2114857033900097980",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114856986819104943",
+      "url": "https://x.com/wr0789/status/2114856986819104943",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114856717058232650",
+      "url": "https://x.com/wr0789/status/2114856717058232650",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "嗯",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114856690587992107",
+      "url": "https://x.com/wr0789/status/2114856690587992107",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114855598168948877",
+      "url": "https://x.com/wr0789/status/2114855598168948877",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114854798130655432",
+      "url": "https://x.com/wr0789/status/2114854798130655432",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早晨",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114854380365353325",
+      "url": "https://x.com/wr0789/status/2114854380365353325",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114854359851028955",
+      "url": "https://x.com/wr0789/status/2114854359851028955",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早晨",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114852923712958473",
+      "url": "https://x.com/wr0789/status/2114852923712958473",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114852904058360075",
+      "url": "https://x.com/wr0789/status/2114852904058360075",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114852223033430304",
+      "url": "https://x.com/wr0789/status/2114852223033430304",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114850808097587706",
+      "url": "https://x.com/wr0789/status/2114850808097587706",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114848667618377819",
+      "url": "https://x.com/wr0789/status/2114848667618377819",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114848501733749190",
+      "url": "https://x.com/wr0789/status/2114848501733749190",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114848474542080471",
+      "url": "https://x.com/wr0789/status/2114848474542080471",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早，小宝",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114847137813115303",
+      "url": "https://x.com/wr0789/status/2114847137813115303",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "应该是昨天语音里说的今天科技反弹，昨天大涨的回踩。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114845320765173891",
+      "url": "https://x.com/wr0789/status/2114845320765173891",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114845276372672681",
+      "url": "https://x.com/wr0789/status/2114845276372672681",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114845248757358979",
+      "url": "https://x.com/wr0789/status/2114845248757358979",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早安",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114845227873890717",
+      "url": "https://x.com/wr0789/status/2114845227873890717",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊，我得去超市采购了。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114841983156093005",
+      "url": "https://x.com/wr0789/status/2114841983156093005",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早啊",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114841240869155117",
+      "url": "https://x.com/wr0789/status/2114841240869155117",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114841180383121675",
+      "url": "https://x.com/wr0789/status/2114841180383121675",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "早",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
+    },
+    {
+      "id": "2114840810625941549",
+      "url": "https://x.com/wr0789/status/2114840810625941549",
+      "date": "2026-10-27",
+      "kind": "post_or_quote",
+      "excerpt": "昨天的语音直播是可以直接点开听回放的。\n全板块以及未来行情推演。",
+      "source": "nitter historical HTML",
+      "attribution": "matched tweet header @wr0789"
     }
-  }
+  ],
+  "notes": "Bounded 15-page public timeline backfill; not proof of complete day. Dates decoded from X snowflake IDs.",
+  "pages_checked": 15,
+  "errors": []
 }
