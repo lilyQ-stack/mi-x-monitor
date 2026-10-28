@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-27",
+  "account": "wr0789",
+  "status": "partial",
+  "complete": false,
+  "items": [],
+  "sources": {
+    "nitter.jaydenha.uk": {
+      "status": "ok",
+      "items": 19,
+      "attributed_by_link": 19
+    },
+    "nitter.meowing.monster": {
+      "status": "ok",
+      "items": 19,
+      "attributed_by_link": 19
+    }
+  }
+}
