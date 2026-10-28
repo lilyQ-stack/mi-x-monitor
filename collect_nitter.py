@@ -39,6 +39,27 @@ def parse(data,host):
    'verified_link_author':author.lower()==USER.lower() if author else False,
    'source':host})
  return entries
+def merge_record(old, new):
+ if not old:
+  return new
+ merged=dict(old)
+ for k,v in new.items():
+  if v is None or v=='':
+   continue
+  if k in ('title_excerpt','description_excerpt','excerpt'):
+   if len(str(v)) > len(str(merged.get(k) or '')):
+    merged[k]=v
+  elif k=='kind':
+   if v=='reply' and merged.get(k)!='reply':
+    merged[k]='reply'
+   elif not merged.get(k):
+    merged[k]=v
+  elif k=='source':
+   merged.setdefault('source',v)
+  else:
+   merged.setdefault(k,v)
+ return merged
+
 result={'checked_at':datetime.now(timezone.utc).isoformat(),'account':USER,'status':'error','complete':False,'sources':{},'items':[]}
 items={}
 for host,with_replies in [(h,replies) for h in HOSTS for replies in (False,True)]:
@@ -48,10 +69,7 @@ for host,with_replies in [(h,replies) for h in HOSTS for replies in (False,True)
   result['sources'][key]={'status':'ok','items':len(entries),'attributed_by_link':sum(e['verified_link_author'] for e in entries)}
   for item in entries:
    if not item['verified_link_author']:continue
-   previous=items.get(item['id'])
-   # Prefer an explicit RSS reply marker over unclassified entries from another feed.
-   if not previous or (item['kind']=='reply' and previous.get('kind')!='reply'):
-    items[item['id']]=item
+   items[item['id']]=merge_record(items.get(item['id']),item)
  except Exception as exc:
   result['sources'][key]={'status':'error','type':type(exc).__name__,'message':str(exc)[:120]}
 result['items']=sorted(items.values(),key=lambda x:x['id'],reverse=True)
@@ -70,9 +88,7 @@ for day in [now.date().isoformat(),(now.date()-__import__('datetime').timedelta(
   except (json.JSONDecodeError, OSError):pass
  merged={str(x.get('id')):x for x in previous if x.get('id')}
  for item in subset:
-  prev=merged.get(str(item['id']))
-  if not prev or (item.get('kind')=='reply' and prev.get('kind')!='reply'):
-   merged[str(item['id'])]=item
+  merged[str(item['id'])]=merge_record(merged.get(str(item['id'])),item)
  # An empty RSS window must never erase previously seen posts.
  dest.write_text(json.dumps({'date':day,'account':USER,'status':result['status'],
    'complete':False,'items':sorted(merged.values(),key=lambda x:x['id'],reverse=True),
