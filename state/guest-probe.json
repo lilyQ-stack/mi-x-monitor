@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T02:40:40.553Z",
+  "checked_at": "2026-10-28T02:45:00.844Z",
   "target": "wr0789",
   "method": "XActions guest",
   "status": "empty_or_blocked",
@@ -10,6 +10,10 @@
     "username": "wr0789",
     "id": "2101591217314336768",
     "name": "Mistery"
+  },
+  "control_account": {
+    "username": "NASA",
+    "tweets_received": 3
   },
   "message": "Zero posts received. This does NOT establish that the account did not post."
 }
