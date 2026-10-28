@@ -48,8 +48,20 @@ base=Path('data');base.mkdir(exist_ok=True)
 now=datetime.now(shanghai)
 for day in [now.date().isoformat(),(now.date()-__import__('datetime').timedelta(days=1)).isoformat()]:
  subset=[e for e in result['items'] if e['date']==day]
- # avoid clobbering historical data with an empty or partial response: snapshots in separate source folder
- Path(f'data/nitter-{day}.json').write_text(json.dumps({'date':day,'account':USER,'status':result['status'],'complete':False,'items':subset,'sources':result['sources']},ensure_ascii=False,indent=2)+'\n')
+ dest=Path(f'data/nitter-{day}.json')
+ previous=[]
+ if dest.exists():
+  try:
+   old=json.loads(dest.read_text(encoding='utf-8'))
+   previous=old.get('items',[]) if isinstance(old.get('items'),list) else []
+  except (json.JSONDecodeError, OSError):pass
+ merged={str(x.get('id')):x for x in previous if x.get('id')}
+ for item in subset:
+  merged[str(item['id'])]=item
+ # An empty RSS window must never erase previously seen posts.
+ dest.write_text(json.dumps({'date':day,'account':USER,'status':result['status'],
+   'complete':False,'items':sorted(merged.values(),key=lambda x:x['id'],reverse=True),
+   'sources':result['sources'],'retained_previous':len(previous)},ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
 state=Path('state');state.mkdir(exist_ok=True)
 (state/'nitter-latest.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print('NITTER_COLLECT',result['status'],'verified',len(items),'by_day',[(d,sum(x['date']==d for x in items.values())) for d in [now.date().isoformat(),(now.date()-__import__('datetime').timedelta(days=1)).isoformat()]])
