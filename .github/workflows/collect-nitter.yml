@@ -2,7 +2,7 @@ name: Collect public MI RSS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0,8,16 * * *'  # UTC, Beijing 08:15, 16:15, 00:15
+    - cron: '15 */2 * * *'  # Every 2 hours, including overnight (UTC)
 permissions:
   contents: write
 concurrency:
