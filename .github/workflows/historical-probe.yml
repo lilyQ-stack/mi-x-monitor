@@ -1,0 +1,24 @@
+name: Probe October 27 history
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python historical_probe.py
+      - name: Save report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/historical-probe.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record bounded history probe"
+            git push
+          fi
