@@ -1,8 +1,6 @@
 name: Collect MI activity
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '10 0,12 * * *'  # Beijing 08:10 and 20:10
 permissions:
   contents: write
 jobs:
