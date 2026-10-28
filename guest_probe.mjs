@@ -11,6 +11,18 @@ try {
     const id=String(t.id||t.tweetId||'');
     output.posts.push({id, url:id ? 'https://x.com/wr0789/status/'+id:null, created_at:t.timeParsed||t.timestamp||t.createdAt||null, excerpt:String(t.text||'').slice(0,120)});
   }
+
+  // Control account helps distinguish target-specific failure from guest timeline outage.
+  try {
+    const control = new Scraper();
+    let controlCount = 0;
+    for await (const t of control.getTweets('NASA', 3)) {
+      if (++controlCount >= 3) break;
+    }
+    output.control_account = {username:'NASA', tweets_received:controlCount};
+  } catch (controlErr) {
+    output.control_account = {username:'NASA', error_name:controlErr?.name || 'Error', error_message:String(controlErr?.message||controlErr).slice(0,150)};
+  }
   output.status = output.posts.length?'partial_guest_data':'empty_or_blocked';
   output.message = output.posts.length?'Guest timeline returned data, replies/completeness not verified.':'Zero posts received. This does NOT establish that the account did not post.';
 } catch(err) {
