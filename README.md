@@ -18,3 +18,12 @@
 
 ## 验收
 首先验证 Actions 可以运行并写入 `state/latest.json`，然后才考虑独立账号和会话。最终要用2026年10月27日已知帖子比对覆盖率；在验证前不把采集结果当作完整日报。
+
+## 2026-10-28 progress
+- Historical Nitter HTML backfill obtained **161 distinct post IDs** for 2026-10-27. This is a partial archive, not proof of completeness.
+- The daily public RSS collector now reads both normal and `with_replies/rss` feeds every 2 hours.
+- Fixed a merge indentation bug that previously risked losing all but the final newly fetched item when updating a daily file.
+- New metadata: `description_excerpt` (up to 240 characters, **not guaranteed full text**), `reply_to_handle` (when the RSS title explicitly identifies a reply target), and `space_url` (when a link is present).
+- **Not yet implemented:** reliable parent-post text retrieval, full long-post extraction, or Space audio/transcripts. Never invent those.
+- Classification `unclassified` must **not** be represented as original posts.
+- Changes have not yet been validated in a new completed Actions run.
