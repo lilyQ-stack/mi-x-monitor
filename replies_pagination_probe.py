@@ -28,11 +28,11 @@ for host in HOSTS:
     v['sample_titles']=[(i.findtext('title') or '')[:75] for i in items[:4]]
    else:
     p=Page();p.feed(body)
-    v['post_ids']=len(set(re.findall(r'/status/(\\d+)',body)))
+    v['post_ids']=len(set(re.findall(r'/status/(\d+)',body)))
     v['pagination_links']=[urljoin(url,h) for h,c in p.links if 'cursor=' in h or 'show-more' in c][:3]
     v['html_replies_markers']=len(re.findall(r'replying to|Replying to|reply-to',body))
   except Exception as e:v['error']=type(e).__name__+': '+str(e)[:130]
   out['results'].append(v)
 Path('state').mkdir(exist_ok=True)
-Path('state/replies-pagination-probe.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\\n')
+Path('state/replies-pagination-probe.json').write_text(json.dumps(out,ensure_ascii=False,indent=2) + chr(10))
 print(json.dumps([{k:v for k,v in r.items() if k not in ('sample_titles','sample_guids')} for r in out['results']],ensure_ascii=False))
