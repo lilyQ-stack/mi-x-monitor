@@ -1,0 +1,25 @@
+name: Check replies and history pagination
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check replies and pagination
+        run: python replies_pagination_probe.py
+      - name: Save diagnostic
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/replies-pagination-probe.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save replies and history diagnostic"
+            git push
+          fi
