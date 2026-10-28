@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T02:45:00.844Z",
+  "checked_at": "2026-10-28T02:59:04.334Z",
   "target": "wr0789",
   "method": "XActions guest",
   "status": "empty_or_blocked",
@@ -14,6 +14,14 @@
   "control_account": {
     "username": "NASA",
     "tweets_received": 3
+  },
+  "replies_timeline": {
+    "status": "error",
+    "error_name": "AuthenticationError",
+    "message": "HTTP 404 on /i/api/graphql/qUpkZU6eN8MbtQb7rC_pYg/UserTweetsAndReplies while unauthenticated. X restricts this endpoint to logged-in sessions. Authenticate first with scraper.login"
+  },
+  "latest_tweet": {
+    "status": "null"
   },
   "message": "Zero posts received. This does NOT establish that the account did not post."
 }
