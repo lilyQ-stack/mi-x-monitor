@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-28T03:26:48.476308+00:00",
+  "status": "diagnostic",
+  "complete": false,
+  "results": [
+    {
+      "url": "https://nitter.jaydenha.uk/wr0789/with_replies/rss",
+      "rss_items": 20,
+      "sample_guids": [
+        "2115252024677962051",
+        "2115248968783589577",
+        "2115254461727912416",
+        "2115254241837420816"
+      ],
+      "sample_titles": [
+        "Pinned: 还有新的课代表给大家的网盘版。都可以下载。不要做任何商业牟利。没意义。",
+        "我目前的所有内容都是公开免费的。没有收费的群服务。精力有限，没能力做付费内容。",
+        "R to @baiwan_8878: 随缘。我在做我想做事，我可以一直说一直说。",
+        "R to @ImYanBoss: 哦。我记不得了。我不太记人。不好意思。"
+      ]
+    },
+    {
+      "url": "https://nitter.jaydenha.uk/wr0789/with_replies",
+      "post_ids": 47,
+      "pagination_links": [
+        "https://nitter.jaydenha.uk/wr0789/with_replies?cursor=DAAHCgABHVr_tFQ___ELAAIAAAATMjExNTIzMTAxNTMyMTEyMDgwMQgAAwAAAAIAAA"
+      ],
+      "html_replies_markers": 6
+    },
+    {
+      "url": "https://nitter.jaydenha.uk/wr0789",
+      "post_ids": 38,
+      "pagination_links": [
+        "https://nitter.jaydenha.uk/wr0789?cursor=DAAHCgABHVr_tjj__-0LAAIAAAATMjExNTE5NTE5NzYyMTc0Nzg1MQgAAwAAAAIAAA"
+      ],
+      "html_replies_markers": 4
+    },
+    {
+      "url": "https://nitter.meowing.monster/wr0789/with_replies/rss",
+      "error": "ParseError: syntax error: line 1, column 0"
+    },
+    {
+      "url": "https://nitter.meowing.monster/wr0789/with_replies",
+      "post_ids": 0,
+      "pagination_links": [],
+      "html_replies_markers": 0
+    },
+    {
+      "url": "https://nitter.meowing.monster/wr0789",
+      "post_ids": 0,
+      "pagination_links": [],
+      "html_replies_markers": 0
+    }
+  ]
+}
