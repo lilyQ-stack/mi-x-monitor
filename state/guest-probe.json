@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-28T02:40:40.553Z",
+  "target": "wr0789",
+  "method": "XActions guest",
+  "status": "empty_or_blocked",
+  "complete": false,
+  "posts": [],
+  "errors": [],
+  "profile": {
+    "username": "wr0789",
+    "id": "2101591217314336768",
+    "name": "Mistery"
+  },
+  "message": "Zero posts received. This does NOT establish that the account did not post."
+}
