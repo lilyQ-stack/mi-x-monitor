@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Offline merge regression checks
+        run: python test_merge.py
       - name: Collect from public RSS
         run: python collect_nitter.py
       - name: Validate collection health
