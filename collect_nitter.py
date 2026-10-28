@@ -8,8 +8,9 @@ from pathlib import Path
 HOSTS=['nitter.jaydenha.uk','nitter.meowing.monster']
 USER='wr0789'
 shanghai=ZoneInfo('Asia/Shanghai')
-def fetch(host):
- req=urllib.request.Request(f'https://{host}/{USER}/rss',headers={'User-Agent':'Mozilla/5.0'})
+def fetch(host,with_replies=False):
+ route='with_replies/rss' if with_replies else 'rss'
+ req=urllib.request.Request(f'https://{host}/{USER}/{route}',headers={'User-Agent':'Mozilla/5.0'})
  with urllib.request.urlopen(req,timeout=15) as r:return r.read(2000000)
 def parse(data,host):
  root=ET.fromstring(data); entries=[]
@@ -28,19 +29,25 @@ def parse(data,host):
   author=author_match.group(1) if author_match else None
   entries.append({'id':pid,'url':f'https://x.com/{USER}/status/{pid}', 'date':day,'published':pub,
    'title_excerpt':re.sub('<[^>]+>','',title)[:140],
+   'kind':'reply' if re.match(r'^R to @',title.strip(),flags=re.I) else 'unclassified',
    'verified_link_author':author.lower()==USER.lower() if author else False,
    'source':host})
  return entries
 result={'checked_at':datetime.now(timezone.utc).isoformat(),'account':USER,'status':'error','complete':False,'sources':{},'items':[]}
 items={}
-for host in HOSTS:
+for host,with_replies in [(h,replies) for h in HOSTS for replies in (False,True)]:
+ key=host+('/with_replies' if with_replies else '/tweets')
  try:
-  entries=parse(fetch(host),host)
-  result['sources'][host]={'status':'ok','items':len(entries),'attributed_by_link':sum(e['verified_link_author'] for e in entries)}
+  entries=parse(fetch(host,with_replies),host)
+  result['sources'][key]={'status':'ok','items':len(entries),'attributed_by_link':sum(e['verified_link_author'] for e in entries)}
   for item in entries:
-   if item['verified_link_author']:items[item['id']]=item
+   if not item['verified_link_author']:continue
+   previous=items.get(item['id'])
+   # Prefer an explicit RSS reply marker over unclassified entries from another feed.
+   if not previous or (item['kind']=='reply' and previous.get('kind')!='reply'):
+    items[item['id']]=item
  except Exception as exc:
-  result['sources'][host]={'status':'error','type':type(exc).__name__,'message':str(exc)[:120]}
+  result['sources'][key]={'status':'error','type':type(exc).__name__,'message':str(exc)[:120]}
 result['items']=sorted(items.values(),key=lambda x:x['id'],reverse=True)
 result['status']='partial' if items else 'no_verified_items'
 result['message']='Recent RSS window only; posts/replies may be missing. No posts must not be interpreted as no activity.'
@@ -57,6 +64,8 @@ for day in [now.date().isoformat(),(now.date()-__import__('datetime').timedelta(
   except (json.JSONDecodeError, OSError):pass
  merged={str(x.get('id')):x for x in previous if x.get('id')}
  for item in subset:
+  prev=merged.get(str(item['id']))
+ if not prev or (item.get('kind')=='reply' and prev.get('kind')!='reply'):
   merged[str(item['id'])]=item
  # An empty RSS window must never erase previously seen posts.
  dest.write_text(json.dumps({'date':day,'account':USER,'status':result['status'],
