@@ -923,9 +923,9 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 429: Too Many Requests"
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
@@ -934,8 +934,8 @@
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
