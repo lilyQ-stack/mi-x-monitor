@@ -923,14 +923,14 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 22,
-      "attributed_by_link": 22
+      "items": 25,
+      "attributed_by_link": 25
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
