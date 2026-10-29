@@ -10,7 +10,7 @@
       "date": "2026-10-29",
       "published": "Thu, 29 Oct 2026 12:50:46 GMT",
       "title_excerpt": "哎，3744，希望一起开启反弹吧。",
-      "description_excerpt": "哎，3744，希望一起开启反弹吧。 Mistery (@wr0789) 3744之上支撑 — http://nitter.jaydenha.uk/wr0789/status/2113095026658148605#m",
+      "description_excerpt": "哎，3744，希望一起开启反弹吧。 Mistery (@wr0789) 3744之上支撑 — http://nitter.meowing.monster/wr0789/status/2113095026658148605#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
@@ -1008,14 +1008,14 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "status": "error",
+      "type": "TimeoutError",
+      "message": "The read operation timed out"
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "ok",
-      "items": 25,
-      "attributed_by_link": 25
+      "status": "error",
+      "type": "TimeoutError",
+      "message": "The read operation timed out"
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -1028,5 +1028,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 48
+  "retained_previous": 77
 }

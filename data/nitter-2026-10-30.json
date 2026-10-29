@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "account": "wr0789",
+  "status": "partial",
+  "complete": false,
+  "items": [],
+  "sources": {
+    "nitter.jaydenha.uk/tweets": {
+      "status": "error",
+      "type": "TimeoutError",
+      "message": "The read operation timed out"
+    },
+    "nitter.jaydenha.uk/with_replies": {
+      "status": "error",
+      "type": "TimeoutError",
+      "message": "The read operation timed out"
+    },
+    "nitter.meowing.monster/tweets": {
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
+    },
+    "nitter.meowing.monster/with_replies": {
+      "status": "error",
+      "type": "ParseError",
+      "message": "syntax error: line 1, column 0"
+    }
+  },
+  "retained_previous": 0
+}
