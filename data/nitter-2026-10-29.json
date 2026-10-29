@@ -1009,13 +1009,13 @@
   "sources": {
     "nitter.jaydenha.uk/tweets": {
       "status": "error",
-      "type": "TimeoutError",
-      "message": "The read operation timed out"
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "error",
-      "type": "TimeoutError",
-      "message": "The read operation timed out"
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
