@@ -1,9 +1,13 @@
 {
-  "checked_at": "2026-10-30T19:24:37.566286+00:00",
-  "status": "healthy_snapshot",
-  "alerts": [],
-  "verified_items": 30,
-  "source_successes": 3,
+  "checked_at": "2026-10-30T23:48:46.253784+00:00",
+  "status": "warning",
+  "alerts": [
+    "NO_WORKING_SOURCE: no source returned attributable items",
+    "EMPTY_WINDOW: no posts captured; do not conclude no activity",
+    "REPLIES_FEED_DOWN: no successful reply feed"
+  ],
+  "verified_items": 0,
+  "source_successes": 0,
   "age_hours": 0.0,
   "today_saved_count": 0
 }

@@ -1,24 +1,24 @@
 {
   "date": "2026-10-31",
   "account": "wr0789",
-  "status": "partial",
+  "status": "no_verified_items",
   "complete": false,
   "items": [],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "ok",
-      "items": 22,
-      "attributed_by_link": 22
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.meowing.monster/tweets": {
-      "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 502: Bad Gateway"
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
