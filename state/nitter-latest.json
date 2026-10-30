@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T12:58:05.386771+00:00",
+  "checked_at": "2026-10-30T19:24:32.447960+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
@@ -11,8 +11,8 @@
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "items": 22,
+      "attributed_by_link": 22
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -26,6 +26,45 @@
     }
   },
   "items": [
+    {
+      "id": "2116157237190336577",
+      "url": "https://x.com/wr0789/status/2116157237190336577",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 13:16:16 GMT",
+      "title_excerpt": "R to @joyMi117: 都说了不一样的不一样。别看了",
+      "description_excerpt": "都说了不一样的不一样。别看了",
+      "reply_to_handle": "joyMi117",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2116156456479420692",
+      "url": "https://x.com/wr0789/status/2116156456479420692",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 13:13:10 GMT",
+      "title_excerpt": "R to @joyMi117: 不要再抱有立刻起牛市的想法。",
+      "description_excerpt": "不要再抱有立刻起牛市的想法。",
+      "reply_to_handle": "joyMi117",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2116153929537138940",
+      "url": "https://x.com/wr0789/status/2116153929537138940",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 13:03:07 GMT",
+      "title_excerpt": "无论如何还是会跟你们说晚安💤 期待11月的反弹行情！",
+      "description_excerpt": "无论如何还是会跟你们说晚安💤 期待11月的反弹行情！",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
     {
       "id": "2116135027360834016",
       "url": "https://x.com/wr0789/status/2116135027360834016",
@@ -358,19 +397,6 @@
       "published": "Fri, 30 Oct 2026 02:02:36 GMT",
       "title_excerpt": "3620附近持续拉锯，多观察，少动手。",
       "description_excerpt": "3620附近持续拉锯，多观察，少动手。 Mistery (@wr0789) 跳空跌破支撑3620，目前3620附近就是压力，等突破3620才会快速上拉。 — http://nitter.meowing.monster/wr0789/status/2115983921456545828#m",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2115986485031936177",
-      "url": "https://x.com/wr0789/status/2115986485031936177",
-      "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 01:57:45 GMT",
-      "title_excerpt": "记住前排的，都是主力喜欢的个股。以前都给过你们的。 你们选股一定要形成肌肉记忆。",
-      "description_excerpt": "记住前排的，都是主力喜欢的个股。以前都给过你们的。 你们选股一定要形成肌肉记忆。",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",

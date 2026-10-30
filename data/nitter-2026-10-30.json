@@ -5,6 +5,45 @@
   "complete": false,
   "items": [
     {
+      "id": "2116157237190336577",
+      "url": "https://x.com/wr0789/status/2116157237190336577",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 13:16:16 GMT",
+      "title_excerpt": "R to @joyMi117: 都说了不一样的不一样。别看了",
+      "description_excerpt": "都说了不一样的不一样。别看了",
+      "reply_to_handle": "joyMi117",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2116156456479420692",
+      "url": "https://x.com/wr0789/status/2116156456479420692",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 13:13:10 GMT",
+      "title_excerpt": "R to @joyMi117: 不要再抱有立刻起牛市的想法。",
+      "description_excerpt": "不要再抱有立刻起牛市的想法。",
+      "reply_to_handle": "joyMi117",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2116153929537138940",
+      "url": "https://x.com/wr0789/status/2116153929537138940",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 13:03:07 GMT",
+      "title_excerpt": "无论如何还是会跟你们说晚安💤 期待11月的反弹行情！",
+      "description_excerpt": "无论如何还是会跟你们说晚安💤 期待11月的反弹行情！",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
       "id": "2116135027360834016",
       "url": "https://x.com/wr0789/status/2116135027360834016",
       "date": "2026-10-30",
@@ -780,8 +819,8 @@
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "items": 22,
+      "attributed_by_link": 22
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -794,5 +833,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 41
+  "retained_previous": 59
 }
