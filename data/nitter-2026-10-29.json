@@ -1008,14 +1008,14 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
