@@ -824,8 +824,8 @@
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",

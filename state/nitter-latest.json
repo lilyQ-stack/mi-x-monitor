@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T05:45:00.056019+00:00",
+  "checked_at": "2026-10-31T12:33:57.514254+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
@@ -16,8 +16,8 @@
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
@@ -26,6 +26,58 @@
     }
   },
   "items": [
+    {
+      "id": "2116493882309648803",
+      "url": "https://x.com/wr0789/status/2116493882309648803",
+      "date": "2026-10-31",
+      "published": "Sat, 31 Oct 2026 11:33:58 GMT",
+      "title_excerpt": "晚安💤",
+      "description_excerpt": "晚安💤",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2116451033966952893",
+      "url": "https://x.com/wr0789/status/2116451033966952893",
+      "date": "2026-10-31",
+      "published": "Sat, 31 Oct 2026 08:43:42 GMT",
+      "title_excerpt": "Video",
+      "description_excerpt": "Video",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2116433341201445315",
+      "url": "https://x.com/wr0789/status/2116433341201445315",
+      "date": "2026-10-31",
+      "published": "Sat, 31 Oct 2026 07:33:24 GMT",
+      "title_excerpt": "【建立交易体系是成为一个成熟交易者的必要条件】 真正成熟的交易者，并不是从不犯错，而是拥有一套应对错误的能力和机制。 交易市场充满不确定性，没有人能够做到每一次判断都正确，也没有任何一套交易体系能够保证百分之百的胜率。真正拉开交易者之间差距的，从来不是谁犯的错误更少，而是谁在犯错",
+      "description_excerpt": "【建立交易体系是成为一个成熟交易者的必要条件】 真正成熟的交易者，并不是从不犯错，而是拥有一套应对错误的能力和机制。 交易市场充满不确定性，没有人能够做到每一次判断都正确，也没有任何一套交易体系能够保证百分之百的胜率。真正拉开交易者之间差距的，从来不是谁犯的错误更少，而是谁在犯错之后，能够更冷静、更理性地处理问题。 没有交易体系的人，犯错之后往往容易陷入情绪：不愿止损、急于回本、不断加仓，甚至为了证明自己是对的而违背原有的交易逻辑。 而有交易体系的人，早已接受错误是交易的一部",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2116410591351021726",
+      "url": "https://x.com/wr0789/status/2116410591351021726",
+      "date": "2026-10-31",
+      "published": "Sat, 31 Oct 2026 06:03:00 GMT",
+      "title_excerpt": "现在市场压得有多狠，未来B浪反弹的弹性就有可能有多大。 从波浪运行和市场筹码结构来看，一轮深度调整的意义，不仅仅是价格下跌，更重要的是完成筹码交换和市场情绪的重新洗牌。下跌过程中，随着恐慌情绪不断蔓延，杠杆资金被迫出局，短线投机筹码止损离场，缺乏信心的持仓者不断割肉，市场的浮动筹",
+      "description_excerpt": "现在市场压得有多狠，未来B浪反弹的弹性就有可能有多大。 从波浪运行和市场筹码结构来看，一轮深度调整的意义，不仅仅是价格下跌，更重要的是完成筹码交换和市场情绪的重新洗牌。下跌过程中，随着恐慌情绪不断蔓延，杠杆资金被迫出局，短线投机筹码止损离场，缺乏信心的持仓者不断割肉，市场的浮动筹码也会逐步得到释放。 换句话说，当前调整越充分，恐慌盘、止损盘和不坚定筹码出清得越彻底，后续反弹所面临的抛压就可能越小。一旦市场情绪触底、买盘重新介入，价格就有机会形成较强的修复性反弹。 这也是为什么",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
     {
       "id": "2116395647666663514",
       "url": "https://x.com/wr0789/status/2116395647666663514",
@@ -228,71 +280,6 @@
       "published": "Fri, 30 Oct 2026 22:53:56 GMT",
       "title_excerpt": "1季度商业航天和贵金属被爆炒时，我就意识到，市场风险已经在逐步积聚。不碰硬科技，是当时给自己设定的最后一道底线。 事实上，除了硬科技板块，大部分股票都在2季度见底，随后超跌低估值3季度迎来一波反弹，4季度初再度回踩。 整个过程中，只有银行、石油、煤炭等传统权重板块始终保持强势，一",
       "description_excerpt": "1季度商业航天和贵金属被爆炒时，我就意识到，市场风险已经在逐步积聚。不碰硬科技，是当时给自己设定的最后一道底线。 事实上，除了硬科技板块，大部分股票都在2季度见底，随后超跌低估值3季度迎来一波反弹，4季度初再度回踩。 整个过程中，只有银行、石油、煤炭等传统权重板块始终保持强势，一路护盘拉升至今。 但如今，这些板块也逐渐接近前期压力位。这种盘面结构，像极了了6—7月的行情：当时只有硬科技独自上涨，其他非科技板块则持续阴跌。 硬科技板块筑顶、抽离市场流动性用了一个月，随后构筑双头",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2116299193589653836",
-      "url": "https://x.com/wr0789/status/2116299193589653836",
-      "date": "2026-10-31",
-      "published": "Fri, 30 Oct 2026 22:40:21 GMT",
-      "title_excerpt": "Image",
-      "description_excerpt": "",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2116298406755013112",
-      "url": "https://x.com/wr0789/status/2116298406755013112",
-      "date": "2026-10-31",
-      "published": "Fri, 30 Oct 2026 22:37:13 GMT",
-      "title_excerpt": "这是我跟课代表yyok3月份的聊天记录。 我知道今年会很难，但是没想到会这么难，更没想到会直接拉爆硬科技。",
-      "description_excerpt": "这是我跟课代表yyok3月份的聊天记录。 我知道今年会很难，但是没想到会这么难，更没想到会直接拉爆硬科技。",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2116153929537138940",
-      "url": "https://x.com/wr0789/status/2116153929537138940",
-      "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 13:03:07 GMT",
-      "title_excerpt": "无论如何还是会跟你们说晚安💤 期待11月的反弹行情！",
-      "description_excerpt": "无论如何还是会跟你们说晚安💤 期待11月的反弹行情！",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2116120939322880224",
-      "url": "https://x.com/wr0789/status/2116120939322880224",
-      "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 10:52:02 GMT",
-      "title_excerpt": "R to @wr0789: Image",
-      "description_excerpt": "",
-      "reply_to_handle": "wr0789",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2115955039663726798",
-      "url": "https://x.com/wr0789/status/2115955039663726798",
-      "date": "2026-10-30",
-      "published": "Thu, 29 Oct 2026 23:52:48 GMT",
-      "title_excerpt": "中国人寿保险炒股亏了2千2百亿 中国平安亏了800亿。 所以……",
-      "description_excerpt": "中国人寿保险炒股亏了2千2百亿 中国平安亏了800亿。 所以……",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",

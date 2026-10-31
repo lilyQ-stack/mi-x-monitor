@@ -5,6 +5,58 @@
   "complete": false,
   "items": [
     {
+      "id": "2116493882309648803",
+      "url": "https://x.com/wr0789/status/2116493882309648803",
+      "date": "2026-10-31",
+      "published": "Sat, 31 Oct 2026 11:33:58 GMT",
+      "title_excerpt": "晚安💤",
+      "description_excerpt": "晚安💤",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2116451033966952893",
+      "url": "https://x.com/wr0789/status/2116451033966952893",
+      "date": "2026-10-31",
+      "published": "Sat, 31 Oct 2026 08:43:42 GMT",
+      "title_excerpt": "Video",
+      "description_excerpt": "Video",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2116433341201445315",
+      "url": "https://x.com/wr0789/status/2116433341201445315",
+      "date": "2026-10-31",
+      "published": "Sat, 31 Oct 2026 07:33:24 GMT",
+      "title_excerpt": "【建立交易体系是成为一个成熟交易者的必要条件】 真正成熟的交易者，并不是从不犯错，而是拥有一套应对错误的能力和机制。 交易市场充满不确定性，没有人能够做到每一次判断都正确，也没有任何一套交易体系能够保证百分之百的胜率。真正拉开交易者之间差距的，从来不是谁犯的错误更少，而是谁在犯错",
+      "description_excerpt": "【建立交易体系是成为一个成熟交易者的必要条件】 真正成熟的交易者，并不是从不犯错，而是拥有一套应对错误的能力和机制。 交易市场充满不确定性，没有人能够做到每一次判断都正确，也没有任何一套交易体系能够保证百分之百的胜率。真正拉开交易者之间差距的，从来不是谁犯的错误更少，而是谁在犯错之后，能够更冷静、更理性地处理问题。 没有交易体系的人，犯错之后往往容易陷入情绪：不愿止损、急于回本、不断加仓，甚至为了证明自己是对的而违背原有的交易逻辑。 而有交易体系的人，早已接受错误是交易的一部",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2116410591351021726",
+      "url": "https://x.com/wr0789/status/2116410591351021726",
+      "date": "2026-10-31",
+      "published": "Sat, 31 Oct 2026 06:03:00 GMT",
+      "title_excerpt": "现在市场压得有多狠，未来B浪反弹的弹性就有可能有多大。 从波浪运行和市场筹码结构来看，一轮深度调整的意义，不仅仅是价格下跌，更重要的是完成筹码交换和市场情绪的重新洗牌。下跌过程中，随着恐慌情绪不断蔓延，杠杆资金被迫出局，短线投机筹码止损离场，缺乏信心的持仓者不断割肉，市场的浮动筹",
+      "description_excerpt": "现在市场压得有多狠，未来B浪反弹的弹性就有可能有多大。 从波浪运行和市场筹码结构来看，一轮深度调整的意义，不仅仅是价格下跌，更重要的是完成筹码交换和市场情绪的重新洗牌。下跌过程中，随着恐慌情绪不断蔓延，杠杆资金被迫出局，短线投机筹码止损离场，缺乏信心的持仓者不断割肉，市场的浮动筹码也会逐步得到释放。 换句话说，当前调整越充分，恐慌盘、止损盘和不坚定筹码出清得越彻底，后续反弹所面临的抛压就可能越小。一旦市场情绪触底、买盘重新介入，价格就有机会形成较强的修复性反弹。 这也是为什么",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
       "id": "2116395647666663514",
       "url": "https://x.com/wr0789/status/2116395647666663514",
       "date": "2026-10-31",
@@ -252,8 +304,8 @@
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
@@ -261,5 +313,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 0
+  "retained_previous": 18
 }
