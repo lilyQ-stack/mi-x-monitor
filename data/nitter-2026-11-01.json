@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-01",
+  "account": "wr0789",
+  "status": "partial",
+  "complete": false,
+  "items": [],
+  "sources": {
+    "nitter.jaydenha.uk/tweets": {
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
+    },
+    "nitter.jaydenha.uk/with_replies": {
+      "status": "ok",
+      "items": 26,
+      "attributed_by_link": 26
+    },
+    "nitter.meowing.monster/tweets": {
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
+    },
+    "nitter.meowing.monster/with_replies": {
+      "status": "error",
+      "type": "ParseError",
+      "message": "syntax error: line 1, column 0"
+    }
+  },
+  "retained_previous": 0
+}
