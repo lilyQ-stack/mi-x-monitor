@@ -501,19 +501,19 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "ok",
-      "items": 26,
-      "attributed_by_link": 26
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "items": 21,
+      "attributed_by_link": 21
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
@@ -521,5 +521,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 22
+  "retained_previous": 38
 }
