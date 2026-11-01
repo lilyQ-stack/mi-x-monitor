@@ -506,9 +506,9 @@
       "attributed_by_link": 19
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "items": 23,
+      "attributed_by_link": 23
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
