@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-11-01T18:57:10.298267+00:00",
+  "checked_at": "2026-11-01T23:37:00.570991+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 429: Too Many Requests"
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 23,
-      "attributed_by_link": 23
+      "items": 22,
+      "attributed_by_link": 22
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -26,6 +26,149 @@
     }
   },
   "items": [
+    {
+      "id": "2117029926234951916",
+      "url": "https://x.com/wr0789/status/2117029926234951916",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 23:04:01 GMT",
+      "title_excerpt": "R to @zhzh519500: 早啊。猪猪",
+      "description_excerpt": "早啊。猪猪",
+      "reply_to_handle": "zhzh519500",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117029884228985035",
+      "url": "https://x.com/wr0789/status/2117029884228985035",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 23:03:51 GMT",
+      "title_excerpt": "R to @Realman12399076: 大一",
+      "description_excerpt": "大一",
+      "reply_to_handle": "Realman12399076",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117029850326368628",
+      "url": "https://x.com/wr0789/status/2117029850326368628",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 23:03:43 GMT",
+      "title_excerpt": "R to @BillliPiG: 早",
+      "description_excerpt": "早",
+      "reply_to_handle": "BillliPiG",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117029833444311149",
+      "url": "https://x.com/wr0789/status/2117029833444311149",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 23:03:39 GMT",
+      "title_excerpt": "R to @zjxhbjn520: 早",
+      "description_excerpt": "早",
+      "reply_to_handle": "zjxhbjn520",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117029790721184189",
+      "url": "https://x.com/wr0789/status/2117029790721184189",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 23:03:29 GMT",
+      "title_excerpt": "【家庭版低温烤牛肉（Roast Beef）制作方法】 这是我家经常做的一道菜——低温烤牛肉（Roast Beef）。作法比较简单，今天把制作方法和我家一直在用的酱汁配方整理出来，分享给大家。 一、牛肉的准备与腌制 首先，买一块牛腿肉，纯瘦肉或者带雪花纹理的牛肉都可以。 其实不必担",
+      "description_excerpt": "【家庭版低温烤牛肉（Roast Beef）制作方法】 这是我家经常做的一道菜——低温烤牛肉（Roast Beef）。作法比较简单，今天把制作方法和我家一直在用的酱汁配方整理出来，分享给大家。 一、牛肉的准备与腌制 首先，买一块牛腿肉，纯瘦肉或者带雪花纹理的牛肉都可以。 其实不必担心纯瘦肉做出来会又硬又柴。采用低温烤制的方法，只要控制好温度和熟度，同样可以做出比较柔嫩的口感。 买回来的牛肉，先用厨房纸充分吸干表面的血水。 在牛肉表面均匀涂抹足量的盐、黑胡椒和蒜蓉。 静置30分钟",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117020748175012217",
+      "url": "https://x.com/wr0789/status/2117020748175012217",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 22:27:33 GMT",
+      "title_excerpt": "R to @qwer7386: 大一",
+      "description_excerpt": "大一",
+      "reply_to_handle": "qwer7386",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117018448727507240",
+      "url": "https://x.com/wr0789/status/2117018448727507240",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 22:18:25 GMT",
+      "title_excerpt": "R to @jia_ji52074: 探底回升。本周看多。",
+      "description_excerpt": "探底回升。本周看多。",
+      "reply_to_handle": "jia_ji52074",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117018263012167717",
+      "url": "https://x.com/wr0789/status/2117018263012167717",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 22:17:40 GMT",
+      "title_excerpt": "R to @daaiyingkongtao: 早",
+      "description_excerpt": "早",
+      "reply_to_handle": "daaiyingkongtao",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117011935766163529",
+      "url": "https://x.com/wr0789/status/2117011935766163529",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 21:52:32 GMT",
+      "title_excerpt": "R to @peakventS: 早啊",
+      "description_excerpt": "早啊",
+      "reply_to_handle": "peakventS",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117010910510526787",
+      "url": "https://x.com/wr0789/status/2117010910510526787",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 21:48:27 GMT",
+      "title_excerpt": "R to @ChowRRYY: 早安",
+      "description_excerpt": "早安",
+      "reply_to_handle": "ChowRRYY",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2117009978095702390",
+      "url": "https://x.com/wr0789/status/2117009978095702390",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 21:44:45 GMT",
+      "title_excerpt": "【顶部空仓的才是祖师爷】 空仓的时机非常重要。真正有价值的空仓，并不是等到市场跌至底部、亏损之后被迫离场，那叫割肉；而是在一个上涨波段接近尾声、市场处于顶部区域时，及时识别趋势衰竭并主动离场，这才叫逃顶。 核心逻辑在于：割肉是下跌后的被动止损，逃顶是上涨末端的主动避险。 前者是为",
+      "description_excerpt": "【顶部空仓的才是祖师爷】 空仓的时机非常重要。真正有价值的空仓，并不是等到市场跌至底部、亏损之后被迫离场，那叫割肉；而是在一个上涨波段接近尾声、市场处于顶部区域时，及时识别趋势衰竭并主动离场，这才叫逃顶。 核心逻辑在于：割肉是下跌后的被动止损，逃顶是上涨末端的主动避险。 前者是为错误买单，后者是为了守住利润、规避即将到来的下跌风险。 空仓不是目的，关键在于空在正确的时间节点。 Mistery (@wr0789) 【新老股民多多体会，这是精髓】 【会空仓的人，才是真正的市场高手",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
     {
       "id": "2116864407036936368",
       "url": "https://x.com/wr0789/status/2116864407036936368",
@@ -144,71 +287,6 @@
       "source": "nitter.jaydenha.uk"
     },
     {
-      "id": "2116828491891261795",
-      "url": "https://x.com/wr0789/status/2116828491891261795",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 09:43:35 GMT",
-      "title_excerpt": "R to @jilk99734061: 嗯嗯",
-      "description_excerpt": "嗯嗯",
-      "reply_to_handle": "jilk99734061",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116828466788405657",
-      "url": "https://x.com/wr0789/status/2116828466788405657",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 09:43:29 GMT",
-      "title_excerpt": "R to @jayshenx: 对，所以大部分人亏损",
-      "description_excerpt": "对，所以大部分人亏损",
-      "reply_to_handle": "jayshenx",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116828316389032063",
-      "url": "https://x.com/wr0789/status/2116828316389032063",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 09:42:54 GMT",
-      "title_excerpt": "R to @plshyplsxy: 这不就是沪深300么",
-      "description_excerpt": "这不就是沪深300么",
-      "reply_to_handle": "plshyplsxy",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116822847150792811",
-      "url": "https://x.com/wr0789/status/2116822847150792811",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 09:21:10 GMT",
-      "title_excerpt": "R to @Li0dx9: 隔夜逆回购就是增加短期流动性和调节短期利率，国际上很多大国都在使用，这是一个政策性的利好。多关注。",
-      "description_excerpt": "隔夜逆回购就是增加短期流动性和调节短期利率，国际上很多大国都在使用，这是一个政策性的利好。多关注。",
-      "reply_to_handle": "Li0dx9",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116822258832515107",
-      "url": "https://x.com/wr0789/status/2116822258832515107",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 09:18:49 GMT",
-      "title_excerpt": "R to @yonggandexiaoxi: 这你就不懂了。",
-      "description_excerpt": "这你就不懂了。",
-      "reply_to_handle": "yonggandexiaoxi",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
       "id": "2116821549085065591",
       "url": "https://x.com/wr0789/status/2116821549085065591",
       "date": "2026-11-01",
@@ -218,71 +296,6 @@
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116820471060779236",
-      "url": "https://x.com/wr0789/status/2116820471060779236",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 09:11:43 GMT",
-      "title_excerpt": "R to @MERCURY0532: 大概是的",
-      "description_excerpt": "大概是的",
-      "reply_to_handle": "MERCURY0532",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116798761087418569",
-      "url": "https://x.com/wr0789/status/2116798761087418569",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 07:45:27 GMT",
-      "title_excerpt": "R to @hihihiwd65: 那短期会出一个政策底，反弹后也许还会有一次市场底。 不排除周线双底。",
-      "description_excerpt": "那短期会出一个政策底，反弹后也许还会有一次市场底。 不排除周线双底。",
-      "reply_to_handle": "hihihiwd65",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116794339783537116",
-      "url": "https://x.com/wr0789/status/2116794339783537116",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 07:27:53 GMT",
-      "title_excerpt": "R to @echo14991: 所以置顶的帖子，以及技术面的交易细节都值得反复斟酌。",
-      "description_excerpt": "所以置顶的帖子，以及技术面的交易细节都值得反复斟酌。",
-      "reply_to_handle": "echo14991",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116790591778587040",
-      "url": "https://x.com/wr0789/status/2116790591778587040",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 07:12:59 GMT",
-      "title_excerpt": "R to @samhuitl: 每次熊市都这样说",
-      "description_excerpt": "每次熊市都这样说",
-      "reply_to_handle": "samhuitl",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116790483137732740",
-      "url": "https://x.com/wr0789/status/2116790483137732740",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 07:12:33 GMT",
-      "title_excerpt": "R to @weilian810: ？你在说什么？趋势一旦形成短期之内无法靠外力扭转，因为筹码结构也已经发生了转移。是需要用时间和空间完成再次蓄力。所以，结构走势必然完美。",
-      "description_excerpt": "？你在说什么？趋势一旦形成短期之内无法靠外力扭转，因为筹码结构也已经发生了转移。是需要用时间和空间完成再次蓄力。所以，结构走势必然完美。",
-      "reply_to_handle": "weilian810",
-      "space_url": null,
-      "kind": "reply",
       "verified_link_author": true,
       "source": "nitter.jaydenha.uk"
     },
@@ -297,7 +310,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116736644728357180",
@@ -310,7 +323,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116735474056446165",
@@ -323,7 +336,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116733414812631223",
@@ -336,7 +349,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116699190147625277",
@@ -349,7 +362,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116677222899794176",
@@ -375,7 +388,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116666977418969412",
@@ -388,7 +401,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116665731836494266",
@@ -401,7 +414,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116656467000615247",
@@ -414,7 +427,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116626031314645298",
@@ -427,7 +440,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116493882309648803",
@@ -440,7 +453,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116451033966952893",
@@ -453,7 +466,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2116433341201445315",
@@ -466,33 +479,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116410591351021726",
-      "url": "https://x.com/wr0789/status/2116410591351021726",
-      "date": "2026-10-31",
-      "published": "Sat, 31 Oct 2026 06:03:00 GMT",
-      "title_excerpt": "现在市场压得有多狠，未来B浪反弹的弹性就有可能有多大。 从波浪运行和市场筹码结构来看，一轮深度调整的意义，不仅仅是价格下跌，更重要的是完成筹码交换和市场情绪的重新洗牌。下跌过程中，随着恐慌情绪不断蔓延，杠杆资金被迫出局，短线投机筹码止损离场，缺乏信心的持仓者不断割肉，市场的浮动筹",
-      "description_excerpt": "现在市场压得有多狠，未来B浪反弹的弹性就有可能有多大。 从波浪运行和市场筹码结构来看，一轮深度调整的意义，不仅仅是价格下跌，更重要的是完成筹码交换和市场情绪的重新洗牌。下跌过程中，随着恐慌情绪不断蔓延，杠杆资金被迫出局，短线投机筹码止损离场，缺乏信心的持仓者不断割肉，市场的浮动筹码也会逐步得到释放。 换句话说，当前调整越充分，恐慌盘、止损盘和不坚定筹码出清得越彻底，后续反弹所面临的抛压就可能越小。一旦市场情绪触底、买盘重新介入，价格就有机会形成较强的修复性反弹。 这也是为什么",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2116395647666663514",
-      "url": "https://x.com/wr0789/status/2116395647666663514",
-      "date": "2026-10-31",
-      "published": "Sat, 31 Oct 2026 05:03:37 GMT",
-      "title_excerpt": "记住你们现在不相信会有强反弹的情绪，就跟你们7月不相信硬科技会跌是一样的。",
-      "description_excerpt": "记住你们现在不相信会有强反弹的情绪，就跟你们7月不相信硬科技会跌是一样的。",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     }
   ],
   "message": "Recent RSS window only; posts/replies may be missing. No posts must not be interpreted as no activity."
