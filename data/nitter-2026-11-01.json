@@ -416,13 +416,13 @@
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 22,
-      "attributed_by_link": 22
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
