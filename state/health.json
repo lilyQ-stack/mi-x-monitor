@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-02T15:57:34.460122+00:00",
+  "checked_at": "2026-11-02T23:32:04.232517+00:00",
   "status": "warning",
   "alerts": [
     "SINGLE_SOURCE: only one of the feeds returned attributable items",
     "REPLIES_FEED_DOWN: no successful reply feed"
   ],
-  "verified_items": 16,
+  "verified_items": 15,
   "source_successes": 1,
   "age_hours": 0.0,
-  "today_saved_count": 46
+  "today_saved_count": 1
 }

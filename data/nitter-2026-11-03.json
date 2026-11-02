@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-03",
+  "account": "wr0789",
+  "status": "partial",
+  "complete": false,
+  "items": [
+    {
+      "id": "2117370932625031497",
+      "url": "https://x.com/wr0789/status/2117370932625031497",
+      "date": "2026-11-03",
+      "published": "Mon, 02 Nov 2026 21:39:03 GMT",
+      "title_excerpt": "10/26就给了重点关注的方向。简单明了。 轮动拉升，震荡行情中，不要只看1-2天。 追涨我是不追的，我只会低吸。",
+      "description_excerpt": "10/26就给了重点关注的方向。简单明了。 轮动拉升，震荡行情中，不要只看1-2天。 追涨我是不追的，我只会低吸。 Mistery (@wr0789) 4季度波段反弹重点关注机器人相关产业链，以及以软件服务为核心的 AI 应用方向。 — http://nitter.meowing.monster/wr0789/status/2114662566148587904#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    }
+  ],
+  "sources": {
+    "nitter.jaydenha.uk/tweets": {
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "nitter.jaydenha.uk/with_replies": {
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "nitter.meowing.monster/tweets": {
+      "status": "ok",
+      "items": 15,
+      "attributed_by_link": 15
+    },
+    "nitter.meowing.monster/with_replies": {
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 500: Internal Server Error"
+    }
+  },
+  "retained_previous": 0
+}

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T15:57:31.971881+00:00",
+  "checked_at": "2026-11-02T23:32:01.579468+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
@@ -16,16 +16,29 @@
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 16,
-      "attributed_by_link": 16
+      "items": 15,
+      "attributed_by_link": 15
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
-      "type": "ParseError",
-      "message": "syntax error: line 1, column 0"
+      "type": "HTTPError",
+      "message": "HTTP Error 500: Internal Server Error"
     }
   },
   "items": [
+    {
+      "id": "2117370932625031497",
+      "url": "https://x.com/wr0789/status/2117370932625031497",
+      "date": "2026-11-03",
+      "published": "Mon, 02 Nov 2026 21:39:03 GMT",
+      "title_excerpt": "10/26就给了重点关注的方向。简单明了。 轮动拉升，震荡行情中，不要只看1-2天。 追涨我是不追的，我只会低吸。",
+      "description_excerpt": "10/26就给了重点关注的方向。简单明了。 轮动拉升，震荡行情中，不要只看1-2天。 追涨我是不追的，我只会低吸。 Mistery (@wr0789) 4季度波段反弹重点关注机器人相关产业链，以及以软件服务为核心的 AI 应用方向。 — http://nitter.meowing.monster/wr0789/status/2114662566148587904#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
     {
       "id": "2117245329657721065",
       "url": "https://x.com/wr0789/status/2117245329657721065",
@@ -202,32 +215,6 @@
       "published": "Mon, 02 Nov 2026 05:35:13 GMT",
       "title_excerpt": "周末这段语音把后期反弹节奏都聊到了。硬科技三傻怎么走，自己去听。",
       "description_excerpt": "周末这段语音把后期反弹节奏都聊到了。硬科技三傻怎么走，自己去听。 Mistery (@wr0789) nitter.mizuki.st/i/spaces/1XyJEEvejdRnd… Link Twitter Space Click to view Space http://nitter.meowing.monster/i/spaces/1XyJEEvejdRndj — http://nitter.meowing.monster/wr0789/status/211636240",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2117120634417480036",
-      "url": "https://x.com/wr0789/status/2117120634417480036",
-      "date": "2026-11-02",
-      "published": "Mon, 02 Nov 2026 05:04:28 GMT",
-      "title_excerpt": "R to @wr0789: 雌竞市场里拼谁年轻漂亮是因为她们觉得自己的“逼”有价值！ 而交易市场拼的是“脑子和执行力”，实战经验与人性认知。",
-      "description_excerpt": "雌竞市场里拼谁年轻漂亮是因为她们觉得自己的“逼”有价值！ 而交易市场拼的是“脑子和执行力”，实战经验与人性认知。",
-      "reply_to_handle": "wr0789",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2117108870246256722",
-      "url": "https://x.com/wr0789/status/2117108870246256722",
-      "date": "2026-11-02",
-      "published": "Mon, 02 Nov 2026 04:17:43 GMT",
-      "title_excerpt": "2-30岁的小孩能有多少实战经验和人性认知？自己的毛还没涨长呢！",
-      "description_excerpt": "2-30岁的小孩能有多少实战经验和人性认知？自己的毛还没涨长呢！ 吃兔子的大灰狼 (@Realman12399076) 真好，解放了。我一直以为你应该30左右的人呢。哈哈 — http://nitter.meowing.monster/Realman12399076/status/2117085500528107588#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
