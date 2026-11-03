@@ -605,24 +605,24 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "items": 23,
+      "attributed_by_link": 23
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 15,
-      "attributed_by_link": 15
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 500: Internal Server Error"
+      "type": "ParseError",
+      "message": "syntax error: line 1, column 0"
     }
   },
   "retained_previous": 46
