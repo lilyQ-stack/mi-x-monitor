@@ -3,7 +3,34 @@
   "account": "wr0789",
   "status": "partial",
   "complete": false,
-  "items": [],
+  "items": [
+    {
+      "id": "2118122456649216431",
+      "url": "https://x.com/wr0789/status/2118122456649216431",
+      "date": "2026-11-05",
+      "published": "Wed, 04 Nov 2026 23:25:21 GMT",
+      "title_excerpt": "【关于恒科】 10/22提到了恒科强支撑3744 10/29收盘价格3744 10/30盘中假破，收盘高于3744 随后底部温和放量，期待短期突破3985压力，开启一波震荡向上的趋势性反弹。",
+      "description_excerpt": "【关于恒科】 10/22提到了恒科强支撑3744 10/29收盘价格3744 10/30盘中假破，收盘高于3744 随后底部温和放量，期待短期突破3985压力，开启一波震荡向上的趋势性反弹。 Mistery (@wr0789) 3744之上支撑 — http://nitter.meowing.monster/wr0789/status/2113095026658148605#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2118110615109865753",
+      "url": "https://x.com/wr0789/status/2118110615109865753",
+      "date": "2026-11-05",
+      "published": "Wed, 04 Nov 2026 22:38:17 GMT",
+      "title_excerpt": "昨天市场午后出现大幅反弹，尤其是以双创为代表的硬科技方向，反弹力度最为突出。 这其实很像弹簧效应：前期受到的压制越强，积蓄的反弹动能就越大，压得越深，反弹起来也就越猛烈。但需要明确的是，反弹的力度，并不等于趋势的强度。 很多时候，急速反弹只是前期超跌、情绪修复和资金回流共同作用下",
+      "description_excerpt": "昨天市场午后出现大幅反弹，尤其是以双创为代表的硬科技方向，反弹力度最为突出。 这其实很像弹簧效应：前期受到的压制越强，积蓄的反弹动能就越大，压得越深，反弹起来也就越猛烈。但需要明确的是，反弹的力度，并不等于趋势的强度。 很多时候，急速反弹只是前期超跌、情绪修复和资金回流共同作用下的结果，本质上属于对前期下跌的一种修复。 反过来看，真正处于中长期上行趋势中的方向，短期反弹未必最为耀眼。因为它们此前并没有经历过大幅下跌，也没有积累过度的超跌动能，自然不需要通过剧烈反弹来完成修复。",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    }
+  ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
       "status": "error",

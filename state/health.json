@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T16:20:43.261597+00:00",
+  "checked_at": "2026-11-04T23:40:53.665736+00:00",
   "status": "warning",
   "alerts": [
     "SINGLE_SOURCE: only one of the feeds returned attributable items",
@@ -8,5 +8,5 @@
   "verified_items": 20,
   "source_successes": 1,
   "age_hours": 0.0,
-  "today_saved_count": 0
+  "today_saved_count": 2
 }
