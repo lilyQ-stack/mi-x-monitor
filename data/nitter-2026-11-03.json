@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "account": "wr0789",
-  "status": "no_verified_items",
+  "status": "partial",
   "complete": false,
   "items": [
     {
@@ -446,9 +446,9 @@
       "message": "HTTP Error 403: Forbidden"
     },
     "nitter.meowing.monster/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 502: Bad Gateway"
+      "status": "ok",
+      "items": 19,
+      "attributed_by_link": 19
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
