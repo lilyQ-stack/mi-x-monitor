@@ -5,6 +5,71 @@
   "complete": false,
   "items": [
     {
+      "id": "2118263095072379081",
+      "url": "https://x.com/wr0789/status/2118263095072379081",
+      "date": "2026-11-05",
+      "published": "Thu, 05 Nov 2026 08:44:11 GMT",
+      "title_excerpt": "科创和创业的B反压力位在这条推里。 我准备休息几天，不更新了。你们自己玩！",
+      "description_excerpt": "科创和创业的B反压力位在这条推里。 我准备休息几天，不更新了。你们自己玩！ Mistery (@wr0789) 由于科创板可供参考的历史走势数据相对有限，因此可以借鉴过去创业板月线级别的历史走势，作为分析当前市场周期的参考。 回顾创业板历次牛市见顶后的调整过程，可以发现，大级别下跌往往会经历ABC三浪调整结构。 从目前的时间和空间来看，A浪下杀或许已经基本完成，当前更像是一个反复磨底、消耗耐心、逼迫投资者离场的过程。 如果这一判断成立，那么后续仍有望迎来一轮B浪反弹，时间窗口",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2118254909820907785",
+      "url": "https://x.com/wr0789/status/2118254909820907785",
+      "date": "2026-11-05",
+      "published": "Thu, 05 Nov 2026 08:11:40 GMT",
+      "title_excerpt": "10/26，最后一次提示🔔",
+      "description_excerpt": "10/26，最后一次提示🔔 Mistery (@wr0789) 4季度波段反弹重点关注机器人相关产业链，以及以软件服务为核心的 AI 应用方向。 — http://nitter.meowing.monster/wr0789/status/2114662566148587904#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2118237398622753154",
+      "url": "https://x.com/wr0789/status/2118237398622753154",
+      "date": "2026-11-05",
+      "published": "Thu, 05 Nov 2026 07:02:05 GMT",
+      "title_excerpt": "在外面呢。不直播。以后也不会每天直播，反弹浪开启不会每天频繁交易的。 左侧低吸的你们也没必要频繁交易。波段高低点做好就可以了。 后面个股会轮动分化，节奏需要自己把握。",
+      "description_excerpt": "在外面呢。不直播。以后也不会每天直播，反弹浪开启不会每天频繁交易的。 左侧低吸的你们也没必要频繁交易。波段高低点做好就可以了。 后面个股会轮动分化，节奏需要自己把握。",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2118236751047405614",
+      "url": "https://x.com/wr0789/status/2118236751047405614",
+      "date": "2026-11-05",
+      "published": "Thu, 05 Nov 2026 06:59:31 GMT",
+      "title_excerpt": "R to @wr0789: 【留作业去自学】底部多方炮形态，中间不一定要小阴线，小阳也可以说明进攻态势更强。但量能必须要缩。",
+      "description_excerpt": "【留作业去自学】底部多方炮形态，中间不一定要小阴线，小阳也可以说明进攻态势更强。但量能必须要缩。",
+      "reply_to_handle": "wr0789",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2118233290427732327",
+      "url": "https://x.com/wr0789/status/2118233290427732327",
+      "date": "2026-11-05",
+      "published": "Thu, 05 Nov 2026 06:45:45 GMT",
+      "title_excerpt": "大盘从早上5000多亿缩量到900多亿了，好事哦。",
+      "description_excerpt": "大盘从早上5000多亿缩量到900多亿了，好事哦。",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
       "id": "2118228487182119056",
       "url": "https://x.com/wr0789/status/2118228487182119056",
       "date": "2026-11-05",
@@ -304,8 +369,8 @@
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "items": 19,
+      "attributed_by_link": 19
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
@@ -313,5 +378,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 2
+  "retained_previous": 22
 }
