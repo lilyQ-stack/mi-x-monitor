@@ -5,6 +5,19 @@
   "complete": false,
   "items": [
     {
+      "id": "2118990273560875325",
+      "url": "https://x.com/wr0789/status/2118990273560875325",
+      "date": "2026-11-07",
+      "published": "Sat, 07 Nov 2026 08:53:44 GMT",
+      "title_excerpt": "R to @wr0789: 听过我语音的你们心里都有数的。",
+      "description_excerpt": "听过我语音的你们心里都有数的。",
+      "reply_to_handle": "wr0789",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
       "id": "2118973679786999857",
       "url": "https://x.com/wr0789/status/2118973679786999857",
       "date": "2026-11-07",
@@ -131,5 +144,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 3
+  "retained_previous": 8
 }
