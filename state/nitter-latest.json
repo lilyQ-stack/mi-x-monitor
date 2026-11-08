@@ -1,23 +1,23 @@
 {
-  "checked_at": "2026-11-08T09:00:24.415312+00:00",
+  "checked_at": "2026-11-08T16:41:03.664750+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
   "sources": {
     "nitter.jaydenha.uk/tweets": {
       "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "items": 23,
+      "attributed_by_link": 23
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
@@ -26,6 +26,71 @@
     }
   },
   "items": [
+    {
+      "id": "2119403769314312211",
+      "url": "https://x.com/wr0789/status/2119403769314312211",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 12:16:49 GMT",
+      "title_excerpt": "我认为不是。战争本身就是计划中的一环。 战争的经济效应，服务于一套更深层的金融逻辑：制造通胀压力，为持续加息创造政策空间；利用地缘政治风险和市场恐慌，推动全球资本向美国回流，强化美元的避险地位，推高美元汇率及美元资产需求。 随着美元走强，以美元计价的国际债务负担随之加重，尤其是那",
+      "description_excerpt": "我认为不是。战争本身就是计划中的一环。 战争的经济效应，服务于一套更深层的金融逻辑：制造通胀压力，为持续加息创造政策空间；利用地缘政治风险和市场恐慌，推动全球资本向美国回流，强化美元的避险地位，推高美元汇率及美元资产需求。 随着美元走强，以美元计价的国际债务负担随之加重，尤其是那些高度依赖美元融资、外汇储备不足、外债规模庞大的国家，将面临资本外流、汇率贬值、偿债成本上升和流动性枯竭的多重压力。 当这些压力层层传导，部分国家可能陷入债务违约、金融动荡乃至系统性债务危机。而在危机",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119400316986937385",
+      "url": "https://x.com/wr0789/status/2119400316986937385",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 12:03:06 GMT",
+      "title_excerpt": "以史为鉴，美元紧缩、国际资本流动逆转和全球债务风险之间的传导机制的存在。 未来一旦多重风险集中爆发，局部金融动荡就可能演变为全球性金融危机。",
+      "description_excerpt": "以史为鉴，美元紧缩、国际资本流动逆转和全球债务风险之间的传导机制的存在。 未来一旦多重风险集中爆发，局部金融动荡就可能演变为全球性金融危机。 Mistery (@wr0789) 晚安了，看完就睡吧！ 【沃尔克冲击（1979—1982年）】 沃尔克冲击是美国美联储主席保罗·沃尔克为控制严重通货膨胀而实施的激进货币紧缩政策，也是20世纪影响全球金融秩序的重要事件。 一、政策背景 1970年代，美国陷入滞胀： 越南战争和财政支出增加。 1973年、1979年两次石油危机推高物价。 ",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119395883955761418",
+      "url": "https://x.com/wr0789/status/2119395883955761418",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 11:45:29 GMT",
+      "title_excerpt": "R to @yybb8918: 没有变化，都是局中局，战争就是为了控制通涨的手段。",
+      "description_excerpt": "没有变化，都是局中局，战争就是为了控制通涨的手段。",
+      "reply_to_handle": "yybb8918",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119395677008728143",
+      "url": "https://x.com/wr0789/status/2119395677008728143",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 11:44:40 GMT",
+      "title_excerpt": "晚安了，看完就睡吧！ 【沃尔克冲击（1979—1982年）】 沃尔克冲击是美国美联储主席保罗·沃尔克为控制严重通货膨胀而实施的激进货币紧缩政策，也是20世纪影响全球金融秩序的重要事件。 一、政策背景 1970年代，美国陷入滞胀： 越南战争和财政支出增加。 1973年、1979年两",
+      "description_excerpt": "晚安了，看完就睡吧！ 【沃尔克冲击（1979—1982年）】 沃尔克冲击是美国美联储主席保罗·沃尔克为控制严重通货膨胀而实施的激进货币紧缩政策，也是20世纪影响全球金融秩序的重要事件。 一、政策背景 1970年代，美国陷入滞胀： 越南战争和财政支出增加。 1973年、1979年两次石油危机推高物价。 工资和物价形成持续上涨循环。 1979年美国通胀率超过11%。 美元信誉下降，美国经济面临严重挑战。 二、沃尔克采取的政策 1979年8月，沃尔克出任美联储主席。 1979年10",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119394781700948366",
+      "url": "https://x.com/wr0789/status/2119394781700948366",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 11:41:07 GMT",
+      "title_excerpt": "R to @yybb8918: 你去研究一下“沃尔克冲击”",
+      "description_excerpt": "你去研究一下“沃尔克冲击”",
+      "reply_to_handle": "yybb8918",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
     {
       "id": "2119339810699845692",
       "url": "https://x.com/wr0789/status/2119339810699845692",
@@ -222,58 +287,6 @@
       "source": "nitter.jaydenha.uk"
     },
     {
-      "id": "2119276810500469153",
-      "url": "https://x.com/wr0789/status/2119276810500469153",
-      "date": "2026-11-08",
-      "published": "Sun, 08 Nov 2026 03:52:20 GMT",
-      "title_excerpt": "R to @hihihiwd65: 夜里冷的，5度，但是睡袋里不觉得冷。很喜欢这种在自然界里生活的感觉。感受风雨寒暑。过去里整夜大雨睡不踏实的时候也有很多次。",
-      "description_excerpt": "夜里冷的，5度，但是睡袋里不觉得冷。很喜欢这种在自然界里生活的感觉。感受风雨寒暑。过去里整夜大雨睡不踏实的时候也有很多次。",
-      "reply_to_handle": "hihihiwd65",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119273066241093690",
-      "url": "https://x.com/wr0789/status/2119273066241093690",
-      "date": "2026-11-08",
-      "published": "Sun, 08 Nov 2026 03:37:27 GMT",
-      "title_excerpt": "R to @Zj199602: 哈哈哈哈哈",
-      "description_excerpt": "哈哈哈哈哈",
-      "reply_to_handle": "Zj199602",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119272946216882431",
-      "url": "https://x.com/wr0789/status/2119272946216882431",
-      "date": "2026-11-08",
-      "published": "Sun, 08 Nov 2026 03:36:59 GMT",
-      "title_excerpt": "R to @nishenxuxingliu: 确实哈",
-      "description_excerpt": "确实哈",
-      "reply_to_handle": "nishenxuxingliu",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119272896493470013",
-      "url": "https://x.com/wr0789/status/2119272896493470013",
-      "date": "2026-11-08",
-      "published": "Sun, 08 Nov 2026 03:36:47 GMT",
-      "title_excerpt": "R to @huashetou: 反正不丑🤣",
-      "description_excerpt": "反正不丑🤣",
-      "reply_to_handle": "huashetou",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
       "id": "2119265561725268179",
       "url": "https://x.com/wr0789/status/2119265561725268179",
       "date": "2026-11-08",
@@ -462,32 +475,6 @@
       "published": "Fri, 06 Nov 2026 08:50:57 GMT",
       "title_excerpt": "【真正的大额收益，是“抱”出来的，而不是频繁交易出来的】 短期市场的涨跌节奏很难把握，今天追涨，明天杀跌，看似每天都有交易机会，实际上很容易陷入频繁试错、反复止损的循环。 真正成熟的交易者，不应该把精力放在预测每天的涨跌上，而应该先学会辨别趋势，找到大方向正确的板块和个股，然后耐",
       "description_excerpt": "【真正的大额收益，是“抱”出来的，而不是频繁交易出来的】 短期市场的涨跌节奏很难把握，今天追涨，明天杀跌，看似每天都有交易机会，实际上很容易陷入频繁试错、反复止损的循环。 真正成熟的交易者，不应该把精力放在预测每天的涨跌上，而应该先学会辨别趋势，找到大方向正确的板块和个股，然后耐心等待趋势带来的复利收益。 先选方向，再选个股；方向正确，持有才有意义。 交易逻辑是：优先选择处于大级别上涨趋势中的板块，再从中筛选基本面扎实、走势强于板块和大盘的个股。 当月线、周线形成向上结构，中",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2118625029219090807",
-      "url": "https://x.com/wr0789/status/2118625029219090807",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 08:42:23 GMT",
-      "title_excerpt": "我慢慢教你们建立交易系统，抽空多学习，多做笔记。减少频繁交易的坏习惯。 券商投顾喜欢让你们频繁交易，做t。因为他们可以收取手续费。 投顾还可以卖课，频繁交易很容易因为日线波动引发大家交易热情和情绪波动。 其实这些对于非专业交易员的上班族来说都是坏习惯。",
-      "description_excerpt": "我慢慢教你们建立交易系统，抽空多学习，多做笔记。减少频繁交易的坏习惯。 券商投顾喜欢让你们频繁交易，做t。因为他们可以收取手续费。 投顾还可以卖课，频繁交易很容易因为日线波动引发大家交易热情和情绪波动。 其实这些对于非专业交易员的上班族来说都是坏习惯。",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2118621719971938751",
-      "url": "https://x.com/wr0789/status/2118621719971938751",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 08:29:14 GMT",
-      "title_excerpt": "【保存版】 【交易体系之趋势，只做大周期上涨的个股】 做股票，首先要解决的不是什么时候买，而是选什么样的股票。 如何穿越牛熊？趋势选择很重要，熊市里也会有大周期上涨趋势的个股。 交易原则很简单：不做下降趋势中的反弹，只做大周期向上的个股。 那么，如何选出真正处于上涨趋势的股票？ ",
-      "description_excerpt": "【保存版】 【交易体系之趋势，只做大周期上涨的个股】 做股票，首先要解决的不是什么时候买，而是选什么样的股票。 如何穿越牛熊？趋势选择很重要，熊市里也会有大周期上涨趋势的个股。 交易原则很简单：不做下降趋势中的反弹，只做大周期向上的个股。 那么，如何选出真正处于上涨趋势的股票？ 一、月线看方向 首先打开月K线，过滤长期下降趋势的个股。 重点关注： 股价站上长期均线。 长期均线由走平转为向上。 月线低点逐步抬高。 股价整体重心持续上移。 月线向上，才有资格进入观察池。 二、周线",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
