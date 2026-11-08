@@ -3,17 +3,70 @@
   "account": "wr0789",
   "status": "partial",
   "complete": false,
-  "items": [],
+  "items": [
+    {
+      "id": "2119545609220952285",
+      "url": "https://x.com/wr0789/status/2119545609220952285",
+      "date": "2026-11-09",
+      "published": "Sun, 08 Nov 2026 21:40:27 GMT",
+      "title_excerpt": "打开《货币战争4》220页",
+      "description_excerpt": "打开《货币战争4》220页 Mistery (@wr0789) 晚安了，看完就睡吧！ 【沃尔克冲击（1979—1982年）】 沃尔克冲击是美国美联储主席保罗·沃尔克为控制严重通货膨胀而实施的激进货币紧缩政策，也是20世纪影响全球金融秩序的重要事件。 一、政策背景 1970年代，美国陷入滞胀： 越南战争和财政支出增加。 1973年、1979年两次石油危机推高物价。 工资和物价形成持续上涨循环。 1979年美国通胀率超过11%。 美元信誉下降，美国经济面临严重挑战。 二、沃尔克采",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2119528334766055557",
+      "url": "https://x.com/wr0789/status/2119528334766055557",
+      "date": "2026-11-09",
+      "published": "Sun, 08 Nov 2026 20:31:48 GMT",
+      "title_excerpt": "R to @huancheng521sky: 加油",
+      "description_excerpt": "加油",
+      "reply_to_handle": "huancheng521sky",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119528287399788799",
+      "url": "https://x.com/wr0789/status/2119528287399788799",
+      "date": "2026-11-09",
+      "published": "Sun, 08 Nov 2026 20:31:37 GMT",
+      "title_excerpt": "R to @MrXiachina: 表面上是，理论上还要看筹码结构，流动性。",
+      "description_excerpt": "表面上是，理论上还要看筹码结构，流动性。",
+      "reply_to_handle": "MrXiachina",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119527962039226663",
+      "url": "https://x.com/wr0789/status/2119527962039226663",
+      "date": "2026-11-09",
+      "published": "Sun, 08 Nov 2026 20:30:19 GMT",
+      "title_excerpt": "【早安早课】 资本的本质是逐利，资本的天性是趋利避害。利益驱动它向外扩张，风险意识促使它选择性退守。当开拓的收益不再高于守成的回报，当既得利益足以支撑现有格局，资本便会从激进转向保守，从扩张转向偏安。它既是变革的推动者，也可能成为变革的阻力。资本从不真正关心前方是星辰大海，还是故",
+      "description_excerpt": "【早安早课】 资本的本质是逐利，资本的天性是趋利避害。利益驱动它向外扩张，风险意识促使它选择性退守。当开拓的收益不再高于守成的回报，当既得利益足以支撑现有格局，资本便会从激进转向保守，从扩张转向偏安。它既是变革的推动者，也可能成为变革的阻力。资本从不真正关心前方是星辰大海，还是故土围城，它只关心哪里有利润，哪里有安全，哪里能让利益持续最大化。 因此，做交易，重要的是逆人性，顺资本性。 所谓逆人性，是克服贪婪、恐惧、侥幸与从众心理，不被短期涨跌牵动情绪，不因一时浮盈而盲目乐观，",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    }
+  ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 429: Too Many Requests"
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 23,
-      "attributed_by_link": 23
+      "items": 25,
+      "attributed_by_link": 25
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",

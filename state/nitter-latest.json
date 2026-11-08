@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-11-08T16:41:03.664750+00:00",
+  "checked_at": "2026-11-08T22:07:34.033790+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 429: Too Many Requests"
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 23,
-      "attributed_by_link": 23
+      "items": 25,
+      "attributed_by_link": 25
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -26,6 +26,58 @@
     }
   },
   "items": [
+    {
+      "id": "2119545609220952285",
+      "url": "https://x.com/wr0789/status/2119545609220952285",
+      "date": "2026-11-09",
+      "published": "Sun, 08 Nov 2026 21:40:27 GMT",
+      "title_excerpt": "打开《货币战争4》220页",
+      "description_excerpt": "打开《货币战争4》220页 Mistery (@wr0789) 晚安了，看完就睡吧！ 【沃尔克冲击（1979—1982年）】 沃尔克冲击是美国美联储主席保罗·沃尔克为控制严重通货膨胀而实施的激进货币紧缩政策，也是20世纪影响全球金融秩序的重要事件。 一、政策背景 1970年代，美国陷入滞胀： 越南战争和财政支出增加。 1973年、1979年两次石油危机推高物价。 工资和物价形成持续上涨循环。 1979年美国通胀率超过11%。 美元信誉下降，美国经济面临严重挑战。 二、沃尔克采",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2119528334766055557",
+      "url": "https://x.com/wr0789/status/2119528334766055557",
+      "date": "2026-11-09",
+      "published": "Sun, 08 Nov 2026 20:31:48 GMT",
+      "title_excerpt": "R to @huancheng521sky: 加油",
+      "description_excerpt": "加油",
+      "reply_to_handle": "huancheng521sky",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119528287399788799",
+      "url": "https://x.com/wr0789/status/2119528287399788799",
+      "date": "2026-11-09",
+      "published": "Sun, 08 Nov 2026 20:31:37 GMT",
+      "title_excerpt": "R to @MrXiachina: 表面上是，理论上还要看筹码结构，流动性。",
+      "description_excerpt": "表面上是，理论上还要看筹码结构，流动性。",
+      "reply_to_handle": "MrXiachina",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119527962039226663",
+      "url": "https://x.com/wr0789/status/2119527962039226663",
+      "date": "2026-11-09",
+      "published": "Sun, 08 Nov 2026 20:30:19 GMT",
+      "title_excerpt": "【早安早课】 资本的本质是逐利，资本的天性是趋利避害。利益驱动它向外扩张，风险意识促使它选择性退守。当开拓的收益不再高于守成的回报，当既得利益足以支撑现有格局，资本便会从激进转向保守，从扩张转向偏安。它既是变革的推动者，也可能成为变革的阻力。资本从不真正关心前方是星辰大海，还是故",
+      "description_excerpt": "【早安早课】 资本的本质是逐利，资本的天性是趋利避害。利益驱动它向外扩张，风险意识促使它选择性退守。当开拓的收益不再高于守成的回报，当既得利益足以支撑现有格局，资本便会从激进转向保守，从扩张转向偏安。它既是变革的推动者，也可能成为变革的阻力。资本从不真正关心前方是星辰大海，还是故土围城，它只关心哪里有利润，哪里有安全，哪里能让利益持续最大化。 因此，做交易，重要的是逆人性，顺资本性。 所谓逆人性，是克服贪婪、恐惧、侥幸与从众心理，不被短期涨跌牵动情绪，不因一时浮盈而盲目乐观，",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
     {
       "id": "2119403769314312211",
       "url": "https://x.com/wr0789/status/2119403769314312211",
@@ -248,19 +300,6 @@
       "source": "nitter.jaydenha.uk"
     },
     {
-      "id": "2119287790722756983",
-      "url": "https://x.com/wr0789/status/2119287790722756983",
-      "date": "2026-11-08",
-      "published": "Sun, 08 Nov 2026 04:35:58 GMT",
-      "title_excerpt": "R to @twohoping: 收的",
-      "description_excerpt": "收的",
-      "reply_to_handle": "twohoping",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
       "id": "2119287740865134776",
       "url": "https://x.com/wr0789/status/2119287740865134776",
       "date": "2026-11-08",
@@ -270,19 +309,6 @@
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119279880454238466",
-      "url": "https://x.com/wr0789/status/2119279880454238466",
-      "date": "2026-11-08",
-      "published": "Sun, 08 Nov 2026 04:04:32 GMT",
-      "title_excerpt": "R to @hihihiwd65: 可以的。晚上特别的清晰。可以看到星座。",
-      "description_excerpt": "可以的。晚上特别的清晰。可以看到星座。",
-      "reply_to_handle": "hihihiwd65",
-      "space_url": null,
-      "kind": "reply",
       "verified_link_author": true,
       "source": "nitter.jaydenha.uk"
     },
@@ -310,7 +336,7 @@
       "space_url": null,
       "kind": "reply",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2118973679786999857",
@@ -336,7 +362,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2118955769005543920",
@@ -349,7 +375,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2118924003750658094",
@@ -362,7 +388,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2118898155089690746",
@@ -375,7 +401,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2118856290764235091",
@@ -388,7 +414,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2118852349091553792",
@@ -414,7 +440,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2118664082933113166",
@@ -422,12 +448,12 @@
       "date": "2026-11-06",
       "published": "Fri, 06 Nov 2026 11:17:34 GMT",
       "title_excerpt": "🤣🤣🤣🤣🤣🤣🤣🤣🤣 一般见顶行情不好我就走了",
-      "description_excerpt": "🤣🤣🤣🤣🤣🤣🤣🤣🤣 一般见顶行情不好我就走了 caesar (@caser0928) 总之，自从跟着mi老师学，目前总帐还是盈利的，基本mi老师不在的时候我就亏钱。哈哈哈 — http://nitter.jaydenha.uk/caser0928/status/2118663005013721567#m",
+      "description_excerpt": "🤣🤣🤣🤣🤣🤣🤣🤣🤣 一般见顶行情不好我就走了 caesar (@caser0928) 总之，自从跟着mi老师学，目前总帐还是盈利的，基本mi老师不在的时候我就亏钱。哈哈哈 — http://nitter.mizuki.st/caser0928/status/2118663005013721567#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2118634898496053438",
@@ -440,7 +466,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2118634281232953558",
@@ -453,28 +479,15 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
-      "id": "2118629620748861679",
-      "url": "https://x.com/wr0789/status/2118629620748861679",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 09:00:38 GMT",
-      "title_excerpt": "【牛市与熊市的本质区别：流动性】 牛市与熊市最核心的区别，在于流动性的强弱，而流动性的直观体现，就是市场成交量和资金活跃度。 牛市阶段，市场流动性充沛，增量资金持续入场，市场从存量博弈逐渐转向增量博弈。在这种环境下，赚钱效应容易扩散，板块轮动活跃，能够形成大周期上涨趋势的板块和个",
-      "description_excerpt": "【牛市与熊市的本质区别：流动性】 牛市与熊市最核心的区别，在于流动性的强弱，而流动性的直观体现，就是市场成交量和资金活跃度。 牛市阶段，市场流动性充沛，增量资金持续入场，市场从存量博弈逐渐转向增量博弈。在这种环境下，赚钱效应容易扩散，板块轮动活跃，能够形成大周期上涨趋势的板块和个股也会明显增多。 例如2025—2026年上半年这一轮行情，从3040点到4258点的三浪主升阶段，市场整体呈现出较强的赚钱效应。而到了高位筑顶阶段，成交量往往进一步放大，市场换手异常活跃。放量的背后",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2118627182864166990",
-      "url": "https://x.com/wr0789/status/2118627182864166990",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 08:50:57 GMT",
-      "title_excerpt": "【真正的大额收益，是“抱”出来的，而不是频繁交易出来的】 短期市场的涨跌节奏很难把握，今天追涨，明天杀跌，看似每天都有交易机会，实际上很容易陷入频繁试错、反复止损的循环。 真正成熟的交易者，不应该把精力放在预测每天的涨跌上，而应该先学会辨别趋势，找到大方向正确的板块和个股，然后耐",
-      "description_excerpt": "【真正的大额收益，是“抱”出来的，而不是频繁交易出来的】 短期市场的涨跌节奏很难把握，今天追涨，明天杀跌，看似每天都有交易机会，实际上很容易陷入频繁试错、反复止损的循环。 真正成熟的交易者，不应该把精力放在预测每天的涨跌上，而应该先学会辨别趋势，找到大方向正确的板块和个股，然后耐心等待趋势带来的复利收益。 先选方向，再选个股；方向正确，持有才有意义。 交易逻辑是：优先选择处于大级别上涨趋势中的板块，再从中筛选基本面扎实、走势强于板块和大盘的个股。 当月线、周线形成向上结构，中",
+      "id": "2103830174873813401",
+      "url": "https://x.com/wr0789/status/2103830174873813401",
+      "date": "2026-09-26",
+      "published": "Sat, 26 Sep 2026 12:52:55 GMT",
+      "title_excerpt": "世界上有两件东西不可直视 一是太阳，二是人心",
+      "description_excerpt": "世界上有两件东西不可直视 一是太阳，二是人心",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",

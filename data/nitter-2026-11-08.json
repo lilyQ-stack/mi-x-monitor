@@ -332,14 +332,14 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 429: Too Many Requests"
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 23,
-      "attributed_by_link": 23
+      "items": 25,
+      "attributed_by_link": 25
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -352,5 +352,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 20
+  "retained_previous": 25
 }
