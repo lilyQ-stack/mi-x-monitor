@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-11-08T01:27:25.341618+00:00",
+  "checked_at": "2026-11-08T09:00:24.415312+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "items": 19,
+      "attributed_by_link": 19
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "items": 21,
+      "attributed_by_link": 21
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -27,6 +27,266 @@
   },
   "items": [
     {
+      "id": "2119339810699845692",
+      "url": "https://x.com/wr0789/status/2119339810699845692",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 08:02:40 GMT",
+      "title_excerpt": "R to @Shantong3T: 嗯嗯，看起来很好吃😋",
+      "description_excerpt": "嗯嗯，看起来很好吃😋",
+      "reply_to_handle": "Shantong3T",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119331737914536090",
+      "url": "https://x.com/wr0789/status/2119331737914536090",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 07:30:36 GMT",
+      "title_excerpt": "R to @beixiaozh: 我都还没走呢啊",
+      "description_excerpt": "我都还没走呢啊",
+      "reply_to_handle": "beixiaozh",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119331603067617344",
+      "url": "https://x.com/wr0789/status/2119331603067617344",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 07:30:04 GMT",
+      "title_excerpt": "R to @jilk99734061: 对对对。哈哈哈哈。有趣吧。",
+      "description_excerpt": "对对对。哈哈哈哈。有趣吧。",
+      "reply_to_handle": "jilk99734061",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119329072711139581",
+      "url": "https://x.com/wr0789/status/2119329072711139581",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 07:20:00 GMT",
+      "title_excerpt": "R to @Shantong3T: 这里钓鱼不需要买票，但是这里钓的鱼他们都不带走，就是玩一个过程。",
+      "description_excerpt": "这里钓鱼不需要买票，但是这里钓的鱼他们都不带走，就是玩一个过程。",
+      "reply_to_handle": "Shantong3T",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119303109264760944",
+      "url": "https://x.com/wr0789/status/2119303109264760944",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 05:36:50 GMT",
+      "title_excerpt": "R to @tduatdu136358: 可以的。",
+      "description_excerpt": "可以的。",
+      "reply_to_handle": "tduatdu136358",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119297938308698456",
+      "url": "https://x.com/wr0789/status/2119297938308698456",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 05:16:17 GMT",
+      "title_excerpt": "R to @LanceDaYe: 那就学，看懂了就不会恐惧了。",
+      "description_excerpt": "那就学，看懂了就不会恐惧了。",
+      "reply_to_handle": "LanceDaYe",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119296791925690512",
+      "url": "https://x.com/wr0789/status/2119296791925690512",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 05:11:44 GMT",
+      "title_excerpt": "R to @Jinyaoyu01: 是的。先要把接水的盆儿准备好，不然如何承接这来自全球的资金呢？未来的股市就像当年的房地产一样，等下一次底部买进来就不要乱动了，拿到大周期见顶一定会吃饱这一轮金融市场的红利。",
+      "description_excerpt": "是的。先要把接水的盆儿准备好，不然如何承接这来自全球的资金呢？未来的股市就像当年的房地产一样，等下一次底部买进来就不要乱动了，拿到大周期见顶一定会吃饱这一轮金融市场的红利。",
+      "reply_to_handle": "Jinyaoyu01",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119295837138546948",
+      "url": "https://x.com/wr0789/status/2119295837138546948",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 05:07:56 GMT",
+      "title_excerpt": "R to @Xukesuyckp: 太美了。",
+      "description_excerpt": "太美了。",
+      "reply_to_handle": "Xukesuyckp",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119295751595725166",
+      "url": "https://x.com/wr0789/status/2119295751595725166",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 05:07:36 GMT",
+      "title_excerpt": "R to @p_ajay_kumar: 不一定。各有千秋",
+      "description_excerpt": "不一定。各有千秋",
+      "reply_to_handle": "p_ajay_kumar",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119293535807734164",
+      "url": "https://x.com/wr0789/status/2119293535807734164",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 04:58:48 GMT",
+      "title_excerpt": "R to @veryNiubibi: 哈哈哈哈哈。老登输不起了。尽量保守些。",
+      "description_excerpt": "哈哈哈哈哈。老登输不起了。尽量保守些。",
+      "reply_to_handle": "veryNiubibi",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119291876100784470",
+      "url": "https://x.com/wr0789/status/2119291876100784470",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 04:52:12 GMT",
+      "title_excerpt": "R to @wudixiaoyangzi1: 为什么看到你的消息我就想“笑”呢？",
+      "description_excerpt": "为什么看到你的消息我就想“笑”呢？",
+      "reply_to_handle": "wudixiaoyangzi1",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119291794672218213",
+      "url": "https://x.com/wr0789/status/2119291794672218213",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 04:51:53 GMT",
+      "title_excerpt": "【加油！年轻人】 其实，人生就像一场漫长的登山。 一路有峰峦，也有低谷；有阶段性的高光，也有暂时的沉潜。每一次攀升与回落，都是沿途独特的风景。真正重要的，从来不是某一刻站得有多高，而是低谷的底线在不断抬升，人生的高点在持续突破，始终保持向上的趋势。 尤其是年轻的时候，经历几次挫折",
+      "description_excerpt": "【加油！年轻人】 其实，人生就像一场漫长的登山。 一路有峰峦，也有低谷；有阶段性的高光，也有暂时的沉潜。每一次攀升与回落，都是沿途独特的风景。真正重要的，从来不是某一刻站得有多高，而是低谷的底线在不断抬升，人生的高点在持续突破，始终保持向上的趋势。 尤其是年轻的时候，经历几次挫折与失利，未必是坏事。它们让我们学会反思、调整、迭代，在一次次认知升级与自我重塑中，积蓄下一次跃升的力量。 人生的精彩，从来不止于一时的起落。只要方向正确，步履不停，每个人终将迎来属于自己的「大三浪」—",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119287790722756983",
+      "url": "https://x.com/wr0789/status/2119287790722756983",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 04:35:58 GMT",
+      "title_excerpt": "R to @twohoping: 收的",
+      "description_excerpt": "收的",
+      "reply_to_handle": "twohoping",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119287740865134776",
+      "url": "https://x.com/wr0789/status/2119287740865134776",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 04:35:46 GMT",
+      "title_excerpt": "【你们也该交作业了】 【中美经济周期分析及未来投资策略】 一、中美经济周期：不同的发展阶段 1. 中国：结构转型与弱复苏并存 中国经济当前面临的核心问题是内需不足、房地产持续调整，以及新旧增长动能转换。 过去，房地产、基建和传统制造业是主要增长动力。随着房地产进入调整周期，居民财",
+      "description_excerpt": "【你们也该交作业了】 【中美经济周期分析及未来投资策略】 一、中美经济周期：不同的发展阶段 1. 中国：结构转型与弱复苏并存 中国经济当前面临的核心问题是内需不足、房地产持续调整，以及新旧增长动能转换。 过去，房地产、基建和传统制造业是主要增长动力。随着房地产进入调整周期，居民财富效应减弱，传统增长模式面临转型压力。 与此同时，人工智能、半导体、高端装备、新能源和工业自动化逐渐成为新的增长引擎。但新兴产业增长尚未完全转化为居民收入和消费的全面改善。 政策方面，中国更加重视扩大",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119279880454238466",
+      "url": "https://x.com/wr0789/status/2119279880454238466",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 04:04:32 GMT",
+      "title_excerpt": "R to @hihihiwd65: 可以的。晚上特别的清晰。可以看到星座。",
+      "description_excerpt": "可以的。晚上特别的清晰。可以看到星座。",
+      "reply_to_handle": "hihihiwd65",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119276810500469153",
+      "url": "https://x.com/wr0789/status/2119276810500469153",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 03:52:20 GMT",
+      "title_excerpt": "R to @hihihiwd65: 夜里冷的，5度，但是睡袋里不觉得冷。很喜欢这种在自然界里生活的感觉。感受风雨寒暑。过去里整夜大雨睡不踏实的时候也有很多次。",
+      "description_excerpt": "夜里冷的，5度，但是睡袋里不觉得冷。很喜欢这种在自然界里生活的感觉。感受风雨寒暑。过去里整夜大雨睡不踏实的时候也有很多次。",
+      "reply_to_handle": "hihihiwd65",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119273066241093690",
+      "url": "https://x.com/wr0789/status/2119273066241093690",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 03:37:27 GMT",
+      "title_excerpt": "R to @Zj199602: 哈哈哈哈哈",
+      "description_excerpt": "哈哈哈哈哈",
+      "reply_to_handle": "Zj199602",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119272946216882431",
+      "url": "https://x.com/wr0789/status/2119272946216882431",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 03:36:59 GMT",
+      "title_excerpt": "R to @nishenxuxingliu: 确实哈",
+      "description_excerpt": "确实哈",
+      "reply_to_handle": "nishenxuxingliu",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119272896493470013",
+      "url": "https://x.com/wr0789/status/2119272896493470013",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 03:36:47 GMT",
+      "title_excerpt": "R to @huashetou: 反正不丑🤣",
+      "description_excerpt": "反正不丑🤣",
+      "reply_to_handle": "huashetou",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2119265561725268179",
+      "url": "https://x.com/wr0789/status/2119265561725268179",
+      "date": "2026-11-08",
+      "published": "Sun, 08 Nov 2026 03:07:38 GMT",
+      "title_excerpt": "今天一早的景色也很治愈，湖面微风荡漾。 收拾完帐篷🏕️回家。",
+      "description_excerpt": "今天一早的景色也很治愈，湖面微风荡漾。 收拾完帐篷🏕️回家。 Video",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
       "id": "2118990273560875325",
       "url": "https://x.com/wr0789/status/2118990273560875325",
       "date": "2026-11-07",
@@ -37,7 +297,7 @@
       "space_url": null,
       "kind": "reply",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118973679786999857",
@@ -50,7 +310,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118957631192866996",
@@ -63,7 +323,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118955769005543920",
@@ -76,7 +336,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118924003750658094",
@@ -89,7 +349,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118898155089690746",
@@ -102,7 +362,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118856290764235091",
@@ -115,7 +375,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118852349091553792",
@@ -128,7 +388,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118821605673763317",
@@ -141,7 +401,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118664082933113166",
@@ -149,12 +409,12 @@
       "date": "2026-11-06",
       "published": "Fri, 06 Nov 2026 11:17:34 GMT",
       "title_excerpt": "🤣🤣🤣🤣🤣🤣🤣🤣🤣 一般见顶行情不好我就走了",
-      "description_excerpt": "🤣🤣🤣🤣🤣🤣🤣🤣🤣 一般见顶行情不好我就走了 caesar (@caser0928) 总之，自从跟着mi老师学，目前总帐还是盈利的，基本mi老师不在的时候我就亏钱。哈哈哈 — http://nitter.meowing.monster/caser0928/status/2118663005013721567#m",
+      "description_excerpt": "🤣🤣🤣🤣🤣🤣🤣🤣🤣 一般见顶行情不好我就走了 caesar (@caser0928) 总之，自从跟着mi老师学，目前总帐还是盈利的，基本mi老师不在的时候我就亏钱。哈哈哈 — http://nitter.jaydenha.uk/caser0928/status/2118663005013721567#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118634898496053438",
@@ -167,7 +427,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118634281232953558",
@@ -180,7 +440,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118629620748861679",
@@ -193,7 +453,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118627182864166990",
@@ -206,7 +466,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118625029219090807",
@@ -219,7 +479,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     },
     {
       "id": "2118621719971938751",
@@ -232,46 +492,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2118592011729342822",
-      "url": "https://x.com/wr0789/status/2118592011729342822",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 06:31:11 GMT",
-      "title_excerpt": "R to @wr0789: 3638是第一颗阳线的中位数。守住就是洗盘。不要惊慌。",
-      "description_excerpt": "3638是第一颗阳线的中位数。守住就是洗盘。不要惊慌。",
-      "reply_to_handle": "wr0789",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2118591025438720117",
-      "url": "https://x.com/wr0789/status/2118591025438720117",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 06:27:16 GMT",
-      "title_excerpt": "【多方炮最值得重点研究的三种形态】 跳空多方炮：重点观察突破缺口是否得到支撑。 两阳夹两阴：重点观察调整期间是否缩量。 叠叠多方炮：重点观察每次回调低点是否抬高。 一阳后连续两天缩量震荡小阴小阳，期待下周一的表现。",
-      "description_excerpt": "【多方炮最值得重点研究的三种形态】 跳空多方炮：重点观察突破缺口是否得到支撑。 两阳夹两阴：重点观察调整期间是否缩量。 叠叠多方炮：重点观察每次回调低点是否抬高。 一阳后连续两天缩量震荡小阴小阳，期待下周一的表现。",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2118538003446682111",
-      "url": "https://x.com/wr0789/status/2118538003446682111",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 02:56:35 GMT",
-      "title_excerpt": "x.com/i/spaces/1YREZXeRvdyZE…",
-      "description_excerpt": "nitter.mizuki.st/i/spaces/1YREZXeRvdyZE… Link Twitter Space Click to view Space http://nitter.meowing.monster/i/spaces/1YREZXeRvdyZEk",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
+      "source": "nitter.jaydenha.uk"
     }
   ],
   "message": "Recent RSS window only; posts/replies may be missing. No posts must not be interpreted as no activity."
