@@ -333,13 +333,13 @@
   "sources": {
     "nitter.jaydenha.uk/tweets": {
       "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "items": 19,
+      "attributed_by_link": 19
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 24,
-      "attributed_by_link": 24
+      "items": 25,
+      "attributed_by_link": 25
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
