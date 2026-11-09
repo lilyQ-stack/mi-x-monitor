@@ -1,23 +1,23 @@
 {
-  "checked_at": "2026-11-09T09:50:11.193072+00:00",
+  "checked_at": "2026-11-09T20:46:15.176457+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "ok",
-      "items": 25,
-      "attributed_by_link": 25
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "items": 19,
+      "attributed_by_link": 19
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
@@ -27,95 +27,69 @@
   },
   "items": [
     {
+      "id": "2119851476231258577",
+      "url": "https://x.com/wr0789/status/2119851476231258577",
+      "date": "2026-11-10",
+      "published": "Mon, 09 Nov 2026 17:55:51 GMT",
+      "title_excerpt": "【没耐心的人醒来看吧】 普通投资者体感最好的阶段，往往是大盘有主线单边上涨的时候（黄色荧光笔部分）；但真正考验认知与耐心的，却是当下这样的横盘筑底期。 目前市场缺乏持续性拉升，板块轮动频繁，个股表现分化，这些恰恰是筑底阶段的常见特征。与其将震荡视为行情疲弱，不如把它理解为市场反复",
+      "description_excerpt": "【没耐心的人醒来看吧】 普通投资者体感最好的阶段，往往是大盘有主线单边上涨的时候（黄色荧光笔部分）；但真正考验认知与耐心的，却是当下这样的横盘筑底期。 目前市场缺乏持续性拉升，板块轮动频繁，个股表现分化，这些恰恰是筑底阶段的常见特征。与其将震荡视为行情疲弱，不如把它理解为市场反复夯实底部、洗筹换手、积蓄动能的过程。 真正值得重视的，往往不是行情已经启动的那一刻，而是市场尚未形成一致预期的时候。 回望过去，如果能够在几次关键底部保持足够的定力，耐心拿住优质筹码，又何必等到情绪高",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2119755176290705725",
+      "url": "https://x.com/wr0789/status/2119755176290705725",
+      "date": "2026-11-09",
+      "published": "Mon, 09 Nov 2026 11:33:11 GMT",
+      "title_excerpt": "如果碳基生命始终无法完成自我觉醒，那么被硅基生命取代，或许只是时间问题。 技术的进化从来不会等待文明的道德成熟。当硅基智能在理性、秩序与信息处理能力上不断突破，而碳基生命依然沉溺于欺骗、掠夺、抄袭与无休止的内耗，那么未来的文明更迭，恐怕就不再只是科幻的想象。 正如《三体》所揭示的",
+      "description_excerpt": "如果碳基生命始终无法完成自我觉醒，那么被硅基生命取代，或许只是时间问题。 技术的进化从来不会等待文明的道德成熟。当硅基智能在理性、秩序与信息处理能力上不断突破，而碳基生命依然沉溺于欺骗、掠夺、抄袭与无休止的内耗，那么未来的文明更迭，恐怕就不再只是科幻的想象。 正如《三体》所揭示的那种令人敬畏的文明尺度：更高维度的存在，终将超越我们习以为常的认知，甚至渐行渐远。 真正值得警惕的，从来不是硅基生命有一天会变得多么强大，而是碳基生命在拥有高度智慧之后，却始终没有学会尊重真相、敬畏规",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2119754040926204298",
+      "url": "https://x.com/wr0789/status/2119754040926204298",
+      "date": "2026-11-09",
+      "published": "Mon, 09 Nov 2026 11:28:41 GMT",
+      "title_excerpt": "如今的自媒体，真是越来越令人不齿。内容真假难辨，出处无从考证，也不知道经过了多少次搬运、拼凑和篡改，早已面目全非。更可悲的是，有些人为了流量和利益，毫无底线地消费他人的心血，肆无忌惮地践踏原创与诚信，连最基本的道德敬畏都荡然无存。 一个信息爆炸的时代，却也是一个真相日渐稀缺的时代",
+      "description_excerpt": "如今的自媒体，真是越来越令人不齿。内容真假难辨，出处无从考证，也不知道经过了多少次搬运、拼凑和篡改，早已面目全非。更可悲的是，有些人为了流量和利益，毫无底线地消费他人的心血，肆无忌惮地践踏原创与诚信，连最基本的道德敬畏都荡然无存。 一个信息爆炸的时代，却也是一个真相日渐稀缺的时代。虚构可以被包装成事实，抄袭可以被粉饰成创作，谎言经过反复传播，竟也能披上真相的外衣。 最令人愤怒的，不只是内容的真假难辨，而是这种毫无底线的肆意妄为，正在一点点透支人与人之间最基本的信任。久而久之，",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2119745868647854548",
+      "url": "https://x.com/wr0789/status/2119745868647854548",
+      "date": "2026-11-09",
+      "published": "Mon, 09 Nov 2026 10:56:12 GMT",
+      "title_excerpt": "晚安💤",
+      "description_excerpt": "晚安💤",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
       "id": "2119728642779730349",
       "url": "https://x.com/wr0789/status/2119728642779730349",
       "date": "2026-11-09",
       "published": "Mon, 09 Nov 2026 09:47:45 GMT",
       "title_excerpt": "对于后期反弹节奏可以听听10/31的语音直播。",
-      "description_excerpt": "对于后期反弹节奏可以听听10/31的语音直播。 Mistery (@wr0789) x.com/i/spaces/1XyJEEvejdRnd… Link Twitter Space Click to view Space http://nitter.jaydenha.uk/i/spaces/1XyJEEvejdRndj — http://nitter.jaydenha.uk/wr0789/status/2116362405370622424#m",
+      "description_excerpt": "对于后期反弹节奏可以听听10/31的语音直播。 Mistery (@wr0789) nitter.mizuki.st/i/spaces/1XyJEEvejdRnd… Link Twitter Space Click to view Space http://nitter.mizuki.st/i/spaces/1XyJEEvejdRndj — http://nitter.mizuki.st/wr0789/status/2116362405370622424#m",
       "reply_to_handle": null,
-      "space_url": "https://x.com/i/spaces/1XyJEEvejdRndj",
+      "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119714126025080860",
-      "url": "https://x.com/wr0789/status/2119714126025080860",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:50:04 GMT",
-      "title_excerpt": "R to @waterymoon9fk: 大盘是分化的，别追涨杀跌就好",
-      "description_excerpt": "大盘是分化的，别追涨杀跌就好",
-      "reply_to_handle": "waterymoon9fk",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119714057108541602",
-      "url": "https://x.com/wr0789/status/2119714057108541602",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:49:48 GMT",
-      "title_excerpt": "R to @bjma4n: 回踩后还有上涨机会",
-      "description_excerpt": "回踩后还有上涨机会",
-      "reply_to_handle": "bjma4n",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119713940985032795",
-      "url": "https://x.com/wr0789/status/2119713940985032795",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:49:20 GMT",
-      "title_excerpt": "R to @jack1191484: 这是谁啊？不认识，以前我粉丝都成大佬了？",
-      "description_excerpt": "这是谁啊？不认识，以前我粉丝都成大佬了？",
-      "reply_to_handle": "jack1191484",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119713805257355388",
-      "url": "https://x.com/wr0789/status/2119713805257355388",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:48:48 GMT",
-      "title_excerpt": "R to @ding_zhun6666: 他说什么了？我下午去接孩子一直忙",
-      "description_excerpt": "他说什么了？我下午去接孩子一直忙",
-      "reply_to_handle": "ding_zhun6666",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119713334589268422",
-      "url": "https://x.com/wr0789/status/2119713334589268422",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:46:55 GMT",
-      "title_excerpt": "R to @Frankm1049923: 哈哈哈哈。",
-      "description_excerpt": "哈哈哈哈。",
-      "reply_to_handle": "Frankm1049923",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119713200853876881",
-      "url": "https://x.com/wr0789/status/2119713200853876881",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:46:24 GMT",
-      "title_excerpt": "R to @dc78BuiWKl4849: 科技早盘涨一般不太会拉，硬科技还得横盘筑底才能起一个像样的B浪反弹。",
-      "description_excerpt": "科技早盘涨一般不太会拉，硬科技还得横盘筑底才能起一个像样的B浪反弹。",
-      "reply_to_handle": "dc78BuiWKl4849",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119712871517229488",
@@ -128,33 +102,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119712785764655519",
-      "url": "https://x.com/wr0789/status/2119712785764655519",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:44:45 GMT",
-      "title_excerpt": "R to @jilk99734061: 这种笔记不错",
-      "description_excerpt": "这种笔记不错",
-      "reply_to_handle": "jilk99734061",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119712697197711466",
-      "url": "https://x.com/wr0789/status/2119712697197711466",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:44:24 GMT",
-      "title_excerpt": "R to @KMCJwOMoSP40804: 科技股筑底需要一个过程",
-      "description_excerpt": "科技股筑底需要一个过程",
-      "reply_to_handle": "KMCJwOMoSP40804",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119712499025199133",
@@ -162,51 +110,12 @@
       "date": "2026-11-09",
       "published": "Mon, 09 Nov 2026 08:43:36 GMT",
       "title_excerpt": "是的。",
-      "description_excerpt": "是的。 AJAY KUMAR P (@p_ajay_kumar) 大神终归两条路 1，收编成正规军帮忙割韭菜 2，成为趋势玩家慢慢赚钱 — http://nitter.jaydenha.uk/p_ajay_kumar/status/2119710731658813615#m",
+      "description_excerpt": "是的。 AJAY KUMAR P (@p_ajay_kumar) 大神终归两条路 1，收编成正规军帮忙割韭菜 2，成为趋势玩家慢慢赚钱 — http://nitter.mizuki.st/p_ajay_kumar/status/2119710731658813615#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119702760929346005",
-      "url": "https://x.com/wr0789/status/2119702760929346005",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:04:55 GMT",
-      "title_excerpt": "R to @JayJ_666: 我一直在中国船舶",
-      "description_excerpt": "我一直在中国船舶",
-      "reply_to_handle": "JayJ_666",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119702545866318296",
-      "url": "https://x.com/wr0789/status/2119702545866318296",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:04:03 GMT",
-      "title_excerpt": "R to @xuanbing2000: 建仓痕迹在日线，复盘关键时刻的涨停板。",
-      "description_excerpt": "建仓痕迹在日线，复盘关键时刻的涨停板。",
-      "reply_to_handle": "xuanbing2000",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119701675925811525",
-      "url": "https://x.com/wr0789/status/2119701675925811525",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 08:00:36 GMT",
-      "title_excerpt": "R to @Muzhang401Zhang: 用脚投票，踏空了才希望跌吧？主力不会给你低吸机会了。",
-      "description_excerpt": "用脚投票，踏空了才希望跌吧？主力不会给你低吸机会了。",
-      "reply_to_handle": "Muzhang401Zhang",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119701535185920444",
@@ -214,12 +123,12 @@
       "date": "2026-11-09",
       "published": "Mon, 09 Nov 2026 08:00:02 GMT",
       "title_excerpt": "课代表又给你们复习老帖子了",
-      "description_excerpt": "课代表又给你们复习老帖子了 nana (@nana2004888) 📑 — http://nitter.jaydenha.uk/nana2004888/status/2119651492089196797#m",
+      "description_excerpt": "课代表又给你们复习老帖子了 nana (@nana2004888) 📑 — http://nitter.mizuki.st/nana2004888/status/2119651492089196797#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119686520403837368",
@@ -227,25 +136,12 @@
       "date": "2026-11-09",
       "published": "Mon, 09 Nov 2026 07:00:22 GMT",
       "title_excerpt": "下午持续缩量，震荡收盘，明天收阳概率很大。",
-      "description_excerpt": "下午持续缩量，震荡收盘，明天收阳概率很大。 Mistery (@wr0789) 倘若下午依旧缩量，那大概会震荡收盘 突破3700必须要放量。 3700一定会突破，不过是时间的问题而已。 这里并不是大压力位。 但不要大涨后追涨，底部震荡一定会突破回踩，反复震荡洗盘。 — http://nitter.jaydenha.uk/wr0789/status/2119621473203789898#m",
+      "description_excerpt": "下午持续缩量，震荡收盘，明天收阳概率很大。 Mistery (@wr0789) 倘若下午依旧缩量，那大概会震荡收盘 突破3700必须要放量。 3700一定会突破，不过是时间的问题而已。 这里并不是大压力位。 但不要大涨后追涨，底部震荡一定会突破回踩，反复震荡洗盘。 — http://nitter.mizuki.st/wr0789/status/2119621473203789898#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119682555268186222",
-      "url": "https://x.com/wr0789/status/2119682555268186222",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 06:44:37 GMT",
-      "title_excerpt": "R to @DeSupergalaxy: 哈哈哈哈哈",
-      "description_excerpt": "哈哈哈哈哈",
-      "reply_to_handle": "DeSupergalaxy",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119681897425203201",
@@ -253,38 +149,12 @@
       "date": "2026-11-09",
       "published": "Mon, 09 Nov 2026 06:42:00 GMT",
       "title_excerpt": "今天不语音，前期逻辑不变。没必要每天说。",
-      "description_excerpt": "今天不语音，前期逻辑不变。没必要每天说。 yap (@Crush123987) 今天还语音吗 — http://nitter.jaydenha.uk/Crush123987/status/2119677628562940360#m",
+      "description_excerpt": "今天不语音，前期逻辑不变。没必要每天说。 yap (@Crush123987) 今天还语音吗 — http://nitter.mizuki.st/Crush123987/status/2119677628562940360#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119681694701932565",
-      "url": "https://x.com/wr0789/status/2119681694701932565",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 06:41:12 GMT",
-      "title_excerpt": "R to @nian1176549: 复盘海南板块炒作时可以看到资金底部建仓痕迹。",
-      "description_excerpt": "复盘海南板块炒作时可以看到资金底部建仓痕迹。",
-      "reply_to_handle": "nian1176549",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119678989270970382",
-      "url": "https://x.com/wr0789/status/2119678989270970382",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 06:30:27 GMT",
-      "title_excerpt": "R to @long06429815: 🤪🤪🤪",
-      "description_excerpt": "🤪🤪🤪",
-      "reply_to_handle": "long06429815",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119676098518917388",
@@ -297,7 +167,7 @@
       "space_url": null,
       "kind": "reply",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119663833958821968",
@@ -310,7 +180,7 @@
       "space_url": null,
       "kind": "reply",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119663256688025704",
@@ -323,7 +193,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119656037112275120",
@@ -336,7 +206,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119652921831039121",
@@ -349,7 +219,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119650936264204425",
@@ -357,12 +227,12 @@
       "date": "2026-11-09",
       "published": "Mon, 09 Nov 2026 04:38:59 GMT",
       "title_excerpt": "控制不了情绪的原因就是看不懂趋势！ 如果你知道山顶在哪里，你还会担心中间的波动吗？ 如果你知道底部在哪里，你就没有勇气低吸吗？",
-      "description_excerpt": "控制不了情绪的原因就是看不懂趋势！ 如果你知道山顶在哪里，你还会担心中间的波动吗？ 如果你知道底部在哪里，你就没有勇气低吸吗？ Hollis (@hollis_pew) 绝大多数人并不是做短线，只是控制不了情绪😂 — http://nitter.jaydenha.uk/hollis_pew/status/2119650526170148969#m",
+      "description_excerpt": "控制不了情绪的原因就是看不懂趋势！ 如果你知道山顶在哪里，你还会担心中间的波动吗？ 如果你知道底部在哪里，你就没有勇气低吸吗？ Hollis (@hollis_pew) 绝大多数人并不是做短线，只是控制不了情绪😂 — http://nitter.mizuki.st/hollis_pew/status/2119650526170148969#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119650484881612886",
@@ -375,7 +245,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119649941685780501",
@@ -388,7 +258,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2119647580074418254",
@@ -401,98 +271,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119643688431477220",
-      "url": "https://x.com/wr0789/status/2119643688431477220",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 04:10:11 GMT",
-      "title_excerpt": "大部分人都还是短线思维。 左侧抄底的没必要在右侧频繁做T，底部震荡的目的就是让你们频繁交易，终有一天会踏空行情后追涨被套！",
-      "description_excerpt": "大部分人都还是短线思维。 左侧抄底的没必要在右侧频繁做T，底部震荡的目的就是让你们频繁交易，终有一天会踏空行情后追涨被套！",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119636471649087490",
-      "url": "https://x.com/wr0789/status/2119636471649087490",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 03:41:30 GMT",
-      "title_excerpt": "10/29的观点不变。",
-      "description_excerpt": "10/29的观点不变。 Mistery (@wr0789) 文化传媒未来是要走主升浪的，这个方向可以持续跟踪。 — http://nitter.jaydenha.uk/wr0789/status/2115548882465869969#m",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119626387690758154",
-      "url": "https://x.com/wr0789/status/2119626387690758154",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 03:01:26 GMT",
-      "title_excerpt": "R to @wr0789: 作业就是“了解目前当下中美各处于哪些周期当中”？",
-      "description_excerpt": "作业就是“了解目前当下中美各处于哪些周期当中”？",
-      "reply_to_handle": "wr0789",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119624809894273246",
-      "url": "https://x.com/wr0789/status/2119624809894273246",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 02:55:10 GMT",
-      "title_excerpt": "Pinned: 【留一个自学题】【看不懂周期做不好交易】 这张图将交易中的主要周期按照长期、中长期、中期、短期和交易执行五个层级进行归纳，并展示它们之间的相互关系。核心理念是：大周期决定方向，中周期判断阶段，小周期寻找买卖点。",
-      "description_excerpt": "【留一个自学题】【看不懂周期做不好交易】 这张图将交易中的主要周期按照长期、中长期、中期、短期和交易执行五个层级进行归纳，并展示它们之间的相互关系。核心理念是：大周期决定方向，中周期判断阶段，小周期寻找买卖点。",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2119621667806929307",
-      "url": "https://x.com/wr0789/status/2119621667806929307",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 02:42:40 GMT",
-      "title_excerpt": "R to @wr0789: 除了羊肚菌还有牛肝菌",
-      "description_excerpt": "除了羊肚菌还有牛肝菌",
-      "reply_to_handle": "wr0789",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
       "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2119617434953167213",
-      "url": "https://x.com/wr0789/status/2119617434953167213",
-      "date": "2026-11-09",
-      "published": "Mon, 09 Nov 2026 02:25:51 GMT",
-      "title_excerpt": "开饭啦🤪",
-      "description_excerpt": "开饭啦🤪",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.meowing.monster"
-    },
-    {
-      "id": "2119527962039226663",
-      "url": "https://x.com/wr0789/status/2119527962039226663",
-      "date": "2026-11-09",
-      "published": "Sun, 08 Nov 2026 20:30:19 GMT",
-      "title_excerpt": "【早安早课】 资本的本质是逐利，资本的天性是趋利避害。利益驱动它向外扩张，风险意识促使它选择性退守。当开拓的收益不再高于守成的回报，当既得利益足以支撑现有格局，资本便会从激进转向保守，从扩张转向偏安。它既是变革的推动者，也可能成为变革的阻力。资本从不真正关心前方是星辰大海，还是故",
-      "description_excerpt": "【早安早课】 资本的本质是逐利，资本的天性是趋利避害。利益驱动它向外扩张，风险意识促使它选择性退守。当开拓的收益不再高于守成的回报，当既得利益足以支撑现有格局，资本便会从激进转向保守，从扩张转向偏安。它既是变革的推动者，也可能成为变革的阻力。资本从不真正关心前方是星辰大海，还是故土围城，它只关心哪里有利润，哪里有安全，哪里能让利益持续最大化。 因此，做交易，重要的是逆人性，顺资本性。 所谓逆人性，是克服贪婪、恐惧、侥幸与从众心理，不被短期涨跌牵动情绪，不因一时浮盈而盲目乐观，",
-      "reply_to_handle": null,
-      "space_url": null,
-      "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
     }
   ],
   "message": "Recent RSS window only; posts/replies may be missing. No posts must not be interpreted as no activity."

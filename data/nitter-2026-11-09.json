@@ -5,12 +5,51 @@
   "complete": false,
   "items": [
     {
+      "id": "2119755176290705725",
+      "url": "https://x.com/wr0789/status/2119755176290705725",
+      "date": "2026-11-09",
+      "published": "Mon, 09 Nov 2026 11:33:11 GMT",
+      "title_excerpt": "如果碳基生命始终无法完成自我觉醒，那么被硅基生命取代，或许只是时间问题。 技术的进化从来不会等待文明的道德成熟。当硅基智能在理性、秩序与信息处理能力上不断突破，而碳基生命依然沉溺于欺骗、掠夺、抄袭与无休止的内耗，那么未来的文明更迭，恐怕就不再只是科幻的想象。 正如《三体》所揭示的",
+      "description_excerpt": "如果碳基生命始终无法完成自我觉醒，那么被硅基生命取代，或许只是时间问题。 技术的进化从来不会等待文明的道德成熟。当硅基智能在理性、秩序与信息处理能力上不断突破，而碳基生命依然沉溺于欺骗、掠夺、抄袭与无休止的内耗，那么未来的文明更迭，恐怕就不再只是科幻的想象。 正如《三体》所揭示的那种令人敬畏的文明尺度：更高维度的存在，终将超越我们习以为常的认知，甚至渐行渐远。 真正值得警惕的，从来不是硅基生命有一天会变得多么强大，而是碳基生命在拥有高度智慧之后，却始终没有学会尊重真相、敬畏规",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2119754040926204298",
+      "url": "https://x.com/wr0789/status/2119754040926204298",
+      "date": "2026-11-09",
+      "published": "Mon, 09 Nov 2026 11:28:41 GMT",
+      "title_excerpt": "如今的自媒体，真是越来越令人不齿。内容真假难辨，出处无从考证，也不知道经过了多少次搬运、拼凑和篡改，早已面目全非。更可悲的是，有些人为了流量和利益，毫无底线地消费他人的心血，肆无忌惮地践踏原创与诚信，连最基本的道德敬畏都荡然无存。 一个信息爆炸的时代，却也是一个真相日渐稀缺的时代",
+      "description_excerpt": "如今的自媒体，真是越来越令人不齿。内容真假难辨，出处无从考证，也不知道经过了多少次搬运、拼凑和篡改，早已面目全非。更可悲的是，有些人为了流量和利益，毫无底线地消费他人的心血，肆无忌惮地践踏原创与诚信，连最基本的道德敬畏都荡然无存。 一个信息爆炸的时代，却也是一个真相日渐稀缺的时代。虚构可以被包装成事实，抄袭可以被粉饰成创作，谎言经过反复传播，竟也能披上真相的外衣。 最令人愤怒的，不只是内容的真假难辨，而是这种毫无底线的肆意妄为，正在一点点透支人与人之间最基本的信任。久而久之，",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2119745868647854548",
+      "url": "https://x.com/wr0789/status/2119745868647854548",
+      "date": "2026-11-09",
+      "published": "Mon, 09 Nov 2026 10:56:12 GMT",
+      "title_excerpt": "晚安💤",
+      "description_excerpt": "晚安💤",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
       "id": "2119728642779730349",
       "url": "https://x.com/wr0789/status/2119728642779730349",
       "date": "2026-11-09",
       "published": "Mon, 09 Nov 2026 09:47:45 GMT",
       "title_excerpt": "对于后期反弹节奏可以听听10/31的语音直播。",
-      "description_excerpt": "对于后期反弹节奏可以听听10/31的语音直播。 Mistery (@wr0789) x.com/i/spaces/1XyJEEvejdRnd… Link Twitter Space Click to view Space http://nitter.jaydenha.uk/i/spaces/1XyJEEvejdRndj — http://nitter.jaydenha.uk/wr0789/status/2116362405370622424#m",
+      "description_excerpt": "对于后期反弹节奏可以听听10/31的语音直播。 Mistery (@wr0789) nitter.mizuki.st/i/spaces/1XyJEEvejdRnd… Link Twitter Space Click to view Space http://nitter.mizuki.st/i/spaces/1XyJEEvejdRndj — http://nitter.mizuki.st/wr0789/status/2116362405370622424#m",
       "reply_to_handle": null,
       "space_url": "https://x.com/i/spaces/1XyJEEvejdRndj",
       "kind": "unclassified",
@@ -761,19 +800,19 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "ok",
-      "items": 25,
-      "attributed_by_link": 25
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "items": 19,
+      "attributed_by_link": 19
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
@@ -781,5 +820,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 23
+  "retained_previous": 58
 }

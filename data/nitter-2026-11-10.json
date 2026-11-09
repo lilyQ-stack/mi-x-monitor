@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-10",
+  "account": "wr0789",
+  "status": "partial",
+  "complete": false,
+  "items": [
+    {
+      "id": "2119851476231258577",
+      "url": "https://x.com/wr0789/status/2119851476231258577",
+      "date": "2026-11-10",
+      "published": "Mon, 09 Nov 2026 17:55:51 GMT",
+      "title_excerpt": "【没耐心的人醒来看吧】 普通投资者体感最好的阶段，往往是大盘有主线单边上涨的时候（黄色荧光笔部分）；但真正考验认知与耐心的，却是当下这样的横盘筑底期。 目前市场缺乏持续性拉升，板块轮动频繁，个股表现分化，这些恰恰是筑底阶段的常见特征。与其将震荡视为行情疲弱，不如把它理解为市场反复",
+      "description_excerpt": "【没耐心的人醒来看吧】 普通投资者体感最好的阶段，往往是大盘有主线单边上涨的时候（黄色荧光笔部分）；但真正考验认知与耐心的，却是当下这样的横盘筑底期。 目前市场缺乏持续性拉升，板块轮动频繁，个股表现分化，这些恰恰是筑底阶段的常见特征。与其将震荡视为行情疲弱，不如把它理解为市场反复夯实底部、洗筹换手、积蓄动能的过程。 真正值得重视的，往往不是行情已经启动的那一刻，而是市场尚未形成一致预期的时候。 回望过去，如果能够在几次关键底部保持足够的定力，耐心拿住优质筹码，又何必等到情绪高",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    }
+  ],
+  "sources": {
+    "nitter.jaydenha.uk/tweets": {
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "nitter.jaydenha.uk/with_replies": {
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "nitter.meowing.monster/tweets": {
+      "status": "ok",
+      "items": 19,
+      "attributed_by_link": 19
+    },
+    "nitter.meowing.monster/with_replies": {
+      "status": "error",
+      "type": "ParseError",
+      "message": "syntax error: line 1, column 0"
+    }
+  },
+  "retained_previous": 0
+}
