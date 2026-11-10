@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "account": "wr0789",
-  "status": "partial",
+  "status": "no_verified_items",
   "complete": false,
   "items": [
     {
@@ -657,25 +657,25 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "ok",
-      "items": 22,
-      "attributed_by_link": 22
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.meowing.monster/tweets": {
-      "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "status": "error",
+      "type": "URLError",
+      "message": "<urlopen error [Errno 101] Network is unreachable>"
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
-      "type": "ParseError",
-      "message": "syntax error: line 1, column 0"
+      "type": "URLError",
+      "message": "<urlopen error [Errno 101] Network is unreachable>"
     }
   },
-  "retained_previous": 28
+  "retained_previous": 50
 }
