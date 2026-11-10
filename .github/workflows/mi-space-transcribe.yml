@@ -33,10 +33,24 @@ jobs:
         run: |
           python -m pip install --disable-pip-version-check --quiet -U yt-dlp
           ffmpeg -version | head -n 1
+      - name: Apply public X Spaces extractor compatibility patch
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import yt_dlp.extractor.twitter as twitter
+          p=Path(twitter.__file__)
+          s=p.read_text(encoding="utf-8")
+          newer=s.replace("i/spaces/(?P<id>[0-9a-zA-Z]{13})", "i/spaces/(?P<id>[0-9a-zA-Z]{13,15})")
+          newer=newer.replace("HPEisOmj1epUNLCWTYhUWw/AudioSpaceById", "zm3JmUpYWDXIUsf_33-ZrA/AudioSpaceById")
+          if newer != s:
+              p.write_text(newer,encoding="utf-8")
+          print("Twitter Spaces compatibility patch:", "applied" if newer != s else "not needed")
+          PY
       - name: Find public Space links, download and transcribe
         env:
           SPACE_URL: ${{ inputs.space_url || '' }}
           GITHUB_RUN_ID: ${{ github.run_id }}
+          SPACE_EXTRACTOR_VERSION: 2026-11-compat-v1
         run: python mi_space_collect.py
       - name: Upload transcript as temporary Action artifact (not repository content)
         if: always()
