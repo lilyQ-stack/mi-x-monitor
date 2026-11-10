@@ -802,17 +802,17 @@
     "nitter.jaydenha.uk/tweets": {
       "status": "error",
       "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "message": "HTTP Error 429: Too Many Requests"
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "items": 22,
+      "attributed_by_link": 22
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
-      "items": 19,
-      "attributed_by_link": 19
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
@@ -820,5 +820,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 58
+  "retained_previous": 61
 }
