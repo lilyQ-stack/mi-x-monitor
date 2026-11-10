@@ -75,7 +75,7 @@ def due_for_retry(item: dict, now: datetime, force: bool = False) -> bool:
         return False
     # A newly patched extractor may justify one immediate retry of an old failure.
     version = os.environ.get("SPACE_EXTRACTOR_VERSION")
-    if version and item.get("status") == "download_failed" and item.get("extractor_version") != version:
+    if version and item.get("status") in {"download_failed", "transcribe_failed"} and item.get("extractor_version") != version:
         return True
     attempt = item.get("last_attempt")
     if attempt:
@@ -178,7 +178,7 @@ def main() -> int:
                 continue
             item["download_bytes"] = audio.stat().st_size
             print(f"Audio downloaded, {audio.stat().st_size} bytes", flush=True)
-            proc = run_command([sys.executable, "-m", "pip", "install", "--quiet", "faster-whisper>=1.1,<2"], timeout=360)
+            proc = run_command([sys.executable, "-m", "pip", "install", "--quiet", "faster-whisper>=1.1,<2", "av>=11,<19"], timeout=360)
             if proc.returncode != 0:
                 item["status"] = "transcribe_failed"
                 item["error"] = "faster-whisper install failed: " + proc.stdout[-300:]
