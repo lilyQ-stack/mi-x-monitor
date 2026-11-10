@@ -1,5 +1,9 @@
 name: MI Space audio collector (isolated)
 on:
+  push:
+    paths:
+      - 'mi_space_collect.py'
+      - '.github/workflows/mi-space-transcribe.yml'
   workflow_dispatch:
     inputs:
       space_url:
