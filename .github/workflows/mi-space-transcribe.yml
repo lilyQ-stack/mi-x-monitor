@@ -29,9 +29,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install Space downloader
+      - name: Install Space downloader and required FFmpeg
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
           python -m pip install --disable-pip-version-check --quiet -U yt-dlp
+          command -v ffmpeg
           ffmpeg -version | head -n 1
       - name: Apply public X Spaces extractor compatibility patch
         run: |
@@ -50,7 +53,7 @@ jobs:
         env:
           SPACE_URL: ${{ inputs.space_url || '' }}
           GITHUB_RUN_ID: ${{ github.run_id }}
-          SPACE_EXTRACTOR_VERSION: 2026-11-compat-v1
+          SPACE_EXTRACTOR_VERSION: 2026-11-compat-v2
         run: python mi_space_collect.py
       - name: Upload transcript as temporary Action artifact (not repository content)
         if: always()
