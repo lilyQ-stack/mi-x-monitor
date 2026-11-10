@@ -73,6 +73,10 @@ def due_for_retry(item: dict, now: datetime, force: bool = False) -> bool:
         return False
     if item.get("attempts", 0) >= MAX_ATTEMPTS:
         return False
+    # A newly patched extractor may justify one immediate retry of an old failure.
+    version = os.environ.get("SPACE_EXTRACTOR_VERSION")
+    if version and item.get("status") == "download_failed" and item.get("extractor_version") != version:
+        return True
     attempt = item.get("last_attempt")
     if attempt:
         try:
@@ -160,6 +164,7 @@ def main() -> int:
     for sid, item in pending[:1]:
         item["attempts"] = int(item.get("attempts", 0)) + 1
         item["last_attempt"] = iso_now()
+        item["extractor_version"] = os.environ.get("SPACE_EXTRACTOR_VERSION", "not_specified")
         print(f"Attempt {item['attempts']}: {item['url']}", flush=True)
         with tempfile.TemporaryDirectory(prefix="mi-space-") as tmp:
             try:
