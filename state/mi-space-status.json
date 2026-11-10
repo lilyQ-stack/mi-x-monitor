@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "account": "wr0789",
+  "spaces": {
+    "1XyJEEvejdRndj": {
+      "url": "https://x.com/i/spaces/1XyJEEvejdRndj",
+      "first_linked_day": "2026-10-31",
+      "status": "not_attempted",
+      "attempts": 0
+    },
+    "1YREZXeRvdyZEk": {
+      "url": "https://x.com/i/spaces/1YREZXeRvdyZEk",
+      "first_linked_day": "2026-11-06",
+      "status": "download_failed",
+      "attempts": 1,
+      "last_attempt": "2026-11-10T08:33:55+00:00",
+      "error": "[twitter:spaces] Extracting URL: https://x.com/i/spaces/1YREZXeRvdyZEk\n[twitter:spaces] 1YREZXeRvdyZE: Downloading guest token\n[twitter:spaces] 1YREZXeRvdyZE: Downloading GraphQL JSON\nERROR: [twitter:spaces] 1YREZXeRvdyZE: Twitter Space not found"
+    },
+    "1RKjpbgDYDdJw": {
+      "url": "https://x.com/i/spaces/1RKjpbgDYDdJw",
+      "first_linked_day": "2026-10-28",
+      "status": "not_attempted",
+      "attempts": 0
+    },
+    "1RJjpbgpmaRKw": {
+      "url": "https://x.com/i/spaces/1RJjpbgpmaRKw",
+      "first_linked_day": "2026-10-28",
+      "status": "not_attempted",
+      "attempts": 0
+    },
+    "1nKOLQMeEjnGR": {
+      "url": "https://x.com/i/spaces/1nKOLQMeEjnGR",
+      "first_linked_day": "2026-10-29",
+      "status": "not_attempted",
+      "attempts": 0
+    },
+    "1RJjpbgOZvWKw": {
+      "url": "https://x.com/i/spaces/1RJjpbgOZvWKw",
+      "first_linked_day": "2026-10-29",
+      "status": "not_attempted",
+      "attempts": 0
+    },
+    "1qKDzWNmdNOJV": {
+      "url": "https://x.com/i/spaces/1qKDzWNmdNOJV",
+      "first_linked_day": "2026-10-29",
+      "status": "not_attempted",
+      "attempts": 0
+    },
+    "1POJjyzMMlNPkg": {
+      "url": "https://x.com/i/spaces/1POJjyzMMlNPkg",
+      "first_linked_day": "2026-10-30",
+      "status": "not_attempted",
+      "attempts": 0
+    },
+    "1mdAppoPWkbJMJ": {
+      "url": "https://x.com/i/spaces/1mdAppoPWkbJMJ",
+      "first_linked_day": "2026-10-30",
+      "status": "not_attempted",
+      "attempts": 0
+    },
+    "1nQYAyobaWjagR": {
+      "url": "https://x.com/i/spaces/1nQYAyobaWjagR",
+      "first_linked_day": "2026-11-04",
+      "status": "not_attempted",
+      "attempts": 0
+    }
+  },
+  "last_scan_utc": "2026-11-10T08:33:55+00:00",
+  "discovered_count": 10,
+  "pending_count": 10,
+  "scan_status": "attempted"
+}
