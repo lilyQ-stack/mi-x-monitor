@@ -60,7 +60,7 @@ jobs:
         env:
           SPACE_URL: ${{ inputs.space_url || '' }}
           GITHUB_RUN_ID: ${{ github.run_id }}
-          SPACE_EXTRACTOR_VERSION: 2026-11-compat-v3
+          SPACE_EXTRACTOR_VERSION: 2026-11-compat-v4-asr
         run: python mi_space_collect.py
       - name: Upload transcript as temporary Action artifact (not repository content)
         if: always()
