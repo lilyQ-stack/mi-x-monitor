@@ -12,9 +12,10 @@
       "url": "https://x.com/i/spaces/1YREZXeRvdyZEk",
       "first_linked_day": "2026-11-06",
       "status": "download_failed",
-      "attempts": 1,
-      "last_attempt": "2026-11-10T08:33:55+00:00",
-      "error": "[twitter:spaces] Extracting URL: https://x.com/i/spaces/1YREZXeRvdyZEk\n[twitter:spaces] 1YREZXeRvdyZE: Downloading guest token\n[twitter:spaces] 1YREZXeRvdyZE: Downloading GraphQL JSON\nERROR: [twitter:spaces] 1YREZXeRvdyZE: Twitter Space not found"
+      "attempts": 2,
+      "last_attempt": "2026-11-10T08:43:10+00:00",
+      "error": "[twitter:spaces] 28_2118537989760733186: Downloading guest token\n[twitter:spaces] 28_2118537989760733186: Downloading legacy API JSON\n[twitter:spaces] 28_2118537989760733186: Downloading m3u8 information\n[info] 1YREZXeRvdyZEk: Downloading 1 format(s): 0\n[download] Destination: /tmp/mi-space-rgwx3atl/recording.m4a\nERROR: m3u8 download detected but ffmpeg could not be found. Please install\nERROR: Unable to download video: [Errno 2] No such file or directory: '/tmp/mi-space-rgwx3atl/recording.m4a.part'",
+      "extractor_version": "2026-11-compat-v1"
     },
     "1RKjpbgDYDdJw": {
       "url": "https://x.com/i/spaces/1RKjpbgDYDdJw",
@@ -67,8 +68,8 @@
       "error": "[twitter:spaces] 28_2117873858460123136: Downloading guest token\n[twitter:spaces] 28_2117873858460123136: Downloading legacy API JSON\n[twitter:spaces] 28_2117873858460123136: Downloading m3u8 information\n[info] 1nQYAyobaWjagR: Downloading 1 format(s): 0\n[download] Destination: /tmp/mi-space-qfkgvri3/recording.m4a\nERROR: m3u8 download detected but ffmpeg could not be found. Please install\nERROR: Unable to download video: [Errno 2] No such file or directory: '/tmp/mi-space-qfkgvri3/recording.m4a.part'"
     }
   },
-  "last_scan_utc": "2026-11-10T08:41:39+00:00",
+  "last_scan_utc": "2026-11-10T08:43:10+00:00",
   "discovered_count": 10,
-  "pending_count": 9,
+  "pending_count": 10,
   "scan_status": "attempted"
 }
