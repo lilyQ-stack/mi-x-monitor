@@ -800,9 +800,9 @@
   ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
