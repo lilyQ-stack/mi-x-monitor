@@ -33,7 +33,7 @@ jobs:
               title=(data.get('desc') or '')[:100]
               author=data.get('author') or {}
               raw_url,source=pick_video_url(data)
-              print('SUCCESS',json.dumps({'id':item,'author':author.get('nickname'),'title':title,'has_media_url':bool(raw_url),'media_source':source},ensure_ascii=False),flush=True)
+              print('SUCCESS',json.dumps({'id':item,'author':author.get('nickname'),'account':{'uid':author.get('uid'),'unique_id':author.get('unique_id'),'short_id':author.get('short_id'),'sec_uid':author.get('sec_uid')},'title':title,'has_media_url':bool(raw_url),'media_source':source},ensure_ascii=False),flush=True)
             except Exception as exc:
               print('FAIL',type(exc).__name__,str(exc)[:350],flush=True)
           PY
