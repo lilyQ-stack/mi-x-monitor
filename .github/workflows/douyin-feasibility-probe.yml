@@ -1,0 +1,35 @@
+name: Douyin public-access feasibility test (isolated)
+on:
+  push:
+    paths:
+      - '.github/workflows/douyin-feasibility-probe.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check public Douyin profile and extractor without credentials
+        run: |
+          python -m pip install -q -U yt-dlp
+          python - <<'PY'
+          import urllib.request, urllib.error
+          urls=[
+            'https://www.douyin.com/user/MS4wLjABAAAA_hkYGrUP3d2i3JodCLwrplan05tJ9xl1D6lZySbNC0Q',
+            'https://www.douyin.com/search/606890417'
+          ]
+          for u in urls:
+            req=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0.0.0 Safari/537.36','Accept-Language':'zh-CN,zh;q=0.9'})
+            try:
+              with urllib.request.urlopen(req,timeout=20) as response:
+                html=response.read(1000000)
+                print('URL:',u,'HTTP:',response.status,'BYTES:',len(html),'CONTAINS_AUTHOR:',('艾丽的无废话财经'.encode() in html),'CONTAINS_606890417:',(b'606890417' in html))
+            except Exception as ex:
+              print('URL:',u,'ERROR:',type(ex).__name__,str(ex)[:180])
+          PY
+          timeout 65s python -m yt_dlp --no-warnings --flat-playlist --playlist-end 3 --dump-json 'https://www.douyin.com/user/MS4wLjABAAAA_hkYGrUP3d2i3JodCLwrplan05tJ9xl1D6lZySbNC0Q' 2>&1 | tail -n 15 || true
