@@ -1,0 +1,52 @@
+name: Free public video parser smoke test (read-only)
+on:
+  push:
+    paths:
+      - '.github/workflows/free-video-parser-probe.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install open source extractor without paid credentials
+        run: python -m pip install --disable-pip-version-check --quiet 'git+https://github.com/risingjerry/social-media-toolkit.git'
+      - name: Probe known public videos; no downloads, paid keys or saved media
+        env:
+          TIKHUB_API_KEY: ''
+          VOLCENGINE_ASR_API_KEY: ''
+          TOS_ACCESS_KEY: ''
+          TOS_SECRET_KEY: ''
+        run: |
+          python - <<'PY'
+          import subprocess, json, re, sys, os
+          videos=[
+            ("Douyin Nov7", "https://www.douyin.com/video/7705235743992949754"),
+            ("Douyin Featured Nov7", "https://jingxuan.douyin.com/m/video/7705307245110671759"),
+            ("Bilibili Sep9", "https://www.bilibili.com/video/BV1tVYx6KETx/"),
+          ]
+          for name,url in videos:
+            print('===',name,flush=True)
+            try:
+              p=subprocess.run(["socialkit","inspect",url],capture_output=True,text=True,timeout=70,env={k:v for k,v in os.environ.items() if k not in ("TIKHUB_API_KEY","VOLCENGINE_ASR_API_KEY","TOS_ACCESS_KEY","TOS_SECRET_KEY")})
+              print("EXIT",p.returncode)
+              if p.returncode:
+                print("ERROR",(p.stderr or p.stdout)[-1000:])
+                continue
+              try:
+                data=json.loads(p.stdout)
+                post=data.get('post') or {}
+                media=data.get('media') or {}
+                print("POST",json.dumps({k:post.get(k) for k in ('title','author','description','published_at','id')},ensure_ascii=False)[:800])
+                print("MEDIA_COUNTS", {k:len(v) if isinstance(v,list) else 0 for k,v in media.items() if k in ('videos','audio','covers','images')})
+                print("PROVENANCE",json.dumps(data.get('provenance',{}),ensure_ascii=False)[:500])
+              except (json.JSONDecodeError,AttributeError,TypeError):
+                print("OUTPUT",p.stdout[-900:])
+            except Exception as ex:
+              print("EXCEPTION",type(ex).__name__,str(ex)[:300])
+          PY
