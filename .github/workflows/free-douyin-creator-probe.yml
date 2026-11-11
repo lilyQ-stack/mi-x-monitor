@@ -1,0 +1,39 @@
+name: Free Douyin creator timeline smoke test (read-only)
+on:
+  push:
+    paths:
+      - '.github/workflows/free-douyin-creator-probe.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare public creator discovery tool without login
+        run: |
+          git clone --depth 1 https://github.com/tobiasyy/Douyin-video-subtitle-capture.git "$RUNNER_TEMP/dcreator"
+          python -m pip install --disable-pip-version-check -q playwright
+          python -m playwright install --with-deps chromium
+      - name: Discover up to five recent videos from verified account
+        run: |
+          set +e
+          timeout 100s python "$RUNNER_TEMP/dcreator/douyin_test/fetch_user_videos.py" \
+            'MS4wLjABAAAA_hkYGrUP3d2i3JodCLwrplan05tJ9xl1D6lZySbNC0Q' \
+            --headless --limit 5 --max-scroll 1 --output "$RUNNER_TEMP/ellie_links.txt"
+          result=$?
+          echo "DISCOVERY_EXIT_CODE=$result"
+          python - <<'PY'
+          import os,json
+          p=os.path.join(os.environ['RUNNER_TEMP'],'ellie_links_videos.json')
+          if not os.path.exists(p):
+              print('DISCOVERY_NO_VIDEO_LIST'); raise SystemExit(0)
+          data=json.load(open(p))
+          print('DISCOVERY_FOUND_COUNT',len(data))
+          for v in data[:5]: print('VIDEO',v.get('aweme_id'),v.get('create_time'),str(v.get('desc',''))[:80])
+          PY
+          exit 0
