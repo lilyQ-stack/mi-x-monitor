@@ -1,0 +1,85 @@
+name: Douyin free recent-uploads discovery diagnostic (read-only)
+on:
+  push:
+    paths:
+      - '.github/workflows/douyin-free-discovery-diagnostic.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install known-good public video detail helper
+        run: |
+          git clone --depth=1 https://github.com/lucky-Luor/bilibili-douyin-notes.git "$RUNNER_TEMP/bdn"
+          python -m pip install --disable-pip-version-check -q gmssl
+      - name: Check creator's first page anonymously and indexed public metadata
+        env:
+          PYTHONPATH: ${{ runner.temp }}/bdn/scripts
+        run: |
+          python - <<'PY'
+          import sys, os, random, secrets, hashlib, json, urllib.request, urllib.parse, time, re, xml.etree.ElementTree as ET
+          import douyin_fetch as d
+          SEC='MS4wLjABAAAA_hkYGrUP3d2i3JodCLwrplan05tJ9xl1D6lZySbNC0Q'
+          def direct_list():
+              print('DIRECT_CREATOR_LIST_TEST_BEGIN',flush=True)
+              ttwid=d.get_ttwid()
+              tok=''.join(random.choice('abcdefghijklmnopqrstuvwxyz') for _ in range(38))+'=='
+              fp=d.gen_verify_fp(); uid=secrets.token_hex(25); stamp=str(int(time.time()))
+              params={
+                  'device_platform':'webapp','aid':'6383','channel':'channel_pc_web',
+                  'pc_client_type':'1','version_code':'290100','version_name':'29.1.0',
+                  'cookie_enabled':'true','screen_width':'1920','screen_height':'1080',
+                  'browser_language':'zh-CN','browser_platform':'Win32',
+                  'browser_name':'Chrome','browser_version':'130.0.0.0',
+                  'browser_online':'true','engine_name':'Blink','engine_version':'130.0.0.0',
+                  'os_name':'Windows','os_version':'10','cpu_core_num':'12',
+                  'device_memory':'8','platform':'PC','downlink':'10','effective_type':'4g',
+                  'round_trip_time':'0','msToken':tok,'sec_user_id':SEC,
+                  'max_cursor':'0','count':'5','locate_query':'false',
+                  'publish_video_strategy_type':'2',
+              }
+              signed=d.ABogus().get_value(params)
+              pairs=list(params.items())+[('a_bogus',signed),('verifyFp',fp),('fp',fp),('uifid',uid),('timestamp',stamp)]
+              preimage=d.encode_pairs(pairs)
+              sig=hashlib.md5(f'{uid}_{stamp}_{d.WEB_SIGN_SALT}_{preimage}'.encode()).hexdigest()
+              query=preimage+'&x-secsdk-web-signature='+sig
+              url='https://www.douyin.com/aweme/v1/web/aweme/post/?'+query
+              hdr={'User-Agent':d.UA,'Referer':'https://www.douyin.com/',
+                   'Accept':'application/json, text/plain, */*',
+                   'Cookie':f'ttwid={ttwid}; msToken={tok}; s_v_web_id={fp}; UIFID_TEMP={uid}',
+                   'uifid':uid,'x-secsdk-web-signature':sig,'x-secsdk-web-expire':stamp}
+              try:
+                  with d.http(url,headers=hdr) as response:
+                      payload=json.loads(response.read(600000).decode())
+                  posts=payload.get('aweme_list') or []
+                  print('DIRECT_LIST_RESULT',json.dumps({
+                      'status_code':payload.get('status_code'), 'status_msg':payload.get('status_msg'),
+                      'filter_reason':payload.get('filter_reason'),
+                      'error_code':payload.get('error_code'), 'keys':list(payload)[:16],
+                      'count':len(posts), 'has_more':payload.get('has_more'),
+                      'posts':[{'id':p.get('aweme_id'),'title':(p.get('desc') or '')[:70],
+                                'short_id':(p.get('author') or {}).get('short_id'),
+                                'date':p.get('create_time')} for p in posts[:5]]
+                  },ensure_ascii=False),flush=True)
+              except Exception as ex: print('DIRECT_LIST_ERROR',type(ex).__name__,str(ex)[:220],flush=True)
+          def public_rss():
+              q='site:jingxuan.douyin.com/m/video/ "艾丽的无废话财经" "11.11"'
+              url='https://www.bing.com/search?'+urllib.parse.urlencode({'format':'rss','q':q})
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'application/rss+xml'})
+              try:
+                  with urllib.request.urlopen(req,timeout=20) as resp:
+                      raw=resp.read(500000)
+                  root=ET.fromstring(raw)
+                  records=[{'title':(it.findtext('title') or '')[:100],
+                            'link':(it.findtext('link') or '')[:250]}
+                           for it in root.findall('.//item')[:8]]
+                  print('BING_RSS_RESULT',json.dumps({'count':len(records),'items':records},ensure_ascii=False),flush=True)
+              except Exception as ex:print('BING_RSS_ERROR',type(ex).__name__,str(ex)[:240],flush=True)
+          direct_list();public_rss()
+          PY
