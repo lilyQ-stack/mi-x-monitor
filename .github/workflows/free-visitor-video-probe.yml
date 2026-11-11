@@ -1,0 +1,39 @@
+name: Free visitor API video metadata probe (read-only)
+on:
+  push:
+    paths:
+      - '.github/workflows/free-visitor-video-probe.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install separate open-source metadata adapter, without user credentials
+        run: |
+          git clone --depth=1 https://github.com/lucky-Luor/bilibili-douyin-notes.git "$RUNNER_TEMP/bdn"
+          python -m pip install --disable-pip-version-check -q gmssl
+      - name: Probe known public posts; do not download or save media
+        env:
+          PYTHONPATH: ${{ runner.temp }}/bdn/scripts
+        run: |
+          timeout 100s python - <<'PY'
+          import sys, json, os
+          from douyin_fetch import fetch_aweme_detail, pick_video_url
+          ids=['7705235743992949754','7705307245110671759']
+          for item in ids:
+            print('ID',item,flush=True)
+            try:
+              data=fetch_aweme_detail(item)
+              title=(data.get('desc') or '')[:100]
+              author=data.get('author') or {}
+              raw_url,source=pick_video_url(data)
+              print('SUCCESS',json.dumps({'id':item,'author':author.get('nickname'),'title':title,'has_media_url':bool(raw_url),'media_source':source},ensure_ascii=False),flush=True)
+            except Exception as exc:
+              print('FAIL',type(exc).__name__,str(exc)[:350],flush=True)
+          PY
