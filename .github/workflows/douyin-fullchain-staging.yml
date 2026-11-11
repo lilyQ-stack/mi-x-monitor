@@ -1,0 +1,50 @@
+name: Douyin creator full-chain staging test
+on:
+  push:
+    branches: ['experiment/douyin-realtime-discovery']
+    paths: ['douyin-monitor/collector.py', '.github/workflows/douyin-fullchain-staging.yml']
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Beijing date YYYY-MM-DD (blank = yesterday)'
+        required: false
+        type: string
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install public reader and offline ASR
+        run: |
+          git clone --depth=1 https://github.com/lucky-Luor/bilibili-douyin-notes.git "$RUNNER_TEMP/bdn"
+          python -m pip install --quiet gmssl 'faster-whisper>=1.1,<2'
+      - name: Discover, verify, download and transcribe yesterday's posts
+        env:
+          PYTHONPATH: ${{ runner.temp }}/bdn/scripts
+          DISPATCH_DATE: ${{ inputs.target_date }}
+        run: |
+          TARGET="$DISPATCH_DATE"
+          if [[ -z "$TARGET" && "$GITHUB_EVENT_NAME" == "push" ]]; then
+            TARGET="2026-11-11"
+          fi
+          if [[ -n "$TARGET" ]]; then
+            python douyin-monitor/collector.py --target-date "$TARGET" --output "$RUNNER_TEMP/ellie-report"
+          else
+            python douyin-monitor/collector.py --output "$RUNNER_TEMP/ellie-report"
+          fi
+      - name: Save only manifest and transcript (not video)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ellie-staging-transcripts-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/ellie-report/manifest.json
+            ${{ runner.temp }}/ellie-report/*.transcript.json
+          if-no-files-found: warn
+          retention-days: 7
