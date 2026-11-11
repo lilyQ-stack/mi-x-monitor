@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-12",
+  "account": "wr0789",
+  "status": "partial",
+  "complete": false,
+  "items": [],
+  "sources": {
+    "nitter.jaydenha.uk/tweets": {
+      "status": "ok",
+      "items": 19,
+      "attributed_by_link": 19
+    },
+    "nitter.jaydenha.uk/with_replies": {
+      "status": "ok",
+      "items": 25,
+      "attributed_by_link": 25
+    },
+    "nitter.meowing.monster/tweets": {
+      "status": "error",
+      "type": "URLError",
+      "message": "<urlopen error [Errno 111] Connection refused>"
+    },
+    "nitter.meowing.monster/with_replies": {
+      "status": "error",
+      "type": "URLError",
+      "message": "<urlopen error [Errno 111] Connection refused>"
+    }
+  },
+  "retained_previous": 0
+}
