@@ -1,0 +1,49 @@
+name: Bilibili single-video feasibility probe (read-only)
+on:
+  push:
+    paths: ['.github/workflows/bili-feasibility-probe.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Metadata and subtitle availability (no login)
+        env:
+          BVID: BV1tVYx6KETx
+        run: |
+          python - <<'PY'
+          import json, os, urllib.parse, urllib.request
+          bvid=os.environ['BVID']; base='https://api.bilibili.com'
+          headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128 Safari/537.36', 'Referer':'https://www.bilibili.com/', 'Accept':'application/json'}
+          def get(path):
+              req=urllib.request.Request(base+path,headers=headers)
+              try:
+                  with urllib.request.urlopen(req,timeout=25) as r:
+                      raw=r.read(3000000)
+                      return json.loads(raw)
+              except Exception as exc: return {'network_error':type(exc).__name__+': '+str(exc)[:250]}
+          data=get('/x/web-interface/view?bvid='+urllib.parse.quote(bvid))
+          print('METADATA_API_CODE',data.get('code'),'ERROR',data.get('message') or data.get('network_error'))
+          v=data.get('data') or {}
+          print('VIDEO',json.dumps({k:v.get(k) for k in ('bvid','aid','cid','title','pubdate','duration')},ensure_ascii=False))
+          print('OWNER',json.dumps(v.get('owner') or {},ensure_ascii=False))
+          if not v.get('cid'): exit(0)
+          cid=v['cid']
+          subtitles=get('/x/player/v2?bvid='+urllib.parse.quote(bvid)+'&cid='+str(cid))
+          player=subtitles.get('data') or {}
+          sub=(player.get('subtitle') or {}) if isinstance(player,dict) else {}
+          print('SUBTITLE_API_CODE',subtitles.get('code'),'ERROR',subtitles.get('message') or subtitles.get('network_error'))
+          print('SUBTITLE_META',json.dumps({'need_login':sub.get('need_login_subtitle'),'count':len(sub.get('subtitles') or []),'languages':[x.get('lan') for x in sub.get('subtitles') or []]},ensure_ascii=False))
+          PY
+      - name: Probe yt-dlp for publicly available subtitles and audio formats
+        run: |
+          python -m pip install --quiet -U yt-dlp
+          set +e
+          timeout 90s python -m yt_dlp --no-playlist --no-warnings --list-subs 'https://www.bilibili.com/video/BV1tVYx6KETx/' 2>&1 | tail -n 45
+          echo "SUBTITLE_PROBE_EXIT=$?"
+          timeout 90s python -m yt_dlp --no-playlist --no-warnings --list-formats 'https://www.bilibili.com/video/BV1tVYx6KETx/' 2>&1 | tail -n 40
+          echo "FORMAT_PROBE_EXIT=$?"
+          exit 0
