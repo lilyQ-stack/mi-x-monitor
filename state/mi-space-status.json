@@ -75,15 +75,17 @@
     "1VNEqbBNXWemQy": {
       "url": "https://x.com/i/spaces/1VNEqbBNXWemQy",
       "first_linked_day": "2026-11-10",
-      "status": "transcribe_failed",
-      "attempts": 1,
-      "last_attempt": "2026-11-10T17:14:09+00:00",
-      "extractor_version": "2026-11-compat-v3",
+      "status": "transcribed",
+      "attempts": 2,
+      "last_attempt": "2026-11-11T01:25:13+00:00",
+      "extractor_version": "2026-11-compat-v4-asr",
       "download_bytes": 45540163,
-      "error": "TypeError: open() got an unexpected keyword argument 'metadata_errors'"
+      "segments": 2410,
+      "transcribed_utc": "2026-11-11T01:37:03+00:00",
+      "artifact_run_id": "42938799894"
     }
   },
-  "last_scan_utc": "2026-11-10T22:07:27+00:00",
+  "last_scan_utc": "2026-11-11T01:25:13+00:00",
   "discovered_count": 11,
   "pending_count": 9,
   "scan_status": "attempted"
