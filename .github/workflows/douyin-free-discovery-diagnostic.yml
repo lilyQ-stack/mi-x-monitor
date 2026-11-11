@@ -41,7 +41,7 @@ jobs:
                   'os_name':'Windows','os_version':'10','cpu_core_num':'12',
                   'device_memory':'8','platform':'PC','downlink':'10','effective_type':'4g',
                   'round_trip_time':'0','msToken':tok,'sec_user_id':SEC,
-                  'max_cursor':'0','count':'5','locate_query':'false',
+                  'max_cursor':'0','count':'20','locate_query':'false',
                   'publish_video_strategy_type':'2',
               }
               signed=d.ABogus().get_value(params)
@@ -62,10 +62,10 @@ jobs:
                       'status_code':payload.get('status_code'), 'status_msg':payload.get('status_msg'),
                       'filter_reason':payload.get('filter_reason'),
                       'error_code':payload.get('error_code'), 'keys':list(payload)[:16],
-                      'count':len(posts), 'has_more':payload.get('has_more'),
+                      'count':len(posts), 'has_more':payload.get('has_more'), 'max_cursor':payload.get('max_cursor'), 'min_cursor':payload.get('min_cursor'),
                       'posts':[{'id':p.get('aweme_id'),'title':(p.get('desc') or '')[:70],
                                 'short_id':(p.get('author') or {}).get('short_id'),
-                                'date':p.get('create_time')} for p in posts[:5]]
+                                'date':p.get('create_time'),'pinned':p.get('is_top') or p.get('is_pinned'),'author_uid':(p.get('author') or {}).get('uid')} for p in posts[:25]]
                   },ensure_ascii=False),flush=True)
               except Exception as ex: print('DIRECT_LIST_ERROR',type(ex).__name__,str(ex)[:220],flush=True)
           def public_rss():
