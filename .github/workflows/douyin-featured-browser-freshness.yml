@@ -1,0 +1,49 @@
+name: Douyin Featured headless browser freshness probe
+on:
+  push:
+    paths: ['.github/workflows/douyin-featured-browser-freshness.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Browser setup
+        run: |
+          python -m pip install -q playwright
+          python -m playwright install --with-deps chromium
+      - name: Render selected public page and inspect latest items
+        run: |
+          timeout 110s python - <<'PY'
+          import asyncio,re,json
+          from playwright.async_api import async_playwright
+          async def main():
+            async with async_playwright() as p:
+              browser=await p.chromium.launch(headless=True,args=['--no-sandbox'])
+              page=await browser.new_page(viewport={'width':1365,'height':900},locale='zh-CN',timezone_id='Asia/Shanghai')
+              seen=[]
+              async def on_response(r):
+                if any(x in r.url for x in ['aweme','feed','user','video','jingxuan','recommend','api/']):
+                  if len(seen)<25:seen.append({'status':r.status,'url':r.url[:210]})
+              page.on('response',on_response)
+              for url in ['https://jingxuan.douyin.com/m/video/7705235743992949754','https://www.douyin.com/jingxuan?modal_id=7705235743992949754']:
+                print('TEST_URL',url,flush=True)
+                try:
+                  resp=await page.goto(url,wait_until='domcontentloaded',timeout=27000)
+                  await page.wait_for_timeout(11000)
+                  txt=(await page.locator('body').inner_text(timeout=13000))
+                  html=await page.content()
+                  title=await page.title()
+                  matches=re.findall(r'\b(?:11\.11|11\.10|11\.9|11\.7|11\.6|11\.5)\b',txt)
+                  ids=list(dict.fromkeys(re.findall(r'(?<!\d)7\d{18}(?!\d)',html)))[:15]
+                  print('RENDER_RESULT',json.dumps({'status':resp.status if resp else None,'title':title,'body_len':len(txt),'html_len':len(html),'markers':matches[:25],'has_creator':'艾丽的无废话财经' in txt,'ids':ids,'body_sample':txt[:700]},ensure_ascii=False),flush=True)
+                except Exception as ex:print('RENDER_ERROR',type(ex).__name__,str(ex)[:250],flush=True)
+              print('NETWORK',json.dumps(seen,ensure_ascii=False),flush=True)
+              await browser.close()
+          asyncio.run(main())
+          PY
