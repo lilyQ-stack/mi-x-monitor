@@ -23,7 +23,7 @@ jobs:
       - name: Install public reader and offline ASR
         run: |
           git clone --depth=1 https://github.com/lucky-Luor/bilibili-douyin-notes.git "$RUNNER_TEMP/bdn"
-          python -m pip install --quiet gmssl 'faster-whisper>=1.1,<2'
+          python -m pip install --quiet gmssl 'faster-whisper>=1.1,<2' 'av>=11,<19'
       - name: Discover, verify, download and transcribe yesterday's posts
         env:
           PYTHONPATH: ${{ runner.temp }}/bdn/scripts
