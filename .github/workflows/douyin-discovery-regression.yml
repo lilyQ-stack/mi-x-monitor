@@ -1,0 +1,46 @@
+name: Douyin creator discovery regression (staging only)
+on:
+  push:
+    branches: ['experiment/douyin-realtime-discovery']
+    paths: ['.github/workflows/douyin-discovery-regression.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install free public reader
+        run: |
+          git clone --depth=1 https://github.com/lucky-Luor/bilibili-douyin-notes.git "$RUNNER_TEMP/bdn"
+          python -m pip install -q gmssl
+      - name: Test two-video day, zero-video day, and newest-video day
+        env:
+          PYTHONPATH: ${{ runner.temp }}/bdn/scripts
+        run: |
+          set -e
+          for DAY in 2026-11-07 2026-11-10 2026-11-11; do
+            python douyin-monitor/collector.py --target-date "$DAY" \
+               --output "$RUNNER_TEMP/regression/$DAY" --only-discover
+          done
+          python - <<'PY'
+          import json,os
+          root=os.environ['RUNNER_TEMP']+'/regression'
+          expected={
+              '2026-11-07':{'7705235743992949754','7705307245110671759'},
+              '2026-11-10':set(),
+              '2026-11-11':{'7706743594619651259'}
+          }
+          for day,ids in expected.items():
+              with open(root+'/'+day+'/manifest.json',encoding='utf-8') as f: d=json.load(f)
+              found={v['id'] for v in d['videos']}
+              assert ids==found,(day,ids,found)
+              assert d['window_reached'] is True,(day,'not covered')
+              assert d['author_uid']=='95667973305',(day,'wrong author')
+              print('REGRESSION_PASS',day,'videos',len(found),'state',d['status'],flush=True)
+          PY
