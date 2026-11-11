@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.1",
+  "creator": {
+    "platform": "douyin",
+    "short_id": "606890417",
+    "uid": "95667973305",
+    "display": "艾丽的无废话财经"
+  },
+  "video": {
+    "id": "7706743594619651259",
+    "url": "https://www.douyin.com/video/7706743594619651259",
+    "title": "11.11 #疯狂捡筹码 #加速抽流动性 #预期管理",
+    "published_at": "2026-11-11T11:01:12+08:00",
+    "asr_chars": 758,
+    "asr_segments": 122
+  },
+  "summary": "博主认为碎片化与选择性传播的市场信息可能被用于制造恐慌，推动低价吸筹和全球流动性紧缩预期；并担忧后续还会出现更多风险事件。",
+  "claims": [
+    {
+      "id": "c1",
+      "topic": "市场信息传播",
+      "claim": "部分美伊事件及货币政策信息受到选择性放大，假消息更正时传播较弱，从而增加恐慌交易",
+      "kind": "causal-interpretation",
+      "source_window_seconds": [
+        10,
+        96
+      ],
+      "verification": "unverified",
+      "caveat": "动机与操纵行为属于博主推断，尚无独立证据"
+    },
+    {
+      "id": "c2",
+      "topic": "地缘外交",
+      "claim": "美伊双方尚无协议、未作实质退让，博主提及鲁比奥有关进展的表态",
+      "kind": "factual-assertion",
+      "source_window_seconds": [
+        96,
+        110
+      ],
+      "verification": "needs-independent-source-check",
+      "caveat": "转写中专有名词易误识；需查原始外交报道"
+    },
+    {
+      "id": "c3",
+      "topic": "美国通胀和利率预期",
+      "claim": "博主称CPI与核心CPI各比预期高0.1，并认为加息预期可能被放大至更大幅度及更长周期",
+      "kind": "market-scenario",
+      "source_window_seconds": [
+        110,
+        155
+      ],
+      "verification": "needs-independent-source-check",
+      "caveat": "须核对所指CPI发布日期、数据口径和市场是否确实预期加息"
+    },
+    {
+      "id": "c4",
+      "topic": "全球流动性",
+      "claim": "如果风险事件与加息预期炒作持续成为主线，普通投资者可能承压",
+      "kind": "conditional-forecast",
+      "source_window_seconds": [
+        158,
+        171
+      ],
+      "time_horizon": "未明确",
+      "failure_condition": "相应叙事没有持续、市场资金与政策预期未出现所述变化",
+      "verification": "pending"
+    },
+    {
+      "id": "c5",
+      "topic": "突发事件",
+      "claim": "博主判断未来可能出现更多黑天鹅事件",
+      "kind": "vague-forecast",
+      "source_window_seconds": [
+        173,
+        180
+      ],
+      "time_horizon": "未明确",
+      "scoreable": false,
+      "verification": "not-scoreable-without-specificity"
+    }
+  ],
+  "analyst_note": "根据免费本地中文ASR完成初步提炼；不将博主判断当作已证实事实，也不把缺少时间和具体指标的预测计入预测准确率。",
+  "source_integrity": {
+    "automated_asr": "passed",
+    "manual_audio_check": "not_done",
+    "independent_fact_check": "not_done",
+    "full_transcript_publicly_committed": false
+  }
+}
