@@ -56,7 +56,7 @@ jobs:
                    'uifid':uid,'x-secsdk-web-signature':sig,'x-secsdk-web-expire':stamp}
               try:
                   with d.http(url,headers=hdr) as response:
-                      payload=json.loads(response.read(600000).decode())
+                      payload=json.loads(response.read(12000000).decode())
                   posts=payload.get('aweme_list') or []
                   print('DIRECT_LIST_RESULT',json.dumps({
                       'status_code':payload.get('status_code'), 'status_msg':payload.get('status_msg'),
