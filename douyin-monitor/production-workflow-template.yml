@@ -1,0 +1,62 @@
+# Copy to .github/workflows/ellie-douyin-daily.yml in the DEDICATED repo.
+# Staged as a non-active text template in mi-x-monitor experiment branch.
+name: Ellie Douyin daily collector
+on:
+  schedule:
+    - cron: '0 23 * * *'    # 07:00 Beijing
+    - cron: '20 0 * * *'    # 08:20 Beijing
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Beijing date YYYY-MM-DD (blank = yesterday)'
+        required: false
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: ellie-douyin-${{ github.ref }}-${{ github.event.schedule || 'manual' }}
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install public reader and offline speech recognition
+        run: |
+          git clone --depth=1 https://github.com/lucky-Luor/bilibili-douyin-notes.git "$RUNNER_TEMP/bdn"
+          python -m pip install -q gmssl 'faster-whisper>=1.1,<2' 'av>=11,<19'
+      - name: Discover and transcribe yesterday's videos
+        env:
+          PYTHONPATH: ${{ runner.temp }}/bdn/scripts
+          REQUESTED_DATE: ${{ inputs.target_date }}
+          CURRENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [[ -n "$REQUESTED_DATE" ]]; then
+            if [[ "$CURRENT_SCHEDULE" == "0 23 * * *" ]]; then
+              python douyin-monitor/collector.py --target-date "$REQUESTED_DATE" --output "$RUNNER_TEMP/ellie-report" --only-discover
+            else
+              python douyin-monitor/collector.py --target-date "$REQUESTED_DATE" --output "$RUNNER_TEMP/ellie-report"
+            fi
+          elif [[ "$CURRENT_SCHEDULE" == "0 23 * * *" ]]; then
+            python douyin-monitor/collector.py --output "$RUNNER_TEMP/ellie-report" --only-discover
+          else
+            python douyin-monitor/collector.py --output "$RUNNER_TEMP/ellie-report"
+          fi
+      - name: Archive manifest and transcript, never original video
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ellie-report-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/ellie-report/manifest.json
+            ${{ runner.temp }}/ellie-report/*.transcript.json
+          if-no-files-found: warn
+          retention-days: 14
+
+# GitHub cron may be late. Add external punctual trigger and separate 08:45
+# Beijing-time report validation before promising a 09:00 service level.
+# Empty creator feed does not prove zero uploads.
