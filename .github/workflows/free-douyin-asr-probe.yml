@@ -1,0 +1,57 @@
+name: Free Douyin public video download and ASR smoke test
+on:
+  push:
+    paths:
+      - '.github/workflows/free-douyin-asr-probe.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install free open-source tools only
+        run: |
+          git clone --depth=1 https://github.com/lucky-Luor/bilibili-douyin-notes.git "$RUNNER_TEMP/bdn"
+          python -m pip install --disable-pip-version-check -q gmssl 'faster-whisper>=1.1,<2' 'av>=11,<19'
+      - name: Download one publicly available video to temporary directory
+        env:
+          PYTHONPATH: ${{ runner.temp }}/bdn/scripts
+        run: |
+          mkdir -p "$RUNNER_TEMP/ellie_video"
+          timeout 130s python "$RUNNER_TEMP/bdn/scripts/douyin_fetch.py" \
+            'https://www.douyin.com/video/7705235743992949754' "$RUNNER_TEMP/ellie_video"
+          du -h "$RUNNER_TEMP"/ellie_video/* | head -n 4
+      - name: Transcribe with local Whisper model, report counts only
+        run: |
+          timeout 750s python - <<'PY'
+          import os,json,glob
+          from faster_whisper import WhisperModel
+          temp=os.environ['RUNNER_TEMP']
+          videos=glob.glob(temp+'/ellie_video/*.mp4')
+          assert videos, 'No actual video downloaded'
+          video=videos[0]
+          assert os.path.getsize(video)>100000, 'Video is empty'
+          model=WhisperModel('small',device='cpu',compute_type='int8',cpu_threads=4)
+          segs,info=model.transcribe(video,language='zh',beam_size=3,vad_filter=True)
+          items=[]
+          for x in segs:
+              s=x.text.strip()
+              if s:items.append((x.start,x.end,s))
+          assert len(items)>=3, 'No substantial speech recognized'
+          total_chars=sum(len(x[2]) for x in items)
+          assert total_chars>100, 'Recognized text too short'
+          print('ASR_SUCCESS',json.dumps({
+              'video_id':'7705235743992949754',
+              'video_size_bytes':os.path.getsize(video),
+              'language':info.language,
+              'segments':len(items),
+              'text_chars':total_chars,
+              'speech_end_sec':round(items[-1][1],1)
+          },ensure_ascii=False))
+          # Temporary files only; neither video nor transcripts committed/uploaded
+          PY
