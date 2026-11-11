@@ -41,7 +41,7 @@ jobs:
                   title=await page.title()
                   matches=re.findall(r'\b(?:11\.11|11\.10|11\.9|11\.7|11\.6|11\.5)\b',txt)
                   ids=list(dict.fromkeys(re.findall(r'(?<!\d)7\d{18}(?!\d)',html)))[:15]
-                  print('RENDER_RESULT',json.dumps({'status':resp.status if resp else None,'title':title,'body_len':len(txt),'html_len':len(html),'markers':matches[:25],'has_creator':'艾丽的无废话财经' in txt,'ids':ids,'body_sample':txt[:700]},ensure_ascii=False),flush=True)
+                  print('RENDER_RESULT',json.dumps({'status':resp.status if resp else None,'title':title,'body_len':len(txt),'html_len':len(html),'markers':matches[:25],'has_creator':'艾丽的无废话财经' in txt,'ids':ids,'body_sample':txt[:4600]},ensure_ascii=False),flush=True)
                 except Exception as ex:print('RENDER_ERROR',type(ex).__name__,str(ex)[:250],flush=True)
               print('NETWORK',json.dumps(seen,ensure_ascii=False),flush=True)
               await browser.close()
