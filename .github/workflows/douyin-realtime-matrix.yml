@@ -1,0 +1,71 @@
+name: Douyin realtime listing AID diagnostic (staging only)
+on:
+  push:
+    branches: ['experiment/douyin-realtime-discovery']
+    paths: ['.github/workflows/douyin-realtime-matrix.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install isolated public metadata reader
+        run: |
+          git clone --depth=1 https://github.com/lucky-Luor/bilibili-douyin-notes.git "$RUNNER_TEMP/bdn"
+          python -m pip install --quiet gmssl
+      - name: Compare four signed public creator feed variants
+        env:
+          PYTHONPATH: ${{ runner.temp }}/bdn/scripts
+        run: |
+          python - <<'PY'
+          import hashlib,json,random,secrets,time,datetime,urllib.error
+          import douyin_fetch as d
+          SEC='MS4wLjABAAAA_hkYGrUP3d2i3JodCLwrplan05tJ9xl1D6lZySbNC0Q'
+          known=['7706743594619651259','7705307245110671759','7705235743992949754']
+          for aid,strategy in [('6383',False),('1128',False),('6383',True),('1128',True)]:
+              print('BEGIN_VARIANT',aid,strategy,flush=True)
+              try:
+                  ttwid=d.get_ttwid(); tok=''.join(random.choice('abcdefghijklmnopqrstuvwxyz') for _ in range(38))+'=='
+                  fp=d.gen_verify_fp(); uid=secrets.token_hex(25); stamp=str(int(time.time()))
+                  params={
+                    'device_platform':'webapp','aid':aid,'channel':'channel_pc_web',
+                    'pc_client_type':'1','version_code':'290100','version_name':'29.1.0',
+                    'cookie_enabled':'true','screen_width':'1920','screen_height':'1080',
+                    'browser_language':'zh-CN','browser_platform':'Win32',
+                    'browser_name':'Chrome','browser_version':'130.0.0.0',
+                    'browser_online':'true','engine_name':'Blink','engine_version':'130.0.0.0',
+                    'os_name':'Windows','os_version':'10','cpu_core_num':'12',
+                    'device_memory':'8','platform':'PC','downlink':'10','effective_type':'4g',
+                    'round_trip_time':'0','msToken':tok,'sec_user_id':SEC,
+                    'max_cursor':'0','count':'40','locate_query':'false'}
+                  if strategy:params['publish_video_strategy_type']='2'
+                  signed=d.ABogus().get_value(params)
+                  pairs=list(params.items())+[('a_bogus',signed),('verifyFp',fp),('fp',fp),('uifid',uid),('timestamp',stamp)]
+                  preimage=d.encode_pairs(pairs)
+                  sig=hashlib.md5(f'{uid}_{stamp}_{d.WEB_SIGN_SALT}_{preimage}'.encode()).hexdigest()
+                  url='https://www.douyin.com/aweme/v1/web/aweme/post/?'+preimage+'&x-secsdk-web-signature='+sig
+                  hdr={'User-Agent':d.UA,'Referer':'https://www.douyin.com/','Accept':'application/json, text/plain, */*',
+                    'Cookie':f'ttwid={ttwid}; msToken={tok}; s_v_web_id={fp}; UIFID_TEMP={uid}',
+                    'uifid':uid,'x-secsdk-web-signature':sig,'x-secsdk-web-expire':stamp}
+                  with d.http(url,headers=hdr) as response:
+                      payload=json.loads(response.read(20000000).decode())
+                  posts=payload.get('aweme_list') or []
+                  def summarize(p):
+                      return {'id':p.get('aweme_id'),
+                        'time':datetime.datetime.fromtimestamp(int(p.get('create_time') or 0),datetime.timezone(datetime.timedelta(hours=8))).strftime('%Y-%m-%d %H:%M'),
+                        'title':(p.get('desc') or '')[:85],'uid':(p.get('author') or {}).get('uid')}
+                  recent=sorted([p for p in posts if isinstance(p,dict)],key=lambda x:x.get('create_time') or 0,reverse=True)
+                  ids={p.get('aweme_id') for p in posts if isinstance(p,dict)}
+                  print('RESULT',json.dumps({'aid':aid,'strategy':strategy,'status':payload.get('status_code'),'count':len(posts),
+                     'has_more':payload.get('has_more'),'has_recent_known':{k:k in ids for k in known},
+                     'top_by_date':[summarize(p) for p in recent[:10]],
+                     'nonlogin':payload.get('not_login_module')},ensure_ascii=False)[:7000],flush=True)
+              except Exception as e:
+                  print('ERROR',aid,strategy,type(e).__name__,str(e)[:250],flush=True)
+              time.sleep(1)
+          PY
