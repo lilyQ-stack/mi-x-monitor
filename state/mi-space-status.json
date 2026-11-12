@@ -101,10 +101,28 @@
       "segments": 1674,
       "transcribed_utc": "2026-11-11T22:26:00+00:00",
       "artifact_run_id": "43109707476"
+    },
+    "1zkVpkqOMJvBMe": {
+      "url": "https://x.com/i/spaces/1zkVpkqOMJvBMe",
+      "first_linked_day": "2026-11-12",
+      "status": "transcribed",
+      "attempts": 1,
+      "last_attempt": "2026-11-12T11:44:14+00:00",
+      "extractor_version": "2026-11-compat-v4-asr",
+      "download_bytes": 45407505,
+      "segments": 1255,
+      "transcribed_utc": "2026-11-12T11:52:03+00:00",
+      "artifact_run_id": "43211672938"
+    },
+    "1lgQYnabnqAVrp": {
+      "url": "https://x.com/i/spaces/1lgQYnabnqAVrp",
+      "first_linked_day": "2026-11-12",
+      "status": "not_attempted",
+      "attempts": 0
     }
   },
-  "last_scan_utc": "2026-11-11T22:12:10+00:00",
-  "discovered_count": 12,
-  "pending_count": 8,
+  "last_scan_utc": "2026-11-12T11:44:14+00:00",
+  "discovered_count": 14,
+  "pending_count": 9,
   "scan_status": "attempted"
 }
