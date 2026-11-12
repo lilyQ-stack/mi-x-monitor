@@ -507,19 +507,19 @@
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 25,
-      "attributed_by_link": 25
+      "items": 23,
+      "attributed_by_link": 23
     },
     "nitter.meowing.monster/tweets": {
-      "status": "error",
-      "type": "URLError",
-      "message": "<urlopen error [Errno 111] Connection refused>"
+      "status": "ok",
+      "items": 19,
+      "attributed_by_link": 19
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
-      "type": "URLError",
-      "message": "<urlopen error [Errno 111] Connection refused>"
+      "type": "ParseError",
+      "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 0
+  "retained_previous": 38
 }
