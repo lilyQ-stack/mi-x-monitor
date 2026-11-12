@@ -117,12 +117,18 @@
     "1lgQYnabnqAVrp": {
       "url": "https://x.com/i/spaces/1lgQYnabnqAVrp",
       "first_linked_day": "2026-11-12",
-      "status": "not_attempted",
-      "attempts": 0
+      "status": "transcribed",
+      "attempts": 1,
+      "last_attempt": "2026-11-12T21:54:02+00:00",
+      "extractor_version": "2026-11-compat-v4-asr",
+      "download_bytes": 47519448,
+      "segments": 1668,
+      "transcribed_utc": "2026-11-12T22:01:33+00:00",
+      "artifact_run_id": "43314730744"
     }
   },
-  "last_scan_utc": "2026-11-12T11:44:14+00:00",
+  "last_scan_utc": "2026-11-12T21:54:02+00:00",
   "discovered_count": 14,
-  "pending_count": 9,
+  "pending_count": 8,
   "scan_status": "attempted"
 }
