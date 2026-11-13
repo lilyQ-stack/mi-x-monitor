@@ -1079,8 +1079,8 @@
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 28,
-      "attributed_by_link": 28
+      "items": 30,
+      "attributed_by_link": 30
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -1093,5 +1093,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 57
+  "retained_previous": 82
 }

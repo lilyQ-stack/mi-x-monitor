@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T17:45:23.186371+00:00",
+  "checked_at": "2026-11-13T23:35:52.457968+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
@@ -11,8 +11,8 @@
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 28,
-      "attributed_by_link": 28
+      "items": 30,
+      "attributed_by_link": 30
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -26,6 +26,45 @@
     }
   },
   "items": [
+    {
+      "id": "2121357725691269307",
+      "url": "https://x.com/wr0789/status/2121357725691269307",
+      "date": "2026-11-14",
+      "published": "Fri, 13 Nov 2026 21:41:09 GMT",
+      "title_excerpt": "R to @Marviszzzz: 这种次新看不懂",
+      "description_excerpt": "这种次新看不懂",
+      "reply_to_handle": "Marviszzzz",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121357457293451773",
+      "url": "https://x.com/wr0789/status/2121357457293451773",
+      "date": "2026-11-14",
+      "published": "Fri, 13 Nov 2026 21:40:05 GMT",
+      "title_excerpt": "R to @Nowyousm: 鱼",
+      "description_excerpt": "鱼",
+      "reply_to_handle": "Nowyousm",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121357427702693994",
+      "url": "https://x.com/wr0789/status/2121357427702693994",
+      "date": "2026-11-14",
+      "published": "Fri, 13 Nov 2026 21:39:58 GMT",
+      "title_excerpt": "R to @ztao1169: 先沾一层面粉，按实一些，再沾一层蛋液，再沾面包糠，按实一些，就好啦。",
+      "description_excerpt": "先沾一层面粉，按实一些，再沾一层蛋液，再沾面包糠，按实一些，就好啦。",
+      "reply_to_handle": "ztao1169",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
     {
       "id": "2121238156079186049",
       "url": "https://x.com/wr0789/status/2121238156079186049",
@@ -257,32 +296,6 @@
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121212637723976016",
-      "url": "https://x.com/wr0789/status/2121212637723976016",
-      "date": "2026-11-13",
-      "published": "Fri, 13 Nov 2026 12:04:37 GMT",
-      "title_excerpt": "R to @b2znf: 哈哈哈哈哈哈哈。这个是朋友拿过来的，我还没来得及给它做。🤣🤣🤣🤣",
-      "description_excerpt": "哈哈哈哈哈哈哈。这个是朋友拿过来的，我还没来得及给它做。🤣🤣🤣🤣",
-      "reply_to_handle": "b2znf",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121212523206873285",
-      "url": "https://x.com/wr0789/status/2121212523206873285",
-      "date": "2026-11-13",
-      "published": "Fri, 13 Nov 2026 12:04:10 GMT",
-      "title_excerpt": "R to @gdouble_iloveu: 😍😍😍",
-      "description_excerpt": "😍😍😍",
-      "reply_to_handle": "gdouble_iloveu",
-      "space_url": null,
-      "kind": "reply",
       "verified_link_author": true,
       "source": "nitter.jaydenha.uk"
     },
@@ -521,12 +534,25 @@
       "source": "nitter.jaydenha.uk"
     },
     {
-      "id": "2121029533566685646",
-      "url": "https://x.com/wr0789/status/2121029533566685646",
-      "date": "2026-11-13",
-      "published": "Thu, 12 Nov 2026 23:57:02 GMT",
-      "title_excerpt": "Pinned: 【大盘拉升前的筹码出清与震荡洗盘逻辑】 大盘真正启动一轮趋势性拉升之前，往往需要经历一个筹码重新分配、市场情绪反复博弈的过程。所谓筹码出清，并不意味着简单地下跌，而是通过一系列震荡、回踩与反复拉锯，逐步消化短线获利盘，清理不坚定筹码，降低后续上涨过程中的抛压。 常",
-      "description_excerpt": "【大盘拉升前的筹码出清与震荡洗盘逻辑】 大盘真正启动一轮趋势性拉升之前，往往需要经历一个筹码重新分配、市场情绪反复博弈的过程。所谓筹码出清，并不意味着简单地下跌，而是通过一系列震荡、回踩与反复拉锯，逐步消化短线获利盘，清理不坚定筹码，降低后续上涨过程中的抛压。 常见的震荡洗盘过程主要包括以下几个阶段： 1. 冲高回落，消化获利盘。 通过盘中快速拉升后回落，释放短线获利资金的兑现压力，避免过多浮盈筹码成为后续上涨的阻力。 2. 反复横盘，消磨持仓耐心。 通过长时间窄幅震荡，让缺",
+      "id": "2120801182243516776",
+      "url": "https://x.com/wr0789/status/2120801182243516776",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 08:49:39 GMT",
+      "title_excerpt": "一边做饭一边听大霄老师，听完你们就理解了！大爱大霄老师❤️",
+      "description_excerpt": "一边做饭一边听大霄老师，听完你们就理解了！大爱大霄老师❤️",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2120651623425036366",
+      "url": "https://x.com/wr0789/status/2120651623425036366",
+      "date": "2026-11-12",
+      "published": "Wed, 11 Nov 2026 22:55:21 GMT",
+      "title_excerpt": "Pinned: 【保存版】 【2026年四季度至2027年一季度A股主要交易方向及策略】 我对未来两个季度A股市场的核心判断是：市场可能从单一科技主线的集中炒作，逐步转向多主线并行、风格再平衡和结构性轮动。 2026年四季度重点寻找超跌机会、景气修复和跨年布局；2027年一季度重",
+      "description_excerpt": "【保存版】 【2026年四季度至2027年一季度A股主要交易方向及策略】 我对未来两个季度A股市场的核心判断是：市场可能从单一科技主线的集中炒作，逐步转向多主线并行、风格再平衡和结构性轮动。 2026年四季度重点寻找超跌机会、景气修复和跨年布局；2027年一季度重点把握政策预期、春季行情和新一轮产业趋势。 一、AI算力与半导体（国产替代链） 科技产业趋势尚未结束，但内部将进一步分化。重点关注国产算力、半导体设备、存储芯片、先进封装、光模块、PCB及端侧AI。 操作上不宜盲目追",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",

@@ -3,7 +3,47 @@
   "account": "wr0789",
   "status": "partial",
   "complete": false,
-  "items": [],
+  "items": [
+    {
+      "id": "2121357725691269307",
+      "url": "https://x.com/wr0789/status/2121357725691269307",
+      "date": "2026-11-14",
+      "published": "Fri, 13 Nov 2026 21:41:09 GMT",
+      "title_excerpt": "R to @Marviszzzz: 这种次新看不懂",
+      "description_excerpt": "这种次新看不懂",
+      "reply_to_handle": "Marviszzzz",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121357457293451773",
+      "url": "https://x.com/wr0789/status/2121357457293451773",
+      "date": "2026-11-14",
+      "published": "Fri, 13 Nov 2026 21:40:05 GMT",
+      "title_excerpt": "R to @Nowyousm: 鱼",
+      "description_excerpt": "鱼",
+      "reply_to_handle": "Nowyousm",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121357427702693994",
+      "url": "https://x.com/wr0789/status/2121357427702693994",
+      "date": "2026-11-14",
+      "published": "Fri, 13 Nov 2026 21:39:58 GMT",
+      "title_excerpt": "R to @ztao1169: 先沾一层面粉，按实一些，再沾一层蛋液，再沾面包糠，按实一些，就好啦。",
+      "description_excerpt": "先沾一层面粉，按实一些，再沾一层蛋液，再沾面包糠，按实一些，就好啦。",
+      "reply_to_handle": "ztao1169",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    }
+  ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
       "status": "ok",
@@ -12,8 +52,8 @@
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 28,
-      "attributed_by_link": 28
+      "items": 30,
+      "attributed_by_link": 30
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
