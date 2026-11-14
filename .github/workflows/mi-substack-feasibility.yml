@@ -1,0 +1,60 @@
+name: MI Substack public feed and Notes feasibility probe
+on:
+  push:
+    paths:
+      - '.github/workflows/mi-substack-feasibility.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Query public RSS and public profile/Notes without credentials
+        run: |
+          python - <<'PY'
+          import urllib.request,urllib.error,json,xml.etree.ElementTree as ET,datetime,time,re
+          UA='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36'
+          urls={
+            'PUBLICATION_RSS':'https://mistery0789.substack.com/feed',
+            'PUBLIC_PROFILE':'https://substack.com/api/v1/user/mistery0789/public_profile',
+            'PROFILE_SEARCH':'https://substack.com/api/v1/profile/search?query=mistery0789&page=0',
+            'PUBLICATION_ARCHIVE':'https://mistery0789.substack.com/api/v1/archive?sort=new&offset=0&limit=10'
+          }
+          possible_ids=[]
+          for key,url in urls.items():
+              try:
+                  req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'application/json,application/xml,text/xml,*/*'})
+                  with urllib.request.urlopen(req,timeout=22) as r:
+                      raw=r.read(1500000)
+                      print('RESPONSE',key,'http',r.status,'type',r.headers.get('Content-Type'),'bytes',len(raw),flush=True)
+                  if key=='PUBLICATION_RSS':
+                      root=ET.fromstring(raw)
+                      entries=root.findall('.//item')
+                      print('RSS_ITEMS',json.dumps({'count':len(entries),'items':[{'title':(i.findtext('title') or '')[:105],'pubDate':i.findtext('pubDate'),'link':(i.findtext('link') or '')[:175]} for i in entries[:6]]},ensure_ascii=False),flush=True)
+                  else:
+                      data=json.loads(raw)
+                      if key=='PUBLIC_PROFILE':
+                          print('PROFILE_FIELDS',json.dumps({'type':type(data).__name__,'id':data.get('id'),'name':data.get('name'),'handle':data.get('handle'),'bio':data.get('bio'),'keys':list(data.keys())[:22]},ensure_ascii=False),flush=True)
+                          if data.get('id'):possible_ids.append(data['id'])
+                      elif key=='PROFILE_SEARCH':
+                          result=data.get('results') or []
+                          print('SEARCH_RESULTS',json.dumps([{'id':p.get('id'),'name':p.get('name'),'handle':p.get('handle')} for p in result[:6]],ensure_ascii=False),flush=True)
+                          for p in result:
+                              if (p.get('handle') or '').lower()=='mistery0789':possible_ids.append(p['id'])
+                      elif key=='PUBLICATION_ARCHIVE':
+                          print('ARCHIVE_ITEMS',json.dumps({'count':len(data) if isinstance(data,list) else None,'items':[{'title':p.get('title'),'id':p.get('id'),'post_date':p.get('post_date')} for p in data[:4]] if isinstance(data,list) else [],'keys':list(data)[:12] if isinstance(data,dict) else []},ensure_ascii=False),flush=True)
+              except Exception as e: print('CHECK_FAIL',key,type(e).__name__,str(e)[:250],flush=True)
+          print('FOUND_ID_COUNT',len(possible_ids),flush=True)
+          for user_id in list(dict.fromkeys(possible_ids))[:1]:
+              for typ in ['note','']:
+                  endpoint=f'https://substack.com/api/v1/reader/feed/profile/{user_id}?types%5B%5D=note' if typ else f'https://substack.com/api/v1/reader/feed/profile/{user_id}'
+                  try:
+                      req=urllib.request.Request(endpoint,headers={'User-Agent':UA,'Accept':'application/json','Referer':'https://substack.com/'})
+                      with urllib.request.urlopen(req,timeout=23) as r:
+                          d=json.loads(r.read(1000000))
+                      items=d.get('items') or []
+                      print('NOTES_RESULT',json.dumps({'filter':typ or 'all','count':len(items),'keys':list(d)[:16],'sample':[{'key':i.get('entity_key'),'type':i.get('type'),'context_keys':list((i.get('context') or {}))[:12]} for i in items[:5]]},ensure_ascii=False),flush=True)
+                  except Exception as e:print('NOTES_ERROR',typ,type(e).__name__,str(e)[:220],flush=True)
+          PY
