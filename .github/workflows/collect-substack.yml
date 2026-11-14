@@ -1,0 +1,44 @@
+name: Collect MI public Substack RSS
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 */4 * * *'  # 00:41 / 04:41 / 08:41 / 12:41 / 16:41 / 20:41 Beijing
+permissions:
+  contents: write
+concurrency:
+  group: mi-substack-rss
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline regression tests (no Gmail required)
+        run: python -m unittest test_substack.py -v
+      - name: Collect public RSS metadata
+        id: rss
+        run: python collect_substack.py
+      - name: Save isolated Substack metadata and health state
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data/substack state
+          git add -A data/substack state/substack-latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update public MI Substack RSS metadata"
+            for attempt in 1 2 3; do
+              git pull --rebase
+              if git push; then exit 0; fi
+              sleep 5
+            done
+            echo "Unable to push Substack metadata after retries" >&2
+            exit 1
+          fi
