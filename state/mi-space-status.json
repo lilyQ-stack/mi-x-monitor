@@ -69,8 +69,11 @@
     "1mdAppoPWkbJMJ": {
       "url": "https://x.com/i/spaces/1mdAppoPWkbJMJ",
       "first_linked_day": "2026-10-30",
-      "status": "not_attempted",
-      "attempts": 0
+      "status": "download_failed",
+      "attempts": 1,
+      "last_attempt": "2026-11-14T01:41:44+00:00",
+      "extractor_version": "2026-11-compat-v4-asr",
+      "error": "[twitter:spaces] Extracting URL: https://x.com/i/spaces/1mdAppoPWkbJMJ\n[twitter:spaces] 1mdAppoPWkbJMJ: Downloading guest token\n[twitter:spaces] 1mdAppoPWkbJMJ: Downloading GraphQL JSON\nERROR: [twitter:spaces] 1mdAppoPWkbJMJ: Twitter Space ended and replay is disabled"
     },
     "1nQYAyobaWjagR": {
       "url": "https://x.com/i/spaces/1nQYAyobaWjagR",
@@ -145,8 +148,8 @@
       "artifact_run_id": "43417191837"
     }
   },
-  "last_scan_utc": "2026-11-13T21:32:01+00:00",
+  "last_scan_utc": "2026-11-14T01:41:44+00:00",
   "discovered_count": 15,
-  "pending_count": 7,
+  "pending_count": 6,
   "scan_status": "attempted"
 }
