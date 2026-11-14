@@ -1,5 +1,10 @@
 name: Collect MI public Substack RSS
 on:
+  push:
+    paths:
+      - 'collect_substack.py'
+      - 'test_substack.py'
+      - '.github/workflows/collect-substack.yml'
   workflow_dispatch:
   schedule:
     - cron: '41 */4 * * *'  # 00:41 / 04:41 / 08:41 / 12:41 / 16:41 / 20:41 Beijing
