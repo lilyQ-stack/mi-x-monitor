@@ -58,3 +58,30 @@ jobs:
                       print('NOTES_RESULT',json.dumps({'filter':typ or 'all','count':len(items),'keys':list(d)[:16],'sample':[{'key':i.get('entity_key'),'type':i.get('type'),'context_keys':list((i.get('context') or {}))[:12]} for i in items[:5]]},ensure_ascii=False),flush=True)
                   except Exception as e:print('NOTES_ERROR',typ,type(e).__name__,str(e)[:220],flush=True)
           PY
+
+      - name: Diagnose Substack blocking and test free RSSHub article relay
+        run: |
+          python - <<'PY'
+          import urllib.request,urllib.error,xml.etree.ElementTree as ET,json
+          urlmap={
+           'SUBSTACK_HOME':'https://mistery0789.substack.com/',
+           'RSSHUB_ARTICLES':'https://rsshub.app/substack/subscribe/mistery0789',
+           'RSSHUB_NOTES_CANDIDATE':'https://rsshub.app/substack/notes/mistery0789',
+          }
+          for k,u in urlmap.items():
+              try:
+                  req=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0','Accept':'application/rss+xml,application/xml,text/html,*/*'})
+                  with urllib.request.urlopen(req,timeout=22) as r:
+                      body=r.read(500000)
+                      mime=r.headers.get('Content-Type','')
+                  print('TEST_STATUS',k,200,mime,'bytes',len(body),flush=True)
+                  if 'xml' in mime or body.lstrip().startswith(b'<?xml'):
+                      try:
+                          root=ET.fromstring(body)
+                          print('RSS_INFO',k,'count',len(root.findall('.//item')),'titles',[x.findtext('title') for x in root.findall('.//item')[:4]],flush=True)
+                      except Exception as e:print('RSS_XML_ERR',k,str(e)[:100],flush=True)
+              except urllib.error.HTTPError as e:
+                  snippet=e.read(250).decode('utf8','replace').replace('\n',' ')
+                  print('TEST_HTTP_ERROR',k,e.code,'snippet',snippet[:200],flush=True)
+              except Exception as e:print('TEST_OTHER_ERROR',k,type(e).__name__,str(e)[:160],flush=True)
+          PY
