@@ -1,0 +1,7 @@
+{
+  "status": "error",
+  "checked_utc": "2026-11-14T06:54:31.468059+00:00",
+  "error_type": "HTTPError",
+  "error_summary": "HTTP Error 403: Forbidden",
+  "coverage_note": "Fetch/parse failure: cannot infer author activity."
+}
