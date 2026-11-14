@@ -5,6 +5,110 @@
   "complete": false,
   "items": [
     {
+      "id": "2121544229050822865",
+      "url": "https://x.com/wr0789/status/2121544229050822865",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 10:02:15 GMT",
+      "title_excerpt": "我只有这一个账号，现在已经出来仿冒的人了。大家小心。",
+      "description_excerpt": "我只有这一个账号，现在已经出来仿冒的人了。大家小心。",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121521022201676046",
+      "url": "https://x.com/wr0789/status/2121521022201676046",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 08:30:02 GMT",
+      "title_excerpt": "老粉丝都在劝我！这种垃圾平台不适合正常人生存！",
+      "description_excerpt": "老粉丝都在劝我！这种垃圾平台不适合正常人生存！",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121520089833054208",
+      "url": "https://x.com/wr0789/status/2121520089833054208",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 08:26:20 GMT",
+      "title_excerpt": "傻逼的心是黑的！畜生的心是黑的！",
+      "description_excerpt": "傻逼的心是黑的！畜生的心是黑的！",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121518677992575379",
+      "url": "https://x.com/wr0789/status/2121518677992575379",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 08:20:43 GMT",
+      "title_excerpt": "R to @leexx0123456: 不发了",
+      "description_excerpt": "不发了",
+      "reply_to_handle": "leexx0123456",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121518628965347493",
+      "url": "https://x.com/wr0789/status/2121518628965347493",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 08:20:31 GMT",
+      "title_excerpt": "当我准备离开的时候，就能看出来这帮畜生的嘴脸了。连汇率都看不懂的傻逼大概率也不会做好交易。",
+      "description_excerpt": "当我准备离开的时候，就能看出来这帮畜生的嘴脸了。连汇率都看不懂的傻逼大概率也不会做好交易。 Mistery (@wr0789) substack订阅费用每个月8美元，55人民币，1300日元。目的就是远离垃圾人。 — http://nitter.jaydenha.uk/wr0789/status/2121517077823619535#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121517274624582063",
+      "url": "https://x.com/wr0789/status/2121517274624582063",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 08:15:08 GMT",
+      "title_excerpt": "R to @wr0789: 傻逼是看不懂汇率的。",
+      "description_excerpt": "傻逼是看不懂汇率的。",
+      "reply_to_handle": "wr0789",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121517077823619535",
+      "url": "https://x.com/wr0789/status/2121517077823619535",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 08:14:21 GMT",
+      "title_excerpt": "substack订阅费用每个月8美元，55人民币，1300日元。目的就是远离垃圾人。",
+      "description_excerpt": "substack订阅费用每个月8美元，55人民币，1300日元。目的就是远离垃圾人。",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2121516325118107725",
+      "url": "https://x.com/wr0789/status/2121516325118107725",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 08:11:22 GMT",
+      "title_excerpt": "R to @dxn010572399052: 日元1300，人民币50多。他就是个傻逼",
+      "description_excerpt": "日元1300，人民币50多。他就是个傻逼",
+      "reply_to_handle": "dxn010572399052",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
       "id": "2121471017550016937",
       "url": "https://x.com/wr0789/status/2121471017550016937",
       "date": "2026-11-14",
@@ -377,8 +481,8 @@
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "items": 22,
+      "attributed_by_link": 22
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -391,5 +495,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 3
+  "retained_previous": 28
 }
