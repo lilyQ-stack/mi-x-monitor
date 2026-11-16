@@ -96,3 +96,33 @@ substack_notes_raw_audit.py 接受事先通过允许方式获得的原始分页 
 
 ### 仍未解决
 真实 MI 姐 Notes 的在线访问；回复和转发覆盖率；许可来源；由 ID 核验规范原帖 URL。暂不可宣布监控已上线。
+
+
+## 2026-11-16 新发现：Open RSS 真实测试及正式限制
+
+来源：
+- https://openrss.org/feeds/substack
+- https://openrss.org/guides/fixing-feed-issues
+- https://openrss.org/guides/open-feeds
+- https://openrss.org/guides/using-a-self-hosted-feed-reader
+
+### 真实数据测试
+- 2026-11-16 北京时间16:33：单次测试从 https://openrss.org/substack.com/@mistery0789 返回 HTTP 200 和有效 RSS，首次5条。
+- 16:36：独立实验工作流将10条公开链接/时间/类型线索保存到本实验分支 data/substack_notes/observed.json，state/substack-openrss-latest.json 中 complete=false。
+- 6条 Notes 动态、4篇文章；其中4条 Notes 的 RSS 标题前缀为 Commented on（只是疑似回复，不作已核实事实）。
+- 两次快照的数量不同，说明单次RSS快照不代表完整历史，也可能存在延迟/增量加载。
+- 只保留链接和日期，不存全文、Cookie、付费正文。
+- 成功的执行记录：https://github.com/lilyQ-stack/mi-x-monitor/actions/runs/43832526115
+
+### 注意：Open RSS 官方明确限制用途
+- Open RSS 面向 RSS 阅读器，不支持 AI 工具、机器人或聚合服务消费，可能封禁不合规使用（参见 fixing-feed-issues 的 Unsupported usage）。
+- 不应把本实验 workflow 改为自动定时监控，更不应通过切换 IP 绕过限制。
+- 原工作流没有 schedule，只有 workflow_dispatch 或实验分支文件触发，正式运行仍暂停。
+- 可以建议用户用其官方认可的 RSS 阅读器订阅公开源，作为个人阅读渠道，但不得误称可直接自动导入我们的日报。
+
+### 下一种可能的授权技术渠道：API Direct
+- https://apidirect.io/docs/substack-user-activity
+- 提供作者 user/activity 编程接口，返回 note/post/reply/restack 等公共活动及规范链接，费用说明为50次/端点/月免费，超出部分按每页收费。
+- 默认活动列表不包括 reply；必须另取 type=reply，按实际容量可能超出免费额度。
+- https://apidirect.io/terms 第10条仍要求使用者遵守底层平台规则，且不保证完整性或实时性；使用第三方 API 不等于自动免除 Substack 的条款风险。
+- 尚未注册/连接/调用该服务；不得伪称能获取MI姐全量发言。
