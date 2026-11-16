@@ -1,0 +1,25 @@
+name: One-time Open RSS Substack Notes compatibility probe
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - experiment/substack-notes-authorized-20261116
+    paths:
+      - probe_mi_openrss.py
+      - test_probe_mi_openrss.py
+      - .github/workflows/probe-openrss.yml
+permissions:
+  contents: read
+jobs:
+  openrss-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test parser with synthetic RSS and Atom
+        run: python -m unittest test_probe_mi_openrss.py -v
+      - name: One request to public Open RSS feed, metadata only
+        run: python probe_mi_openrss.py
