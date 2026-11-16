@@ -66,3 +66,33 @@ python -m unittest test_substack_notes_import.py -v
 - 运行：python substack_notes_gateway_audit.py --input permitted_page1.json permitted_page2.json --output my_private_audit.json
 - 测试：python -m unittest test_substack_notes_import.py test_substack_notes_gateway_audit.py -v
 - 新增独立 workflow 仅在实验分支执行离线测试；不调用 Substack，也不干扰 X 采集。
+
+
+## 补充：上游原始数据结构与漏抓风险（2026-11-16）
+
+上游源代码与样本：
+- https://github.com/jakub-k-slys/substack-gateway-oss/blob/main/packages/gateway_notes/src/gateway_notes/service.py
+- https://github.com/jakub-k-slys/substack-gateway-oss/blob/main/packages/gateway_notes/src/gateway_notes/schemas.py
+- https://github.com/jakub-k-slys/substack-gateway-oss/blob/main/packages/gateway_core/src/gateway_core/models/substack.py
+- https://github.com/alialfredji/substack-api/blob/main/docs/UPSTREAM.md
+
+### 经代码核对的重要限制
+1. Gateway OSS 读取指定用户 Notes 时固定传入 types=note；不能证明含用户在别人动态下的回复、转发、直播聊天，get_profile_notes 不等于全部发言。
+2. 上游 SubstackNote 原始模型可带 type、entity_key、context、comment、post、parentComments，但简化 NoteResponse 不包含 type、post、parentComments，无法直接可靠分类。
+3. 上游示例全部展示 parentComments 为空的 Notes，没有真实用户回复或转发测试样本；即使非空，也只能作为线程上下文信号，不能无验证就判定为回复。
+4. context.users[0] 不必然是 Note 正文作者，comment.handle 若有可提供更强归属线索，但仍需页面核验。
+5. 第三方项目的 GitHub E2E 支持缺少 SUBSTACK_* 配置时跳过；成功绿灯不是实抓 MI 姐成功的证据。
+6. 第三方研究文档强调 API 会静默降级、游标可能重复或失效；在线阶段必须停止循环并标记 partial，而不是将空结果视为零发言。
+
+### 新增原始数据离线审计
+substack_notes_raw_audit.py 接受事先通过允许方式获得的原始分页 JSON（items / nextCursor），**不会联网**。
+
+- 核对 comment.id 与 entity_key 是否对应，并拒绝明显无法确认作者的条目。
+- 转换北京时间、检查重复 ID、分页游标循环、页面连接问题。
+- 只输出 upstream_type、parentComments 是否存在、post 是否存在等证据元数据；原创、转发、回复一律继续标记 unverified。
+- 不保留原文 body 或付费内容，也不虚构原帖 URL。
+- 运行：python substack_notes_raw_audit.py --input permitted_raw1.json permitted_raw2.json --output my_private_raw_audit.json
+- 验证：python -m unittest test_substack_notes_raw_audit.py -v
+
+### 仍未解决
+真实 MI 姐 Notes 的在线访问；回复和转发覆盖率；许可来源；由 ID 核验规范原帖 URL。暂不可宣布监控已上线。
