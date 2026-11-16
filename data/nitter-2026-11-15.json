@@ -16,9 +16,9 @@
       "attributed_by_link": 22
     },
     "nitter.meowing.monster/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 404: Not Found"
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",

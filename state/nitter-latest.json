@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T22:49:52.474235+00:00",
+  "checked_at": "2026-11-16T06:32:36.934859+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
@@ -15,9 +15,9 @@
       "attributed_by_link": 22
     },
     "nitter.meowing.monster/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 404: Not Found"
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
