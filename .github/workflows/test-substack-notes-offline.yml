@@ -1,4 +1,4 @@
-name: Test authorized Substack Notes import and audit (offline only)
+name: Test authorized Substack Notes import and audits (offline only)
 on:
   workflow_dispatch:
   push:
@@ -9,6 +9,8 @@ on:
       - test_substack_notes_import.py
       - substack_notes_gateway_audit.py
       - test_substack_notes_gateway_audit.py
+      - substack_notes_raw_audit.py
+      - test_substack_notes_raw_audit.py
       - .github/workflows/test-substack-notes-offline.yml
 permissions:
   contents: read
@@ -22,4 +24,4 @@ jobs:
         with:
           python-version: '3.12'
       - name: Offline-only tests (never contact Substack)
-        run: python -m unittest test_substack_notes_import.py test_substack_notes_gateway_audit.py -v
+        run: python -m unittest test_substack_notes_import.py test_substack_notes_gateway_audit.py test_substack_notes_raw_audit.py -v
