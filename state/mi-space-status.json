@@ -39,8 +39,14 @@
     "1RJjpbgpmaRKw": {
       "url": "https://x.com/i/spaces/1RJjpbgpmaRKw",
       "first_linked_day": "2026-10-28",
-      "status": "not_attempted",
-      "attempts": 0
+      "status": "transcribed",
+      "attempts": 1,
+      "last_attempt": "2026-11-16T01:20:47+00:00",
+      "extractor_version": "2026-11-compat-v4-asr",
+      "download_bytes": 21887569,
+      "segments": 1057,
+      "transcribed_utc": "2026-11-16T01:25:44+00:00",
+      "artifact_run_id": "43785708843"
     },
     "1nKOLQMeEjnGR": {
       "url": "https://x.com/i/spaces/1nKOLQMeEjnGR",
@@ -172,8 +178,8 @@
       "artifact_run_id": "43417191837"
     }
   },
-  "last_scan_utc": "2026-11-15T20:30:39+00:00",
+  "last_scan_utc": "2026-11-16T01:20:47+00:00",
   "discovered_count": 15,
-  "pending_count": 2,
+  "pending_count": 1,
   "scan_status": "attempted"
 }
