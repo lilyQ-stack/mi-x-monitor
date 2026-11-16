@@ -46,3 +46,23 @@ python -m unittest test_substack_notes_import.py -v
 - 将采集结果与 App 看到的当日记录抽样比对，计算可量化覆盖率。
 - 每次运行明确状态：complete / partial / error；不能把 0 条直接解释成作者当天没发言。
 - 只在独立分支测试，不影响现有 X 或其他采集任务。
+
+
+## 2026-11-16 Gateway OSS 源码审计（已完成）
+- profile slug 到 ID：gateway_profiles/service.py 的 get_profile_id_by_slug -> user/{slug}/public_profile。
+- Notes 分页：gateway_notes/service.py 的 get_notes_for_profile -> reader/feed/profile/{profile_id}?types=note，并可传 cursor。
+- REST：/api/v1/profiles/{slug}/notes；MCP：get_profile_notes(slug, cursor)。
+- 注意实际简化输出 NotesPageResponse 的字段只有 items / next；每条 NoteResponse 只有 id、body、likes_count、author、published_at。
+- 原始 SubstackNote 模型存在 type、entity_key、parentComments 等字段，但经过 NoteResponse.from_substack 简化输出时被丢弃。
+- 因而不能可靠分类原创、回复、转发；也不能凭 ID 虚构标准原帖链接。
+- NoteResponse 通过 context.users[0] 设置作者；其归属需与实际页面逐条核对。
+- 仓库 CI/E2E 绿色不能证明特定作者可实时访问：E2E 配置缺失时有 pytest.skip 流程。
+
+## 新增的独立离线审计
+- substack_notes_gateway_audit.py 只接收由用户合法取得、预先保存的 Gateway JSON 分页文件，绝不发 HTTP 请求。
+- 从每条记录只导出 ID、作者标识、北京时间；不会复制正文，不会凭空补 URL 或帖子类型。
+- 拒绝作者不匹配、ID 失效、时间无时区等数据；检测跨页重复和末页未读尽游标。
+- 即使末页 next 为 null，也不宣称历史记录完整；status 固定 offline_partial。
+- 运行：python substack_notes_gateway_audit.py --input permitted_page1.json permitted_page2.json --output my_private_audit.json
+- 测试：python -m unittest test_substack_notes_import.py test_substack_notes_gateway_audit.py -v
+- 新增独立 workflow 仅在实验分支执行离线测试；不调用 Substack，也不干扰 X 采集。
