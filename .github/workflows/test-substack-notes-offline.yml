@@ -11,6 +11,8 @@ on:
       - test_substack_notes_gateway_audit.py
       - substack_notes_raw_audit.py
       - test_substack_notes_raw_audit.py
+      - apidirect_mi_activity_adapter.py
+      - test_apidirect_mi_activity_adapter.py
       - .github/workflows/test-substack-notes-offline.yml
 permissions:
   contents: read
@@ -23,5 +25,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Offline-only tests (never contact Substack)
-        run: python -m unittest test_substack_notes_import.py test_substack_notes_gateway_audit.py test_substack_notes_raw_audit.py -v
+      - name: Offline-only tests (never contact external data providers)
+        run: python -m unittest test_substack_notes_import.py test_substack_notes_gateway_audit.py test_substack_notes_raw_audit.py test_apidirect_mi_activity_adapter.py -v
