@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "subject": "mistery0789",
+  "status": "partial",
+  "complete": false,
+  "source": "https://openrss.org/substack.com/@mistery0789",
+  "items": [
+    {
+      "id": "c7a85fc59898f8eb268b0fe6",
+      "source_guid_hash": "c7a85fc59898",
+      "url": "https://mistery0789.substack.com/p/51c",
+      "published_at_beijing": "2026-11-16T12:00:28+08:00",
+      "kind_hint": "unverified",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    },
+    {
+      "id": "10cebca6f225eefbbf6496f0",
+      "source_guid_hash": "10cebca6f225",
+      "url": "https://substack.com/@mistery0789/note/c-388595449",
+      "published_at_beijing": "2026-11-16T12:15:44+08:00",
+      "kind_hint": "maybe_reply",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    },
+    {
+      "id": "13ec10c4bd74a1b05f385d7f",
+      "source_guid_hash": "13ec10c4bd74",
+      "url": "https://mistery0789.substack.com/p/72a",
+      "published_at_beijing": "2026-11-16T12:33:48+08:00",
+      "kind_hint": "unverified",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    },
+    {
+      "id": "2ae90a7ef066ee45b5c49ba3",
+      "source_guid_hash": "2ae90a7ef066",
+      "url": "https://substack.com/@mistery0789/note/c-388604855",
+      "published_at_beijing": "2026-11-16T12:38:59+08:00",
+      "kind_hint": "maybe_reply",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    },
+    {
+      "id": "b217c42747c688cb67caf964",
+      "source_guid_hash": "b217c42747c6",
+      "url": "https://substack.com/@mistery0789/note/c-388606256",
+      "published_at_beijing": "2026-11-16T12:42:35+08:00",
+      "kind_hint": "unverified",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    },
+    {
+      "id": "5407af28c9b3f8a9077361d2",
+      "source_guid_hash": "5407af28c9b3",
+      "url": "https://mistery0789.substack.com/p/6ff",
+      "published_at_beijing": "2026-11-16T12:54:04+08:00",
+      "kind_hint": "unverified",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    },
+    {
+      "id": "cae5d05d44fc3e41573bf1fc",
+      "source_guid_hash": "cae5d05d44fc",
+      "url": "https://mistery0789.substack.com/p/034",
+      "published_at_beijing": "2026-11-16T13:05:10+08:00",
+      "kind_hint": "unverified",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    },
+    {
+      "id": "a4c0a9739e5a397fccc0f3ac",
+      "source_guid_hash": "a4c0a9739e5a",
+      "url": "https://substack.com/@mistery0789/note/c-388620786",
+      "published_at_beijing": "2026-11-16T13:20:57+08:00",
+      "kind_hint": "maybe_reply",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    },
+    {
+      "id": "2b967f16842155d4af55b1e0",
+      "source_guid_hash": "2b967f168421",
+      "url": "https://substack.com/@mistery0789/note/c-388642165",
+      "published_at_beijing": "2026-11-16T14:20:38+08:00",
+      "kind_hint": "maybe_reply",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    },
+    {
+      "id": "66435a5e28779a82c8b81a22",
+      "source_guid_hash": "66435a5e2877",
+      "url": "https://substack.com/@mistery0789/note/c-388690275",
+      "published_at_beijing": "2026-11-16T16:23:50+08:00",
+      "kind_hint": "unverified",
+      "author_attribution": "link_target_matches",
+      "complete_text_saved": false,
+      "source": "openrss_mistery0789_user_feed"
+    }
+  ]
+}

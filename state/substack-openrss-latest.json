@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-11-16T08:36:05.026279+00:00",
+  "source": "https://openrss.org/substack.com/@mistery0789",
+  "status": "partial",
+  "complete": false,
+  "snapshot_count": 10,
+  "new_items": 10,
+  "cumulative_items": 10,
+  "by_beijing_day_observed": {
+    "2026-11-16": 10
+  },
+  "rejected_count": 0,
+  "coverage_warning": "RSS snapshot is not a complete or official list of author activity; link attribution and coverage unverified."
+}
