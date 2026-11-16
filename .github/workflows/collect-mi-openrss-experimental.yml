@@ -1,0 +1,45 @@
+name: Collect MI Open RSS metadata once (experimental branch only)
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - experiment/substack-notes-authorized-20261116
+    paths:
+      - collect_mi_openrss.py
+      - test_collect_mi_openrss.py
+      - .github/workflows/collect-mi-openrss-experimental.yml
+permissions:
+  contents: write
+concurrency:
+  group: mi-openrss-experiment
+  cancel-in-progress: false
+jobs:
+  collect-once:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline safety tests
+        run: python -m unittest test_collect_mi_openrss.py -v
+      - name: Read Open RSS and save metadata only
+        run: python collect_mi_openrss.py
+      - name: Commit only Open RSS metadata and source health
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data/substack_notes state
+          git add -A data/substack_notes state/substack-openrss-latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record public Open RSS Notes metadata (experiment)"
+            for i in 1 2 3; do
+              git pull --rebase
+              if git push; then exit 0; fi
+              sleep 3
+            done
+            exit 1
+          fi
