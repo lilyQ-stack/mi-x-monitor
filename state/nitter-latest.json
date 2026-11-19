@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T00:24:16.029610+00:00",
+  "checked_at": "2026-11-19T10:23:16.536065+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
@@ -21,8 +21,8 @@
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
-      "type": "ParseError",
-      "message": "syntax error: line 1, column 0"
+      "type": "HTTPError",
+      "message": "HTTP Error 500: Internal Server Error"
     }
   },
   "items": [

@@ -22,8 +22,8 @@
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
-      "type": "ParseError",
-      "message": "syntax error: line 1, column 0"
+      "type": "HTTPError",
+      "message": "HTTP Error 500: Internal Server Error"
     }
   },
   "retained_previous": 0
