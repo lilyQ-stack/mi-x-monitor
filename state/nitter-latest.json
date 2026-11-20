@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20T03:17:53.847828+00:00",
+  "checked_at": "2026-11-20T12:56:00.966508+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
@@ -15,9 +15,9 @@
       "attributed_by_link": 20
     },
     "nitter.meowing.monster/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 404: Not Found"
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
@@ -487,7 +487,7 @@
       "date": "2026-11-13",
       "published": "Fri, 13 Nov 2026 05:25:48 GMT",
       "title_excerpt": "x.com/i/spaces/1kElogENljdgQ…",
-      "description_excerpt": "x.com/i/spaces/1kElogENljdgQ… Link Twitter Space Click to view Space http://nitter.jaydenha.uk/i/spaces/1kElogENljdgQN",
+      "description_excerpt": "nitter.mizuki.st/i/spaces/1kElogENljdgQ… Link Twitter Space Click to view Space http://nitter.mizuki.st/i/spaces/1kElogENljdgQN",
       "reply_to_handle": null,
       "space_url": "https://x.com/i/spaces/1kElogENljdgQN",
       "kind": "unclassified",
