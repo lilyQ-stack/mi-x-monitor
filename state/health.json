@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-21T12:41:06.732350+00:00",
+  "checked_at": "2026-11-21T20:32:29.669201+00:00",
   "status": "healthy_snapshot",
   "alerts": [],
   "verified_items": 31,
   "source_successes": 3,
   "age_hours": 0.0,
-  "today_saved_count": 9
+  "today_saved_count": 0
 }
