@@ -3,7 +3,86 @@
   "account": "wr0789",
   "status": "partial",
   "complete": false,
-  "items": [],
+  "items": [
+    {
+      "id": "2123976594633245016",
+      "url": "https://x.com/wr0789/status/2123976594633245016",
+      "date": "2026-11-21",
+      "published": "Sat, 21 Nov 2026 03:07:36 GMT",
+      "title_excerpt": "Image",
+      "description_excerpt": "",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2123969979486007635",
+      "url": "https://x.com/wr0789/status/2123969979486007635",
+      "date": "2026-11-21",
+      "published": "Sat, 21 Nov 2026 02:41:19 GMT",
+      "title_excerpt": "Image",
+      "description_excerpt": "",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2123924117300945099",
+      "url": "https://x.com/wr0789/status/2123924117300945099",
+      "date": "2026-11-21",
+      "published": "Fri, 20 Nov 2026 23:39:04 GMT",
+      "title_excerpt": "Image",
+      "description_excerpt": "",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2123923960601739523",
+      "url": "https://x.com/wr0789/status/2123923960601739523",
+      "date": "2026-11-21",
+      "published": "Fri, 20 Nov 2026 23:38:27 GMT",
+      "title_excerpt": "Image",
+      "description_excerpt": "",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2123923695936868396",
+      "url": "https://x.com/wr0789/status/2123923695936868396",
+      "date": "2026-11-21",
+      "published": "Fri, 20 Nov 2026 23:37:24 GMT",
+      "title_excerpt": "Image",
+      "description_excerpt": "",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2123922264295108792",
+      "url": "https://x.com/wr0789/status/2123922264295108792",
+      "date": "2026-11-21",
+      "published": "Fri, 20 Nov 2026 23:31:43 GMT",
+      "title_excerpt": "Pinned: Image",
+      "description_excerpt": "Mistery (@wr0789) 大盘指数3701短期压力，主力能过不过（有猫腻），今天上午最高点3699.58。这两天只拉硬科技大反弹，且今天都拉到了压力位。 虽然放量但量能不足以拉动指数大涨，形成全面拉升。（证券一直在待机） 那我们也要多观察，会不会形成上两次底部结构中的二次回踩（这是机会是机会） 有仓位的跌下来肯定是低吸机会，没仓位的我也不建议高抛低吸，因为下跌只是行情的推演，如果不跌一路拉起来，那岂不是踏空了？ 所以没有仓位的持股不动，还有现金的跌下来就是给你们低吸",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    }
+  ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
       "status": "ok",
@@ -12,8 +91,8 @@
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "items": 21,
+      "attributed_by_link": 21
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
