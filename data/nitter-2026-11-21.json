@@ -5,6 +5,45 @@
   "complete": false,
   "items": [
     {
+      "id": "2124086831927152762",
+      "url": "https://x.com/wr0789/status/2124086831927152762",
+      "date": "2026-11-21",
+      "published": "Sat, 21 Nov 2026 10:25:39 GMT",
+      "title_excerpt": "你们只看到我提示机会，却无人关注我提示的风险。",
+      "description_excerpt": "你们只看到我提示机会，却无人关注我提示的风险。 Mistery (@wr0789) 别担心，外盘中概股冲高回落风险可控。咱们10月先于美股跌完了。早就释放了大部分的风险。今天大盘指数上有压力下有支撑，风险可控。依然看震旦上行，短期回踩风险本月16日附近。 — http://nitter.jaydenha.uk/wr0789/status/2118429719020642632#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2123986771138723861",
+      "url": "https://x.com/wr0789/status/2123986771138723861",
+      "date": "2026-11-21",
+      "published": "Sat, 21 Nov 2026 03:48:02 GMT",
+      "title_excerpt": "Image",
+      "description_excerpt": "",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
+      "id": "2123980631541755961",
+      "url": "https://x.com/wr0789/status/2123980631541755961",
+      "date": "2026-11-21",
+      "published": "Sat, 21 Nov 2026 03:23:38 GMT",
+      "title_excerpt": "Image",
+      "description_excerpt": "Mistery (@wr0789) — http://nitter.jaydenha.uk/wr0789/status/2123923960601739523#m",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    },
+    {
       "id": "2123976594633245016",
       "url": "https://x.com/wr0789/status/2123976594633245016",
       "date": "2026-11-21",
@@ -105,5 +144,5 @@
       "message": "syntax error: line 1, column 0"
     }
   },
-  "retained_previous": 0
+  "retained_previous": 6
 }
