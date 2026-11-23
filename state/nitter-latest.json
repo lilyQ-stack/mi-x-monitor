@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-11-23T02:47:00.248812+00:00",
+  "checked_at": "2026-11-23T14:41:17.960220+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
   "sources": {
     "nitter.jaydenha.uk/tweets": {
-      "status": "ok",
-      "items": 20,
-      "attributed_by_link": 20
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.jaydenha.uk/with_replies": {
-      "status": "ok",
-      "items": 21,
-      "attributed_by_link": 21
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -21,8 +21,8 @@
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 500: Internal Server Error"
+      "type": "ParseError",
+      "message": "syntax error: line 1, column 0"
     }
   },
   "items": [
@@ -37,7 +37,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2124086831927152762",
@@ -45,12 +45,12 @@
       "date": "2026-11-21",
       "published": "Sat, 21 Nov 2026 10:25:39 GMT",
       "title_excerpt": "你们只看到我提示机会，却无人关注我提示的风险。",
-      "description_excerpt": "你们只看到我提示机会，却无人关注我提示的风险。 Mistery (@wr0789) 别担心，外盘中概股冲高回落风险可控。咱们10月先于美股跌完了。早就释放了大部分的风险。今天大盘指数上有压力下有支撑，风险可控。依然看震旦上行，短期回踩风险本月16日附近。 — http://nitter.jaydenha.uk/wr0789/status/2118429719020642632#m",
+      "description_excerpt": "你们只看到我提示机会，却无人关注我提示的风险。 Mistery (@wr0789) 别担心，外盘中概股冲高回落风险可控。咱们10月先于美股跌完了。早就释放了大部分的风险。今天大盘指数上有压力下有支撑，风险可控。依然看震旦上行，短期回踩风险本月16日附近。 — http://nitter.mizuki.st/wr0789/status/2118429719020642632#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2123986771138723861",
@@ -63,7 +63,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2123980631541755961",
@@ -71,12 +71,12 @@
       "date": "2026-11-21",
       "published": "Sat, 21 Nov 2026 03:23:38 GMT",
       "title_excerpt": "Image",
-      "description_excerpt": "Mistery (@wr0789) — http://nitter.jaydenha.uk/wr0789/status/2123923960601739523#m",
+      "description_excerpt": "Mistery (@wr0789) — http://nitter.mizuki.st/wr0789/status/2123923960601739523#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2123976594633245016",
@@ -89,7 +89,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2123969979486007635",
@@ -102,7 +102,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2123924117300945099",
@@ -115,7 +115,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2123923960601739523",
@@ -128,7 +128,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2123923695936868396",
@@ -141,7 +141,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2123922264295108792",
@@ -154,137 +154,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121518677992575379",
-      "url": "https://x.com/wr0789/status/2121518677992575379",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 08:20:43 GMT",
-      "title_excerpt": "R to @leexx0123456: 不发了",
-      "description_excerpt": "不发了",
-      "reply_to_handle": "leexx0123456",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121516325118107725",
-      "url": "https://x.com/wr0789/status/2121516325118107725",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 08:11:22 GMT",
-      "title_excerpt": "R to @dxn010572399052: 日元1300，人民币50多。他就是个傻逼",
-      "description_excerpt": "日元1300，人民币50多。他就是个傻逼",
-      "reply_to_handle": "dxn010572399052",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121471017550016937",
-      "url": "https://x.com/wr0789/status/2121471017550016937",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 05:11:20 GMT",
-      "title_excerpt": "R to @Joeychengdu: 这个阻止不了",
-      "description_excerpt": "这个阻止不了",
-      "reply_to_handle": "Joeychengdu",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121463557695123867",
-      "url": "https://x.com/wr0789/status/2121463557695123867",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 04:41:41 GMT",
-      "title_excerpt": "R to @ijiile56789: 好的呀",
-      "description_excerpt": "好的呀",
-      "reply_to_handle": "ijiile56789",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121463514640605406",
-      "url": "https://x.com/wr0789/status/2121463514640605406",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 04:41:31 GMT",
-      "title_excerpt": "R to @jrgvck: 对",
-      "description_excerpt": "对",
-      "reply_to_handle": "jrgvck",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121463437566030301",
-      "url": "https://x.com/wr0789/status/2121463437566030301",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 04:41:13 GMT",
-      "title_excerpt": "R to @ijiile56789: 我也不了解",
-      "description_excerpt": "我也不了解",
-      "reply_to_handle": "ijiile56789",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121463322314948803",
-      "url": "https://x.com/wr0789/status/2121463322314948803",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 04:40:45 GMT",
-      "title_excerpt": "R to @jilk99734061: 设置好了。但是我也不太熟悉，不知道国内是否方便使用。",
-      "description_excerpt": "设置好了。但是我也不太熟悉，不知道国内是否方便使用。",
-      "reply_to_handle": "jilk99734061",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121459085589745862",
-      "url": "https://x.com/wr0789/status/2121459085589745862",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 04:23:55 GMT",
-      "title_excerpt": "R to @nana2004888: 留着",
-      "description_excerpt": "留着",
-      "reply_to_handle": "nana2004888",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121458234750022012",
-      "url": "https://x.com/wr0789/status/2121458234750022012",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 04:20:32 GMT",
-      "title_excerpt": "R to @PETER105186: 正常人都知道他们几个是什么“货色”",
-      "description_excerpt": "正常人都知道他们几个是什么“货色”",
-      "reply_to_handle": "PETER105186",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
-    },
-    {
-      "id": "2121450936342323491",
-      "url": "https://x.com/wr0789/status/2121450936342323491",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 03:51:32 GMT",
-      "title_excerpt": "R to @forrest1314888: 可以",
-      "description_excerpt": "可以",
-      "reply_to_handle": "forrest1314888",
-      "space_url": null,
-      "kind": "reply",
-      "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121432746946121780",
@@ -297,7 +167,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121403978244391055",
@@ -310,7 +180,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121393377786941647",
@@ -323,7 +193,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121390514574696617",
@@ -336,7 +206,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121387544629985720",
@@ -349,7 +219,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121215720071811245",
@@ -357,12 +227,12 @@
       "date": "2026-11-13",
       "published": "Fri, 13 Nov 2026 12:16:52 GMT",
       "title_excerpt": "呀！😍😍😍😍😍",
-      "description_excerpt": "呀！😍😍😍😍😍 如鱼饮水 (@jilk99734061) 此刻的你 🩷☺️☺️ — http://nitter.jaydenha.uk/jilk99734061/status/2121215306945470733#m",
+      "description_excerpt": "呀！😍😍😍😍😍 如鱼饮水 (@jilk99734061) 此刻的你 🩷☺️☺️ — http://nitter.mizuki.st/jilk99734061/status/2121215306945470733#m",
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121187121700704734",
@@ -375,7 +245,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121163100531708324",
@@ -388,7 +258,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121157957933224142",
@@ -401,7 +271,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     },
     {
       "id": "2121152566050660710",
@@ -414,7 +284,7 @@
       "space_url": null,
       "kind": "unclassified",
       "verified_link_author": true,
-      "source": "nitter.jaydenha.uk"
+      "source": "nitter.meowing.monster"
     }
   ],
   "message": "Recent RSS window only; posts/replies may be missing. No posts must not be interpreted as no activity."

@@ -1,9 +1,12 @@
 {
-  "checked_at": "2026-11-23T02:47:09.339310+00:00",
-  "status": "healthy_snapshot",
-  "alerts": [],
-  "verified_items": 30,
-  "source_successes": 3,
+  "checked_at": "2026-11-23T14:41:24.080039+00:00",
+  "status": "warning",
+  "alerts": [
+    "SINGLE_SOURCE: only one of the feeds returned attributable items",
+    "REPLIES_FEED_DOWN: no successful reply feed"
+  ],
+  "verified_items": 20,
+  "source_successes": 1,
   "age_hours": 0.0,
   "today_saved_count": 1
 }
