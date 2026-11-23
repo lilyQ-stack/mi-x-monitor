@@ -3,7 +3,21 @@
   "account": "wr0789",
   "status": "partial",
   "complete": false,
-  "items": [],
+  "items": [
+    {
+      "id": "2124656471791301107",
+      "url": "https://x.com/wr0789/status/2124656471791301107",
+      "date": "2026-11-23",
+      "published": "Mon, 23 Nov 2026 00:09:11 GMT",
+      "title_excerpt": "谨慎雪球敲入引发的量化杠杆资金平仓风险。",
+      "description_excerpt": "谨慎雪球敲入引发的量化杠杆资金平仓风险。 Mistery (@wr0789) 目前，双创板块（创业板、科创板）还有一个值得重点关注的潜在压力，就是阶段性的存量资金退出与解禁压力。建议重点梳理6—7月相关封闭式基金的到期开放安排，以及限售股解禁、原始投资人减持等情况，尤其要关注此前参与相关赛道投资的私募产品，在退出窗口打开后可能带来的阶段性供给压力。 从市场承接的角度看，真正需要关注的并不只是解禁规模本身，而是退出资金的兑现意愿，以及新增资金能否及时承接。若部分存量资金集中兑现",
+      "reply_to_handle": null,
+      "space_url": null,
+      "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.jaydenha.uk"
+    }
+  ],
   "sources": {
     "nitter.jaydenha.uk/tweets": {
       "status": "ok",
@@ -16,14 +30,14 @@
       "attributed_by_link": 21
     },
     "nitter.meowing.monster/tweets": {
-      "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 404: Not Found"
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
       "status": "error",
-      "type": "ParseError",
-      "message": "syntax error: line 1, column 0"
+      "type": "HTTPError",
+      "message": "HTTP Error 500: Internal Server Error"
     }
   },
   "retained_previous": 0
