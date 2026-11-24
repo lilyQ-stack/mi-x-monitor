@@ -21,13 +21,13 @@
   "sources": {
     "nitter.jaydenha.uk/tweets": {
       "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "type": "URLError",
+      "message": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "type": "URLError",
+      "message": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -35,9 +35,9 @@
       "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
-      "status": "error",
-      "type": "ParseError",
-      "message": "syntax error: line 1, column 0"
+      "status": "ok",
+      "items": 21,
+      "attributed_by_link": 21
     }
   },
   "retained_previous": 1

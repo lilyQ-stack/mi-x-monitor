@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-24",
+  "account": "wr0789",
+  "status": "partial",
+  "complete": false,
+  "items": [],
+  "sources": {
+    "nitter.jaydenha.uk/tweets": {
+      "status": "error",
+      "type": "URLError",
+      "message": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
+    },
+    "nitter.jaydenha.uk/with_replies": {
+      "status": "error",
+      "type": "URLError",
+      "message": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
+    },
+    "nitter.meowing.monster/tweets": {
+      "status": "ok",
+      "items": 20,
+      "attributed_by_link": 20
+    },
+    "nitter.meowing.monster/with_replies": {
+      "status": "ok",
+      "items": 21,
+      "attributed_by_link": 21
+    }
+  },
+  "retained_previous": 0
+}

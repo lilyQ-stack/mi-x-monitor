@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-11-23T14:41:17.960220+00:00",
+  "checked_at": "2026-11-24T02:54:27.103939+00:00",
   "account": "wr0789",
   "status": "partial",
   "complete": false,
   "sources": {
     "nitter.jaydenha.uk/tweets": {
       "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "type": "URLError",
+      "message": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
     },
     "nitter.jaydenha.uk/with_replies": {
       "status": "error",
-      "type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden"
+      "type": "URLError",
+      "message": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
     },
     "nitter.meowing.monster/tweets": {
       "status": "ok",
@@ -20,9 +20,9 @@
       "attributed_by_link": 20
     },
     "nitter.meowing.monster/with_replies": {
-      "status": "error",
-      "type": "ParseError",
-      "message": "syntax error: line 1, column 0"
+      "status": "ok",
+      "items": 21,
+      "attributed_by_link": 21
     }
   },
   "items": [
@@ -153,6 +153,136 @@
       "reply_to_handle": null,
       "space_url": null,
       "kind": "unclassified",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121518677992575379",
+      "url": "https://x.com/wr0789/status/2121518677992575379",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 08:20:43 GMT",
+      "title_excerpt": "R to @leexx0123456: 不发了",
+      "description_excerpt": "不发了",
+      "reply_to_handle": "leexx0123456",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121516325118107725",
+      "url": "https://x.com/wr0789/status/2121516325118107725",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 08:11:22 GMT",
+      "title_excerpt": "R to @dxn010572399052: 日元1300，人民币50多。他就是个傻逼",
+      "description_excerpt": "日元1300，人民币50多。他就是个傻逼",
+      "reply_to_handle": "dxn010572399052",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121471017550016937",
+      "url": "https://x.com/wr0789/status/2121471017550016937",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 05:11:20 GMT",
+      "title_excerpt": "R to @Joeychengdu: 这个阻止不了",
+      "description_excerpt": "这个阻止不了",
+      "reply_to_handle": "Joeychengdu",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121463557695123867",
+      "url": "https://x.com/wr0789/status/2121463557695123867",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 04:41:41 GMT",
+      "title_excerpt": "R to @ijiile56789: 好的呀",
+      "description_excerpt": "好的呀",
+      "reply_to_handle": "ijiile56789",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121463514640605406",
+      "url": "https://x.com/wr0789/status/2121463514640605406",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 04:41:31 GMT",
+      "title_excerpt": "R to @jrgvck: 对",
+      "description_excerpt": "对",
+      "reply_to_handle": "jrgvck",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121463437566030301",
+      "url": "https://x.com/wr0789/status/2121463437566030301",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 04:41:13 GMT",
+      "title_excerpt": "R to @ijiile56789: 我也不了解",
+      "description_excerpt": "我也不了解",
+      "reply_to_handle": "ijiile56789",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121463322314948803",
+      "url": "https://x.com/wr0789/status/2121463322314948803",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 04:40:45 GMT",
+      "title_excerpt": "R to @jilk99734061: 设置好了。但是我也不太熟悉，不知道国内是否方便使用。",
+      "description_excerpt": "设置好了。但是我也不太熟悉，不知道国内是否方便使用。",
+      "reply_to_handle": "jilk99734061",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121459085589745862",
+      "url": "https://x.com/wr0789/status/2121459085589745862",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 04:23:55 GMT",
+      "title_excerpt": "R to @nana2004888: 留着",
+      "description_excerpt": "留着",
+      "reply_to_handle": "nana2004888",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121458234750022012",
+      "url": "https://x.com/wr0789/status/2121458234750022012",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 04:20:32 GMT",
+      "title_excerpt": "R to @PETER105186: 正常人都知道他们几个是什么“货色”",
+      "description_excerpt": "正常人都知道他们几个是什么“货色”",
+      "reply_to_handle": "PETER105186",
+      "space_url": null,
+      "kind": "reply",
+      "verified_link_author": true,
+      "source": "nitter.meowing.monster"
+    },
+    {
+      "id": "2121450936342323491",
+      "url": "https://x.com/wr0789/status/2121450936342323491",
+      "date": "2026-11-14",
+      "published": "Sat, 14 Nov 2026 03:51:32 GMT",
+      "title_excerpt": "R to @forrest1314888: 可以",
+      "description_excerpt": "可以",
+      "reply_to_handle": "forrest1314888",
+      "space_url": null,
+      "kind": "reply",
       "verified_link_author": true,
       "source": "nitter.meowing.monster"
     },
