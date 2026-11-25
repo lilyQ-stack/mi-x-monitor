@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-26",
+  "account": "wr0789",
+  "status": "partial",
+  "complete": false,
+  "items": [],
+  "sources": {
+    "nitter.jaydenha.uk/tweets": {
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "nitter.jaydenha.uk/with_replies": {
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "nitter.meowing.monster/tweets": {
+      "status": "error",
+      "type": "HTTPError",
+      "message": "HTTP Error 404: Not Found"
+    },
+    "nitter.meowing.monster/with_replies": {
+      "status": "ok",
+      "items": 21,
+      "attributed_by_link": 21
+    }
+  },
+  "retained_previous": 0
+}
