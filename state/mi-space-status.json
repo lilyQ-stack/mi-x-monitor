@@ -178,8 +178,8 @@
       "artifact_run_id": "43417191837"
     }
   },
-  "last_scan_utc": "2026-11-27T23:39:55+00:00",
-  "discovered_count": 15,
+  "last_scan_utc": "2026-11-28T12:12:46+00:00",
+  "discovered_count": 13,
   "pending_count": 0,
   "scan_status": "no_retry_due"
 }
